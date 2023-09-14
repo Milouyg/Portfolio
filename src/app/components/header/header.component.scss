@@ -1,0 +1,83 @@
+@use "../../../variables.scss";
+
+.header{
+    width: 100%;
+    height: 4rem;
+    background: map-get( variables.$header, "background");
+
+    .menu{
+        width: 100%;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+
+        .listItem{
+            list-style: none;
+
+            .link{
+                font-size: map-get( variables.$header, "fontSizeDesktop");
+                text-decoration: none;
+                color: map-get( variables.$header, "color");
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .mobile-menu-wrapper{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 40.625rem ){ // 650px
+
+    .header{
+        width: 100%;
+
+        .menu{
+            display: none;
+        }
+
+        .button{
+            display: block;
+            height: 2rem;
+            width: 2rem;
+
+        }
+
+        .mobile-menu-wrapper{
+            display: flex;
+            width: 100%;
+            padding: 1rem;
+            flex-direction: column;
+
+            .mobile-menu{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: .5rem;
+                background: green;
+
+                &.hidden{
+                    display: none;
+                }
+
+                .mobile-item{
+                    list-style: none;
+
+                    .mobile-link{
+                        text-decoration: none;
+                        font-size: map-get( variables.$header, "fontSizeMobile");
+                        color: map-get( variables.$header, "color");
+                    }
+                }
+            }
+        }
+    }
+}

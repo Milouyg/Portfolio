@@ -1,0 +1,9 @@
+{
+    "nav":{
+        "landing-page-title": "Home",
+        "about-me-title": "Over mij",
+        "skills-title": "Vaardigheden",
+        "projects-title": "Projecten",
+        "contact-title": "Contact"
+    }
+}
