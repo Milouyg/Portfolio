@@ -1,8 +1,16 @@
-$background: #2f3f58;
+$background: #B7E3F7;
+
+$fontSizeDesktop:(
+    // "intro":
+    "h1": 1.6rem,
+    "p": 1.45rem
+);
+
+$fontSizeMobile:(
+    "h1": 1.3rem
+);
 
 $header:(
     "color": #fff,
-    "fontSizeDesktop": 1.45rem,
-    "fontSizeMobile": 1.3rem,
     "background": rgba(0, 0, 0, .05)
 );

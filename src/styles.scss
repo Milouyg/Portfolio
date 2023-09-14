@@ -1,3 +1,5 @@
+@use "./variables.scss";
+
 *,
 *::before,
 *::after{
@@ -12,8 +14,9 @@
     scroll-behavior: smooth;
 }
 
-.body{
+body{
     width: 100%;
     font-size: 1.6rem;
+    background: variables.$background;
 }
 
