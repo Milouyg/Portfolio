@@ -11,8 +11,8 @@ export class AboutMeComponent implements AfterViewInit  {
     data;
 
     constructor(){
-        this.data = data; // We fetch the data here
-      
+        this.data = data['about-me']; // We fetch the data here
+        console.log(data)
     }
     ngAfterViewInit(): void {
 

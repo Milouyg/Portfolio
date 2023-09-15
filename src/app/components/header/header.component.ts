@@ -12,7 +12,7 @@ export class HeaderComponent implements AfterViewInit  {
 
     constructor(){
         this.data = data.nav; // We fetch the data here
-    
+
     }
 
     ngAfterViewInit(): void {
@@ -22,6 +22,5 @@ export class HeaderComponent implements AfterViewInit  {
     openMenu(){
         const menuItem = document.getElementById("mobile-menu");
         menuItem?.classList.toggle("hidden");
-        console.log(menuItem)
     }
 }

@@ -1,4 +1,28 @@
 <section id="#about-me" class="about-me">
-    <h1 class="title"></h1>
+    <h1 class="title">{{data.title}}</h1>
+    <div class="container">
+        <div class="content">
+            <h2 class="sub-title">
+                {{data["personality"]["title"]}}
+            </h2>
+            <div class="content personality">
+                <p class="description">
+                    <q class="quote top">{{data["personality"]["quote1"]}}</q>
+                    {{data["personality"]["description"]}}
+                    <q class="quote bottom">{{data["personality"]["quote2"]}}</q>
+                </p>
+            </div>
+        </div>
+        <div class="content">
+            <h2 class="sub-title">
+                {{data["work-attitude"]["title"]}}
+            </h2>
+            <div class="content work">
+                <p class="description">
+                    {{data["work-attitude"]["description"]}}
+                </p>
+                <button class="download-btn">{{data["work-attitude"]["btn"]}}</button>
+            </div>
+        </div>
+    </div>
 </section>
-

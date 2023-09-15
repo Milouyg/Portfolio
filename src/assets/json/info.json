@@ -8,7 +8,23 @@
     },
     "landing-page":{
         "header": "Over mij",
+        "first-sentence": "Ik ben Milou een",
         "word": "Front-End",
+        "last-sentence": "Web Developer",
         "small-intro": "Een Front-End Developer die zich bezig houdt met het schrijven van nette en efficiënte code"
+    },
+    "about-me":{
+        "title": "Wie ben ik?",
+        "personality":{
+            "title":"persoonlijkheid",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+            "quote1": "Succes is what happens after you've survived all your mistakes",
+            "quote2": "If the plan doesn't change the plan but never the goal"
+        },
+        "work-attitude":{
+            "title":"werk",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+            "btn": "Download"
+        }
     }
 }
