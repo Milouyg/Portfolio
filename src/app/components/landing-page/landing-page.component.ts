@@ -11,7 +11,7 @@ export class LandingPageComponent implements AfterViewInit  {
     data;
 
     constructor(){
-        this.data = data.nav; // We fetch the data here
+        this.data = data["landing-page"]; // We fetch the data here
         console.log(this.data)
     }
     ngAfterViewInit(): void {

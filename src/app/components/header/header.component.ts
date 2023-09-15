@@ -12,7 +12,7 @@ export class HeaderComponent implements AfterViewInit  {
 
     constructor(){
         this.data = data.nav; // We fetch the data here
-        console.log(this.data)
+    
     }
 
     ngAfterViewInit(): void {

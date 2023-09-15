@@ -5,5 +5,10 @@
         "skills-title": "Vaardigheden",
         "projects-title": "Projecten",
         "contact-title": "Contact"
+    },
+    "landing-page":{
+        "header": "Over mij",
+        "word": "Front-End",
+        "small-intro": "Een Front-End Developer die zich bezig houdt met het schrijven van nette en efficiënte code"
     }
 }
