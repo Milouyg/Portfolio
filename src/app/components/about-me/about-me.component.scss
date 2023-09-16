@@ -23,7 +23,6 @@
         display: flex;
         width: 100%;
         height: 100%;
-        background: yellow;
 
         .content{
             flex: 1;
@@ -38,7 +37,7 @@
                 text-align: center;
             }
 
-            .content{
+            .content-wrapper{
                 width: 100%;
                 height: 100%;
                 display: flex;
@@ -93,8 +92,8 @@
                     align-items: center;
                     justify-content: center;
                     font-size: 2rem;
-                    padding: 1rem;
-                    width: 65%;
+                    padding: 1rem 3rem;
+                    width: 75%;
                     height: 21rem;
                     border: .5rem solid black;
                     border-radius: 2rem;
@@ -108,34 +107,20 @@
 @media screen and (max-width: 87.5rem) {
     // 1400px
     .about-me{
-
         .title{
-
         }
-
         .container{
-
             .content{
-
                 .sub-title{
-
                 }
-
-                .content{
-
-
+                .content-wrapper{
                         &.personality{
-
-
                         }
-
                         &.work{
-
                             .download-btn{
                                 font-size: 2rem;
                             }
                         }
-
                     .description{
                         font-size: 2rem;
                         width: 75%;
@@ -144,11 +129,339 @@
             }
         }
     }
-
 }
 
-@media screen and (max-width: 40.625rem) {
-    // 650px
+@media screen and (max-width: 103.125rem) {
+    // 1650px
+    .about-me{
+        .title{
+        }
+        .container{
+            .content{
+                .sub-title{
+                }
+                .content-wrapper{
+                        &.personality{
+                        }
+                        &.work{
+                            .download-btn{
+                                font-size: 2rem;
+                            }
+                        }
+                    .description{
+                        font-size: 1.8rem;
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
+}
 
+@media screen and (max-width: 78.125rem) {
+    // 1250px
+    .about-me{
+        .title{
+        }
+        .container{
+            .content{
+                .sub-title{
+                }
+                .content-wrapper{
+                        &.personality{
+                            .quote{
+
+                                &.top{
+                                    top: -15%;
+                                }
+                                &.bottom{
+                                    bottom: -11%;
+                                }
+                                .punctuation{
+                                    font-size: 2rem;
+                                }
+                            }
+                        }
+                        &.work{
+                            .download-btn{
+                                font-size: 2rem;
+                            }
+                        }
+                    .description{
+                        padding: 1rem;
+                        font-size: 1.6rem;
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 62.5rem) {
+    // 1000px
+    .about-me{
+        .title{
+        }
+        .container{
+            flex-wrap: wrap;
+            .content{
+                margin-top: 2rem;
+                gap: 2rem;
+                width: 100%;
+                .sub-title{
+                }
+                .content-wrapper{
+                    width: 40rem;
+
+                        &.personality{
+                            .quote{
+                                .punctuation{
+                                    font-size: 2rem;
+                                }
+                            }
+                        }
+                        &.work{
+                            .download-btn{
+                                font-size: 2rem;
+                                position: absolute;
+                                bottom: -51%;
+                            }
+                        }
+                    .description{
+                        padding: 1rem;
+                        font-size: 1.6rem;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 62.5rem) {
+    // 1000px
+    .about-me{
+        height: 65rem;
+        .title{
+        }
+        .container{
+            flex-wrap: wrap;
+            .content{
+                margin-top: 2rem;
+                gap: 2rem;
+                width: 100%;
+                .sub-title{
+                }
+                .content-wrapper{
+                    width: 40rem;
+
+                        &.personality{
+                            .quote{
+                                .punctuation{
+                                    font-size: 2rem;
+                                }
+                            }
+                        }
+                        &.work{
+                            .download-btn{
+                                font-size: 1.6rem;
+                                position: absolute;
+                                bottom: -60%;
+                            }
+                        }
+                    .description{
+                        padding: 1rem;
+                        font-size: 1.6rem;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 50rem) {
+    // 800px
+    .about-me{
+        .title{
+            font-size: 2.5rem;
+        }
+        .container{
+            flex-wrap: wrap;
+            .content{
+                margin-top: 2rem;
+                gap: 0rem;
+                width: 100%;
+                .sub-title{
+                    font-size: 2rem;
+                }
+                .content-wrapper{
+                    width: 40rem;
+
+                        &.personality{
+                            .quote{
+
+                                &.top{
+                                    top: -16%;
+                                }
+                                &.bottom{
+                                    bottom: -13%;
+                                }
+                                .punctuation{
+                                    font-size: 2rem;
+                                }
+                            }
+                        }
+                        &.work{
+                            .download-btn{
+                                font-size: 2rem;
+                                position: absolute;
+                                bottom: -51%;
+                            }
+                        }
+                    .description{
+                        padding: 1rem;
+                        font-size: 1.6rem;
+                        width: 100%;
+                        height: 20rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 34.375rem) {
+    // 550px
+    .about-me{
+        .title{
+        }
+        .container{
+            .content{
+
+                .sub-title{
+                }
+                .content-wrapper{
+
+                        &.personality{
+                            .quote{
+                                font-size: 1.3rem;
+                                &.top{
+                                    top: -13%;
+                                    left: -12%;
+                                }
+                                &.bottom{
+                                    bottom: -12%;
+                                }
+                                .punctuation{
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+                        &.work{
+                            .download-btn{
+                                font-size: 2rem;
+                                position: absolute;
+                                bottom: -51%;
+                            }
+                        }
+                    .description{
+                        padding: 1rem;
+                        font-size: 1.6rem;
+                        width: 100%;
+                        height: 20rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 31.25rem) {
+    // 500px
+    .about-me{
+        .title{
+            font-size: 2rem;
+            width: 15rem;
+        }
+        .container{
+            .content{
+                .sub-title{
+                }
+                .content-wrapper{
+
+                        &.personality{
+                            .quote{
+                                &.top{
+                                    top: -12%;
+                                }
+                                &.bottom{
+                                    bottom: -11%;
+                                }
+                                .punctuation{
+                                    font-size: 1rem;
+                                }
+                            }
+                        }
+                        &.work{
+                            .download-btn{
+                                font-size: 1.5rem;
+                                position: absolute;
+                                bottom: -63%;
+                            }
+                        }
+                    .description{
+                        padding: 1rem;
+                        font-size: 1.5rem;
+                        width: 85%;
+                        height: 20rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 28.125rem) {
+    // 400px
+    .about-me{
+        .title{
+        }
+        .container{
+            .content{
+                .sub-title{
+                }
+                .content-wrapper{
+
+                        &.personality{
+                            .quote{
+                                &.top{
+                                    top: -12%;
+                                }
+                                &.bottom{
+                                    bottom: -11%;
+                                }
+                                .punctuation{
+                                    font-size: 1rem;
+                                }
+                            }
+                        }
+                        &.work{
+                            .download-btn{
+                                font-size: 1.5rem;
+                                position: absolute;
+                                bottom: -63%;
+                            }
+                        }
+                    .description{
+                        padding: 1rem;
+                        font-size: 1.5rem;
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
 
 }
