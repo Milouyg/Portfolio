@@ -6,11 +6,11 @@
                 {{data["personality"]["title"]}}
             </h2>
             <div class="content personality">
-                <p class="description">
-                    <q class="quote top">{{data["personality"]["quote1"]}}</q>
+                <summary class="description">
+                    <p class="quote top"> <i class="fa-solid fa-quote-left punctuation"></i> {{data["personality"]["quote1"]}} <i class="fa-solid fa-quote-right punctuation"></i></p>
                     {{data["personality"]["description"]}}
-                    <q class="quote bottom">{{data["personality"]["quote2"]}}</q>
-                </p>
+                    <p class="quote bottom">{{data["personality"]["quote2"]}}</p>
+                </summary>
             </div>
         </div>
         <div class="content">
@@ -18,9 +18,9 @@
                 {{data["work-attitude"]["title"]}}
             </h2>
             <div class="content work">
-                <p class="description">
+                <summary class="description">
                     {{data["work-attitude"]["description"]}}
-                </p>
+                </summary>
                 <button class="download-btn">{{data["work-attitude"]["btn"]}}</button>
             </div>
         </div>

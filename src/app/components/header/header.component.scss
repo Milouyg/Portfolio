@@ -78,7 +78,7 @@
 
                     .mobile-link{
                         text-decoration: none;
-                        font-size: map-get( variables.$fontSizeMobile, "header");
+                        font-size: 2rem;
                         color: map-get( variables.$header, "color");
                     }
                 }
