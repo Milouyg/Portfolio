@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { ProjectComponent } from './components/projects/projects.component';
+import { TitleBarComponent } from './components/title-bar/title-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    TitleBarComponent,
     LandingPageComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule

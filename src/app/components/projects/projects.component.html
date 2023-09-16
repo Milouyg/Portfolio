@@ -1,0 +1,34 @@
+<section id="projects" class="projects">
+    <app-title-bar [title]="projectData['title']"></app-title-bar>
+    <div class="project-container">
+        <div class="project-list-wrapper">
+            <ul class="project-menu">
+                <ng-container *ngFor="let project of projectData['project-info']">
+                    <li class="project-names" (click)="setActiveProject(project)">
+                        <p>{{ project['title'] }}</p>
+                    </li>
+                </ng-container>
+            </ul>
+        </div>
+        <div class="project-detail-wrapper">
+            <article class="project-details">
+                <div class="project-imgs">
+                    <ng-container *ngFor="let image of activeProject['images']">
+                        <img [src]="image['src']" [alt]="image['alt']" [class]="image['class']">
+                    </ng-container>
+                </div>
+                <div class="project-info">
+                    <h2 class="title">{{ activeProject['title'] }}</h2>
+                    <div class="programming-language-wrapper">
+                        <span class="language" *ngFor="let language of activeProject['programmingLanguages']">{{ language }}</span>
+                    </div>
+                    <span class="date">{{ activeProject['startDate'] }} - {{ activeProject['endDate'] }}</span>
+                    <div class="description">{{ activeProject['description'] }}</div>
+                    <button class="github-link">
+                        <a target="_blank" [href]="activeProject['githubLink']">{{projectData['cta']}}</a>
+                    </button>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>

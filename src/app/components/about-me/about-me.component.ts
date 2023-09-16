@@ -1,4 +1,4 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { Component } from '@angular/core';
 import data from "../../../assets/json/info.json";
 
 @Component({
@@ -6,17 +6,6 @@ import data from "../../../assets/json/info.json";
   templateUrl: './about-me.component.html',
   styleUrls: ['./about-me.component.scss']
 })
-export class AboutMeComponent implements AfterViewInit  {
-    title = 'portfolio';
-    data;
-
-    constructor(){
-        this.data = data['about-me']; // We fetch the data here
-        console.log(data)
-    }
-    ngAfterViewInit(): void {
-
-    }
-
-
+export class AboutMeComponent{
+    data = data['about-me']; // We fetch the data here
 }

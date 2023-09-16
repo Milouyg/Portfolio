@@ -1,5 +1,5 @@
-<section id="#about-me" class="about-me">
-    <h1 class="title">{{data.title}}</h1>
+<section id="about-me" class="about-me">
+    <app-title-bar [title]="data['title']"></app-title-bar>
     <div class="container">
         <div class="content">
             <h2 class="sub-title">
@@ -20,8 +20,8 @@
             <div class="content-wrapper work">
                 <summary class="description">
                     {{data["work-attitude"]["description"]}}
+                    <button class="download-btn">{{data["work-attitude"]["btn"]}}</button>
                 </summary>
-                <button class="download-btn">{{data["work-attitude"]["btn"]}}</button>
             </div>
         </div>
     </div>

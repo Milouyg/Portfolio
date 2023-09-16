@@ -19,12 +19,118 @@
             "title":"persoonlijkheid",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
             "quote1": "Succes is what happens after you've survived all your mistakes",
-            "quote2": "If the plan doesn't change the plan but never the goal"
+            "quote2": "If the plan doesn't work change the plan but never the goal"
         },
         "work-attitude":{
             "title":"werk",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
             "btn": "Download"
         }
+    },
+    "projects":{
+        "title":"Projecten",
+        "cta": "Bekijk project",
+        "project-info": [
+            {
+                "title": "Udemy",
+                "startDate": "01-01-1992",
+                "endDate": "01-02-1993",
+                "programmingLanguages": ["html", "css", "javascript"],
+                "description": "Lorum Ipsum",
+                "githubLink": "https://milouyg.github.io/Udemy/",
+                "images": [
+                    {
+                        "src": "some url",
+                        "alt": "some alt text",
+                        "class": "big-img"
+                    },
+                    {
+                        "src": "some url",
+                        "alt": "some alt text",
+                        "class": "small-img"
+                    }
+                ]
+            },
+            {
+                "title": "Yubtub",
+                "startDate": "01-01-1992",
+                "endDate": "02-22-2023",
+                "programmingLanguages": ["html", "css", "javascript"],
+                "description": "Lorum Ipsum",
+                "githubLink": "",
+                "images": [
+                    {
+                        "src": "some url",
+                        "alt": "some alt text",
+                        "class": "big-img"
+                    },
+                    {
+                        "src": "some url",
+                        "alt": "some alt text",
+                        "class": "small-img"
+                    }
+                ]
+            },
+            {
+                "title": "Collection of Happiness",
+                "startDate": "01-01-1992",
+                "endDate": "02-22-2023",
+                "programmingLanguages": ["html", "css", "javascript"],
+                "description": "Lorum Ipsum",
+                "githubLink": "https://milouyg.github.io/Collection-of-Happiness/",
+                "images": [
+                    {
+                        "src": "some url",
+                        "alt": "some alt text",
+                        "class": "big-img"
+                    },
+                    {
+                        "src": "some url",
+                        "alt": "some alt text",
+                        "class": "small-img"
+                    }
+                ]
+            },
+            {
+                "title": "Coaching",
+                "startDate": "01-01-1992",
+                "endDate": "02-22-2023",
+                "programmingLanguages": ["html", "css", "javascript"],
+                "description": "Lorum Ipsum",
+                "githubLink": "",
+                "images": [
+                    {
+                        "src": "some url",
+                        "alt": "some alt text",
+                        "class": "big-img"
+                    },
+                    {
+                        "src": "some url",
+                        "alt": "some alt text",
+                        "class": "small-img"
+                    }
+                ]
+            },
+            {
+                "title": "React",
+                "startDate": "01-01-1992",
+                "endDate": "02-22-2023",
+                "programmingLanguages": ["html", "css", "javascript", "react"],
+                "description": "Lorum Ipsum",
+                "githubLink": "",
+                "images": [
+                    {
+                        "src": "some url",
+                        "alt": "some alt text",
+                        "class": "big-img"
+                    },
+                    {
+                        "src": "some url",
+                        "alt": "some alt text",
+                        "class": "small-img"
+                    }
+                ]
+            }
+        ]
     }
 }
