@@ -40,12 +40,12 @@
                 "githubLink": "https://milouyg.github.io/Udemy/",
                 "images": [
                     {
-                        "src": "some url",
+                        "src": "https://placehold.co/28x25",
                         "alt": "some alt text",
                         "class": "big-img"
                     },
                     {
-                        "src": "some url",
+                        "src": "https://placehold.co/20x20",
                         "alt": "some alt text",
                         "class": "small-img"
                     }

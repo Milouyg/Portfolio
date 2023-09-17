@@ -18,11 +18,16 @@
                     </ng-container>
                 </div>
                 <div class="project-info">
-                    <h2 class="title">{{ activeProject['title'] }}</h2>
-                    <div class="programming-language-wrapper">
-                        <span class="language" *ngFor="let language of activeProject['programmingLanguages']">{{ language }}</span>
+                    <div class="project-header-wrapper">
+                        <h2 class="title">{{ activeProject['title'] }}</h2>
+                        <div class="programming-language-wrapper">
+                            <ng-container class="language" *ngFor="let language of activeProject['programmingLanguages']; let last = last;"> 
+                                <span *ngIf="!last">{{language}} - </span>
+                                <span *ngIf="last">{{language}}</span>
+                            </ng-container>
+                        </div>
+                        <i class="date">{{ activeProject['startDate'] }} - {{ activeProject['endDate'] }}</i>
                     </div>
-                    <span class="date">{{ activeProject['startDate'] }} - {{ activeProject['endDate'] }}</span>
                     <div class="description">{{ activeProject['description'] }}</div>
                     <button class="github-link">
                         <a target="_blank" [href]="activeProject['githubLink']">{{projectData['cta']}}</a>
