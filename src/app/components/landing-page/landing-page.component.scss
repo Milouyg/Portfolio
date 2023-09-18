@@ -121,7 +121,8 @@
 @media screen and (max-width: 50rem) {
     // 800px
     .landing-page{
-
+        height: fit-content;
+        padding-bottom: 1rem;
         .container{
             flex-wrap: wrap;
             background: orange;

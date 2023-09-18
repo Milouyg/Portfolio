@@ -17,9 +17,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 100%;
+            width: 20%;
             height: 100%;
-            flex: 1;
             background: purple;
 
             .project-menu{
@@ -28,11 +27,24 @@
                 height: 35rem;
                 overflow-y: scroll;
 
+                &::-webkit-scrollbar {
+                    width: 10px;
+                }
+
+                &::-webkit-scrollbar-track {
+                    background: transparent;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background: #1408f4;
+                    border-radius: 10px;
+                }
+
                 .project-names{
                     text-align: center;
-                    width: 100%;
+                    width: 80%;
                     margin-bottom: 3rem;
-                    height: 7rem;
+                    height: 6rem;
                     background: white;
                     font-size: 2rem;
                     border-radius: 2rem;
@@ -122,6 +134,176 @@
                     .github-link{
                         width: 10rem;
                         height: 4rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 106.25rem) { //1700
+    .projects{
+
+        .project-container{
+
+            .project-list-wrapper{
+
+                .project-menu{
+
+                    .project-names{
+                        width: 85%;
+                    }
+                }
+            }
+
+            .project-detail-wrapper{
+
+                .project-details{
+
+                    .project-imgs{
+
+                        .big-img{
+                            height: 22rem;
+                            width: 25rem;
+                        }
+
+                        .small-img{
+                            bottom: 11%;
+                            right: 5%;
+                            height: 15rem;
+                            width: 15rem;
+                        }
+
+                    }
+
+                    .project-info{
+
+                        .project-header-wrapper{
+
+                        }
+
+                        .github-link{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 93.75rem) { //1500
+    .projects{
+
+        .project-container{
+
+            .project-list-wrapper{
+                flex: none;
+                width: 22%;
+                .project-menu{
+
+                    .project-names{
+
+                    }
+                }
+            }
+
+            .project-detail-wrapper{
+
+                .project-details{
+                    width: 85%;
+                    .project-imgs{
+
+                        .big-img{
+                            height: 22rem;
+                            width: 25rem;
+                        }
+
+                        .small-img{
+                            bottom: 11%;
+                            right: 5%;
+                            height: 15rem;
+                            width: 15rem;
+                        }
+
+                    }
+
+                    .project-info{
+
+                        .project-header-wrapper{
+
+                        }
+
+                        .github-link{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 71.875rem) { //1150
+    .projects{
+        .project-container{
+            .project-list-wrapper{
+                .project-menu{
+                    .project-names{
+                    }
+                }
+            }
+
+            .project-detail-wrapper{
+                .project-details{
+                    width: 92.5%;
+                    .project-imgs{
+                        .big-img{
+                            height: 20rem;
+                            width: 23rem;
+                        }
+                        .small-img{
+                        }
+                    }
+
+                    .project-info{
+                        .project-header-wrapper{
+                        }
+                        .github-link{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 100rem) { //1000
+    .projects{
+        .project-container{
+            .project-list-wrapper{
+                .project-menu{
+                    .project-names{
+                    }
+                }
+            }
+
+            .project-detail-wrapper{
+                .project-details{
+
+                    .project-imgs{
+                        .big-img{
+
+                        }
+                        .small-img{
+                        }
+                    }
+
+                    .project-info{
+                        .project-header-wrapper{
+                        }
+                        .github-link{
+                        }
                     }
                 }
             }
