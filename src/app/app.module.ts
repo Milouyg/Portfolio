@@ -7,12 +7,14 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { ProjectComponent } from './components/projects/projects.component';
 import { TitleBarComponent } from './components/title-bar/title-bar.component';
+import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     TitleBarComponent,
+    ButtonComponent,
     LandingPageComponent,
     AboutMeComponent,
     ProjectComponent

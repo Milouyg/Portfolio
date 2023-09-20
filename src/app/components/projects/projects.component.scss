@@ -132,17 +132,22 @@
                     }
 
                     .button-wrapper{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 2rem;
 
-                        .project-link{
-
-                        }
-
-                        .github-link{
+                        .button-detail{
                             width: 10rem;
                             height: 4rem;
+
+                            .link-detail{
+                                text-decoration: none;
+                                color: black;
+                            }
                         }
                     }
-                    
                 }
             }
         }
@@ -191,11 +196,7 @@
                         }
 
                         .button-wrapper{
-                            .project-link{
-
-                            }
-
-                            .github-link{
+                            .button-detail{
 
                             }
                         }
@@ -249,11 +250,7 @@
                         }
 
                         .button-wrapper{
-                            .project-link{
-
-                            }
-
-                            .github-link{
+                            .button-detail{
 
                             }
                         }
@@ -290,10 +287,8 @@
                         .project-header-wrapper{
                         }
                         .button-wrapper{
-                            .project-link{
-                            }
+                            .button-detail{
 
-                            .github-link{
                             }
                         }
                     }
@@ -330,10 +325,8 @@
                         .project-header-wrapper{
                         }
                         .button-wrapper{
-                            .project-link{
-                            }
+                            .button-detail{
 
-                            .github-link{
                             }
                         }
                     }
@@ -383,12 +376,14 @@
                         border-top-right-radius: 2rem;
                         border-bottom-left-radius: 0rem;
                         .big-img{
-                            //TODO: Why it doesn't respond with top/right
-
+                            top: 5%;
+                            left: 7%;
+                            height: 18rem;
+                            width: 18rem;
                         }
                         .small-img{
                             bottom: 5%;
-                            right: 5%;
+                            right: 7%;
                             height: 18rem;
                             width: 18rem;
                         }
@@ -401,8 +396,45 @@
                         border-bottom-left-radius: 2rem;
                         border-top-right-radius: 0rem;
                         .project-header-wrapper{
+                            .button-detail{
+
+                            }
                         }
-                        .github-link{
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 31.25rem) { //500
+    .projects{
+        .project-container{
+            .project-list-wrapper{
+                .project-menu{
+                    .project-names{
+                    }
+                }
+            }
+
+            .project-detail-wrapper{
+                .project-details{
+                    .project-imgs{
+                        .big-img{
+                            left: 16%;
+                            height: 18rem;
+                            width: 25rem;
+                        }
+                        .small-img{
+                            display: none;
+                        }
+                    }
+
+                    .project-info{
+                        .project-header-wrapper{
+                            .button-detail{
+
+                            }
                         }
                     }
                 }

@@ -29,7 +29,8 @@
     },
     "projects": {
         "title": "Projecten",
-        "cta": "Bekijk project",
+        "ctaProject": "Bekijk Project",
+        "ctaGithub": "Bekijk Github",
         "project-info": [
             {
                 "title": "Udemy",
@@ -107,7 +108,7 @@
                 ]
             },
             {
-                "title": "Coaching",
+                "title": "Input-Output",
                 "startDate": "01-01-1992",
                 "endDate": "02-22-2023",
                 "programmingLanguages": [

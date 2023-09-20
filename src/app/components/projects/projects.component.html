@@ -21,7 +21,7 @@
                     <div class="project-header-wrapper">
                         <h2 class="title">{{ activeProject['title'] }}</h2>
                         <div class="programming-language-wrapper">
-                            <ng-container class="language" *ngFor="let language of activeProject['programmingLanguages']; let last = last;"> 
+                            <ng-container class="language" *ngFor="let language of activeProject['programmingLanguages']; let last = last;">
                                 <span *ngIf="!last">{{language}} - </span>
                                 <span *ngIf="last">{{language}}</span>
                             </ng-container>
@@ -30,11 +30,11 @@
                     </div>
                     <div class="description">{{ activeProject['description'] }}</div>
                     <div class="button-wrapper">
-                        <button class="project-link">
-                            <a target="_blank" [href]="activeProject['githubLink']">{{projectData['cta']}}</a>
+                        <button class="button-detail">
+                            <a class="link-detail" target="_blank" [href]="activeProject['githubLink']">{{projectData['ctaProject']}}</a>
                         </button>
-                        <button class="github-link">
-                            <a target="_blank" [href]="activeProject['githubLink']">{{projectData['cta']}}</a>
+                        <button class="button-detail">
+                            <a class="link-detail" target="_blank" [href]="activeProject['githubLink']">{{projectData['ctaGithub']}}</a>
                         </button>
                     </div>
                 </div>
