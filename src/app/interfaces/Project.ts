@@ -6,6 +6,7 @@ export interface Project {
     endDate: string;
     programmingLanguages: string[];
     description: string;
+    projectLink: string;
     githubLink: string;
     images: Image[];
 }

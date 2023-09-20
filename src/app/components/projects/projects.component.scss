@@ -131,10 +131,18 @@
                         gap: 1rem;
                     }
 
-                    .github-link{
-                        width: 10rem;
-                        height: 4rem;
+                    .button-wrapper{
+
+                        .project-link{
+
+                        }
+
+                        .github-link{
+                            width: 10rem;
+                            height: 4rem;
+                        }
                     }
+                    
                 }
             }
         }
@@ -182,8 +190,14 @@
 
                         }
 
-                        .github-link{
+                        .button-wrapper{
+                            .project-link{
 
+                            }
+
+                            .github-link{
+
+                            }
                         }
                     }
                 }
@@ -234,8 +248,14 @@
 
                         }
 
-                        .github-link{
+                        .button-wrapper{
+                            .project-link{
 
+                            }
+
+                            .github-link{
+
+                            }
                         }
                     }
                 }
@@ -269,7 +289,12 @@
                     .project-info{
                         .project-header-wrapper{
                         }
-                        .github-link{
+                        .button-wrapper{
+                            .project-link{
+                            }
+
+                            .github-link{
+                            }
                         }
                     }
                 }
@@ -304,7 +329,12 @@
                     .project-info{
                         .project-header-wrapper{
                         }
-                        .github-link{
+                        .button-wrapper{
+                            .project-link{
+                            }
+
+                            .github-link{
+                            }
                         }
                     }
                 }

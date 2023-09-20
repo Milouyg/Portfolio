@@ -29,9 +29,14 @@
                         <i class="date">{{ activeProject['startDate'] }} - {{ activeProject['endDate'] }}</i>
                     </div>
                     <div class="description">{{ activeProject['description'] }}</div>
-                    <button class="github-link">
-                        <a target="_blank" [href]="activeProject['githubLink']">{{projectData['cta']}}</a>
-                    </button>
+                    <div class="button-wrapper">
+                        <button class="project-link">
+                            <a target="_blank" [href]="activeProject['githubLink']">{{projectData['cta']}}</a>
+                        </button>
+                        <button class="github-link">
+                            <a target="_blank" [href]="activeProject['githubLink']">{{projectData['cta']}}</a>
+                        </button>
+                    </div>
                 </div>
             </article>
         </div>

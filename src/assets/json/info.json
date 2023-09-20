@@ -1,43 +1,48 @@
 {
-    "nav":{
+    "nav": {
         "landing-page-title": "Home",
         "about-me-title": "Over mij",
         "skills-title": "Vaardigheden",
         "projects-title": "Projecten",
         "contact-title": "Contact"
     },
-    "landing-page":{
+    "landing-page": {
         "header": "Over mij",
         "first-sentence": "Ik ben Milou een",
         "word": "Front-End",
         "last-sentence": "Web Developer",
         "small-intro": "Een Front-End Developer die zich bezig houdt met het schrijven van nette en efficiënte code"
     },
-    "about-me":{
+    "about-me": {
         "title": "Wie ben ik?",
-        "personality":{
-            "title":"persoonlijkheid",
+        "personality": {
+            "title": "persoonlijkheid",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
             "quote1": "Succes is what happens after you've survived all your mistakes",
             "quote2": "If the plan doesn't work change the plan but never the goal"
         },
-        "work-attitude":{
-            "title":"werk",
+        "work-attitude": {
+            "title": "werk",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
             "btn": "Download"
         }
     },
-    "projects":{
-        "title":"Projecten",
+    "projects": {
+        "title": "Projecten",
         "cta": "Bekijk project",
         "project-info": [
             {
                 "title": "Udemy",
                 "startDate": "01-01-1992",
                 "endDate": "01-02-1993",
-                "programmingLanguages": ["html", "css", "javascript"],
+                "programmingLanguages": [
+                    "html",
+                    "css",
+                    "javascript"
+                ],
                 "description": "Lorum Ipsum",
-                "githubLink": "https://milouyg.github.io/Udemy/",
+                "projectLink": "https://milouyg.github.io/Udemy/",
+                "githubLink": "",
                 "images": [
                     {
                         "src": "https://placehold.co/28x25",
@@ -55,8 +60,13 @@
                 "title": "Yubtub",
                 "startDate": "01-01-1992",
                 "endDate": "02-22-2023",
-                "programmingLanguages": ["html", "css", "javascript"],
+                "programmingLanguages": [
+                    "html",
+                    "css",
+                    "javascript"
+                ],
                 "description": "Lorum Ipsum",
+                "projectLink": "",
                 "githubLink": "",
                 "images": [
                     {
@@ -75,9 +85,14 @@
                 "title": "Collection of Happiness",
                 "startDate": "01-01-1992",
                 "endDate": "02-22-2023",
-                "programmingLanguages": ["html", "css", "javascript"],
+                "programmingLanguages": [
+                    "html",
+                    "css",
+                    "javascript"
+                ],
                 "description": "Lorum Ipsum",
-                "githubLink": "https://milouyg.github.io/Collection-of-Happiness/",
+                "projectLink": "https://milouyg.github.io/Collection-of-Happiness/",
+                "githubLink": "",
                 "images": [
                     {
                         "src": "some url",
@@ -95,8 +110,13 @@
                 "title": "Coaching",
                 "startDate": "01-01-1992",
                 "endDate": "02-22-2023",
-                "programmingLanguages": ["html", "css", "javascript"],
+                "programmingLanguages": [
+                    "html",
+                    "css",
+                    "javascript"
+                ],
                 "description": "Lorum Ipsum",
+                "projectLink": "",
                 "githubLink": "",
                 "images": [
                     {
@@ -115,8 +135,14 @@
                 "title": "React",
                 "startDate": "01-01-1992",
                 "endDate": "02-22-2023",
-                "programmingLanguages": ["html", "css", "javascript", "react"],
+                "programmingLanguages": [
+                    "html",
+                    "css",
+                    "javascript",
+                    "react"
+                ],
                 "description": "Lorum Ipsum",
+                "projectLink": "",
                 "githubLink": "",
                 "images": [
                     {
@@ -135,8 +161,14 @@
                 "title": "Test",
                 "startDate": "01-01-1992",
                 "endDate": "02-22-2023",
-                "programmingLanguages": ["html", "css", "javascript", "react"],
+                "programmingLanguages": [
+                    "html",
+                    "css",
+                    "javascript",
+                    "react"
+                ],
                 "description": "Lorum Ipsum",
+                "projectLink": "",
                 "githubLink": "",
                 "images": [
                     {
