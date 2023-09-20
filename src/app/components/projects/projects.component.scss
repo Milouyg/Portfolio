@@ -278,19 +278,21 @@
     }
 }
 
-@media screen and (max-width: 100rem) { //1000
+@media screen and (max-width: 59.375rem) { //950
     .projects{
         .project-container{
             .project-list-wrapper{
                 .project-menu{
+                    width: 100%;
                     .project-names{
+                        font-size: 110%;
                     }
                 }
             }
 
             .project-detail-wrapper{
                 .project-details{
-
+                    width: 100%;
                     .project-imgs{
                         .big-img{
 
@@ -300,6 +302,74 @@
                     }
 
                     .project-info{
+                        .project-header-wrapper{
+                        }
+                        .github-link{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 50rem) { //800
+    .projects{
+        height: fit-content;
+        .project-container{
+            flex-wrap: wrap;
+            gap: 2rem;
+            .project-list-wrapper{
+                width: 100%;
+                .project-menu{
+                    width: 65%;
+                    background: orange;
+                    display: flex;
+                    align-items: center;
+                    overflow: hidden;
+                    gap: 2rem;
+                    height: 10rem;
+                    overflow-x: scroll;
+                        //TODO:Figuring out why the width isn't scaling with project-names
+
+                    .project-names{
+                        width: 20rem;
+                        margin-bottom: 0rem;
+                    }
+                }
+            }
+
+            .project-detail-wrapper{
+                .project-details{
+                    flex-wrap: wrap;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 50rem;
+                    .project-imgs{
+                        flex: none;
+                        width: 100%;
+                        height: 20rem;
+                        border-top-right-radius: 2rem;
+                        border-bottom-left-radius: 0rem;
+                        .big-img{
+                            //TODO: Why it doesn't respond with top/right
+
+                        }
+                        .small-img{
+                            bottom: 5%;
+                            right: 5%;
+                            height: 18rem;
+                            width: 18rem;
+                        }
+                    }
+
+                    .project-info{
+                        flex: none;
+                        width: 100%;
+                        height: 20rem;
+                        border-bottom-left-radius: 2rem;
+                        border-top-right-radius: 0rem;
                         .project-header-wrapper{
                         }
                         .github-link{

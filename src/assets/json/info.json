@@ -130,6 +130,26 @@
                         "class": "small-img"
                     }
                 ]
+            },
+            {
+                "title": "Test",
+                "startDate": "01-01-1992",
+                "endDate": "02-22-2023",
+                "programmingLanguages": ["html", "css", "javascript", "react"],
+                "description": "Lorum Ipsum",
+                "githubLink": "",
+                "images": [
+                    {
+                        "src": "some url",
+                        "alt": "some alt text",
+                        "class": "big-img"
+                    },
+                    {
+                        "src": "some url",
+                        "alt": "some alt text",
+                        "class": "small-img"
+                    }
+                ]
             }
         ]
     }

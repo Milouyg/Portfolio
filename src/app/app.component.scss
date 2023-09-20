@@ -18,3 +18,12 @@
         }
     }
 }
+
+@media screen and (max-width: 50rem) { //800
+    .main-wrapper{
+
+        .wrapper{
+            width: 95%;
+        }
+    }
+}
