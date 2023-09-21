@@ -1,4 +1,4 @@
-.projects{
+.projects {
     width: 100%;
     height: 50rem;
     background: blue;
@@ -7,13 +7,13 @@
     justify-content: center;
     flex-direction: column;
 
-    .project-container{
+    .project-container {
         display: flex;
         width: 100%;
         height: 100%;
         background: green;
 
-        .project-list-wrapper{
+        .project-list-wrapper {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -21,7 +21,7 @@
             height: 100%;
             background: purple;
 
-            .project-menu{
+            .project-menu {
                 list-style: none;
                 width: 22rem;
                 height: 35rem;
@@ -40,7 +40,7 @@
                     border-radius: 10px;
                 }
 
-                .project-names{
+                .project-names {
                     text-align: center;
                     width: 80%;
                     margin-bottom: 3rem;
@@ -53,14 +53,14 @@
                     justify-content: center;
                     border: .3rem solid black;
 
-                    &:hover{
+                    &:hover {
                         cursor: pointer;
                     }
                 }
             }
         }
 
-        .project-detail-wrapper{
+        .project-detail-wrapper {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -69,14 +69,14 @@
             flex: 2.3;
             background: yellow;
 
-            .project-details{
+            .project-details {
                 border-radius: 2.3rem;
                 border: .3rem solid black;
                 display: flex;
                 width: 80%;
                 height: 90%;
 
-                .project-imgs{
+                .project-imgs {
                     position: relative;
                     display: flex;
                     justify-content: center;
@@ -86,7 +86,7 @@
                     border-top-left-radius: 2rem;
                     border-bottom-left-radius: 2rem;
 
-                    .big-img{
+                    .big-img {
                         border: .3rem solid black;
                         border-radius: 2rem;
                         position: absolute;
@@ -97,7 +97,7 @@
                         background: blue;
                     }
 
-                    .small-img{
+                    .small-img {
                         border: .3rem solid black;
                         border-radius: 2rem;
                         position: absolute;
@@ -110,7 +110,7 @@
 
                 }
 
-                .project-info{
+                .project-info {
                     padding: 1rem;
                     flex: 1;
                     display: flex;
@@ -123,7 +123,7 @@
                     border-top-right-radius: 2rem;
                     border-bottom-right-radius: 2rem;
 
-                    .project-header-wrapper{
+                    .project-header-wrapper {
                         width: 100%;
                         display: flex;
                         align-items: center;
@@ -131,22 +131,12 @@
                         gap: 1rem;
                     }
 
-                    .button-wrapper{
+                    .button-wrapper {
                         width: 100%;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        gap: 2rem;
-
-                        .button-detail{
-                            width: 10rem;
-                            height: 4rem;
-
-                            .link-detail{
-                                text-decoration: none;
-                                color: black;
-                            }
-                        }
+                        gap: 1.5rem;
                     }
                 }
             }
@@ -154,33 +144,35 @@
     }
 }
 
-@media screen and (max-width: 106.25rem) { //1700
-    .projects{
+@media screen and (max-width: 106.25rem) {
 
-        .project-container{
+    //1700
+    .projects {
 
-            .project-list-wrapper{
+        .project-container {
 
-                .project-menu{
+            .project-list-wrapper {
 
-                    .project-names{
-                        width: 85%;
+                .project-menu {
+
+                    .project-names {
+                        width: 90%;
                     }
                 }
             }
 
-            .project-detail-wrapper{
+            .project-detail-wrapper {
 
-                .project-details{
+                .project-details {
 
-                    .project-imgs{
+                    .project-imgs {
 
-                        .big-img{
+                        .big-img {
                             height: 22rem;
                             width: 25rem;
                         }
 
-                        .small-img{
+                        .small-img {
                             bottom: 11%;
                             right: 5%;
                             height: 15rem;
@@ -189,17 +181,11 @@
 
                     }
 
-                    .project-info{
+                    .project-info {
 
-                        .project-header-wrapper{
+                        .project-header-wrapper {}
 
-                        }
-
-                        .button-wrapper{
-                            .button-detail{
-
-                            }
-                        }
+                        .button-wrapper {}
                     }
                 }
             }
@@ -207,34 +193,36 @@
     }
 }
 
-@media screen and (max-width: 93.75rem) { //1500
-    .projects{
+@media screen and (max-width: 93.75rem) {
 
-        .project-container{
+    //1500
+    .projects {
 
-            .project-list-wrapper{
+        .project-container {
+
+            .project-list-wrapper {
                 flex: none;
                 width: 22%;
-                .project-menu{
 
-                    .project-names{
+                .project-menu {
 
-                    }
+                    .project-names {}
                 }
             }
 
-            .project-detail-wrapper{
+            .project-detail-wrapper {
 
-                .project-details{
+                .project-details {
                     width: 85%;
-                    .project-imgs{
 
-                        .big-img{
+                    .project-imgs {
+
+                        .big-img {
                             height: 22rem;
                             width: 25rem;
                         }
 
-                        .small-img{
+                        .small-img {
                             bottom: 11%;
                             right: 5%;
                             height: 15rem;
@@ -243,17 +231,11 @@
 
                     }
 
-                    .project-info{
+                    .project-info {
 
-                        .project-header-wrapper{
+                        .project-header-wrapper {}
 
-                        }
-
-                        .button-wrapper{
-                            .button-detail{
-
-                            }
-                        }
+                        .button-wrapper {}
                     }
                 }
             }
@@ -261,36 +243,34 @@
     }
 }
 
-@media screen and (max-width: 71.875rem) { //1150
-    .projects{
-        .project-container{
-            .project-list-wrapper{
-                .project-menu{
-                    .project-names{
-                    }
+@media screen and (max-width: 71.875rem) {
+
+    //1150
+    .projects {
+        .project-container {
+            .project-list-wrapper {
+                .project-menu {
+                    .project-names {}
                 }
             }
 
-            .project-detail-wrapper{
-                .project-details{
+            .project-detail-wrapper {
+                .project-details {
                     width: 92.5%;
-                    .project-imgs{
-                        .big-img{
+
+                    .project-imgs {
+                        .big-img {
                             height: 20rem;
                             width: 23rem;
                         }
-                        .small-img{
-                        }
+
+                        .small-img {}
                     }
 
-                    .project-info{
-                        .project-header-wrapper{
-                        }
-                        .button-wrapper{
-                            .button-detail{
+                    .project-info {
+                        .project-header-wrapper {}
 
-                            }
-                        }
+                        .button-wrapper {}
                     }
                 }
             }
@@ -298,37 +278,35 @@
     }
 }
 
-@media screen and (max-width: 59.375rem) { //950
-    .projects{
-        .project-container{
-            .project-list-wrapper{
-                .project-menu{
-                    width: 100%;
-                    .project-names{
+@media screen and (max-width: 59.375rem) {
+
+    //950
+    .projects {
+        .project-container {
+            .project-list-wrapper {
+                .project-menu {
+                    width: 90%;
+
+                    .project-names {
                         font-size: 110%;
                     }
                 }
             }
 
-            .project-detail-wrapper{
-                .project-details{
+            .project-detail-wrapper {
+                .project-details {
                     width: 100%;
-                    .project-imgs{
-                        .big-img{
 
-                        }
-                        .small-img{
-                        }
+                    .project-imgs {
+                        .big-img {}
+
+                        .small-img {}
                     }
 
-                    .project-info{
-                        .project-header-wrapper{
-                        }
-                        .button-wrapper{
-                            .button-detail{
+                    .project-info {
+                        .project-header-wrapper {}
 
-                            }
-                        }
+                        .button-wrapper {}
                     }
                 }
             }
@@ -336,15 +314,22 @@
     }
 }
 
-@media screen and (max-width: 50rem) { //800
-    .projects{
+@media screen and (max-width: 50rem) {
+
+    //800
+    .projects {
         height: fit-content;
-        .project-container{
+
+        .project-container {
             flex-wrap: wrap;
             gap: 2rem;
-            .project-list-wrapper{
+
+            .project-list-wrapper {
+                display: flex;
+                justify-content: center;
                 width: 100%;
-                .project-menu{
+
+                .project-menu {
                     width: 65%;
                     background: orange;
                     display: flex;
@@ -353,35 +338,37 @@
                     gap: 2rem;
                     height: 10rem;
                     overflow-x: scroll;
-                        //TODO:Figuring out why the width isn't scaling with project-names
 
-                    .project-names{
-                        width: 20rem;
+                    .project-names {
+                        min-width: 14rem;
                         margin-bottom: 0rem;
                     }
                 }
             }
 
-            .project-detail-wrapper{
-                .project-details{
+            .project-detail-wrapper {
+                .project-details {
                     flex-wrap: wrap;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     width: 50rem;
-                    .project-imgs{
+
+                    .project-imgs {
                         flex: none;
                         width: 100%;
                         height: 20rem;
                         border-top-right-radius: 2rem;
                         border-bottom-left-radius: 0rem;
-                        .big-img{
+
+                        .big-img {
                             top: 5%;
                             left: 7%;
                             height: 18rem;
                             width: 18rem;
                         }
-                        .small-img{
+
+                        .small-img {
                             bottom: 5%;
                             right: 7%;
                             height: 18rem;
@@ -389,17 +376,14 @@
                         }
                     }
 
-                    .project-info{
+                    .project-info {
                         flex: none;
                         width: 100%;
                         height: 20rem;
                         border-bottom-left-radius: 2rem;
                         border-top-right-radius: 0rem;
-                        .project-header-wrapper{
-                            .button-detail{
 
-                            }
-                        }
+                        .project-header-wrapper {}
                     }
                 }
             }
@@ -407,35 +391,38 @@
     }
 }
 
-@media screen and (max-width: 31.25rem) { //500
-    .projects{
-        .project-container{
-            .project-list-wrapper{
-                .project-menu{
-                    .project-names{
-                    }
+@media screen and (max-width: 31.25rem) {
+
+    //500
+    .projects {
+        .project-container {
+            .project-list-wrapper {
+                .project-menu {
+                    .project-names {}
                 }
             }
 
-            .project-detail-wrapper{
-                .project-details{
-                    .project-imgs{
-                        .big-img{
-                            left: 16%;
+            .project-detail-wrapper {
+                .project-details {
+                    .project-imgs {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .big-img {
+                            position: unset;
                             height: 18rem;
                             width: 25rem;
                         }
-                        .small-img{
+
+                        .small-img {
                             display: none;
+                            position: unset;
                         }
                     }
 
-                    .project-info{
-                        .project-header-wrapper{
-                            .button-detail{
-
-                            }
-                        }
+                    .project-info {
+                        .project-header-wrapper {}
                     }
                 }
             }

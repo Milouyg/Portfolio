@@ -8,4 +8,6 @@ import { Component, Input } from '@angular/core';
 })
 export class ButtonComponent {
     @Input()text!:string;
+    @Input()link!:string;
+    @Input()target:string = "_blank";
 }

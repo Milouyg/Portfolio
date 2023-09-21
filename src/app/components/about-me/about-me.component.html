@@ -20,7 +20,7 @@
             <div class="content-wrapper work">
                 <summary class="description">
                     {{data["work-attitude"]["description"]}}
-                    <button class="download-btn">{{data["work-attitude"]["btn"]}}</button>
+                    <app-button [link]="data['work-attitude']['btn-link']" [text]="data['work-attitude']['btn-text']"></app-button>
                 </summary>
             </div>
         </div>

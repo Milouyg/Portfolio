@@ -30,12 +30,8 @@
                     </div>
                     <div class="description">{{ activeProject['description'] }}</div>
                     <div class="button-wrapper">
-                        <button class="button-detail">
-                            <a class="link-detail" target="_blank" [href]="activeProject['githubLink']">{{projectData['ctaProject']}}</a>
-                        </button>
-                        <button class="button-detail">
-                            <a class="link-detail" target="_blank" [href]="activeProject['githubLink']">{{projectData['ctaGithub']}}</a>
-                        </button>
+                        <app-button [link]="activeProject['githubLink']" [text]="projectData['ctaProject']"></app-button>
+                        <app-button [link]="activeProject['githubLink']" [text]="projectData['ctaGithub']"></app-button>
                     </div>
                 </div>
             </article>
