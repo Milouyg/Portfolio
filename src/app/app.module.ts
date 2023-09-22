@@ -8,6 +8,7 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { ProjectComponent } from './components/projects/projects.component';
 import { TitleBarComponent } from './components/title-bar/title-bar.component';
 import { ButtonComponent } from './components/button/button.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ButtonComponent } from './components/button/button.component';
     ButtonComponent,
     LandingPageComponent,
     AboutMeComponent,
+    SkillsComponent,
     ProjectComponent
   ],
   imports: [

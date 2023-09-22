@@ -223,9 +223,11 @@
                             .quote{
 
                                 &.top{
+                                    left: -13%;
                                     top: -12%;
                                 }
                                 &.bottom{
+                                    right: -13%;
                                     bottom: -13%;
                                 }
                                 .punctuation{
@@ -265,6 +267,7 @@
                                     left: -12%;
                                 }
                                 &.bottom{
+                                    right: -10%;
                                     bottom: -12%;
                                 }
                                 .punctuation{
