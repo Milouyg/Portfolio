@@ -9,6 +9,7 @@ import { ProjectComponent } from './components/projects/projects.component';
 import { TitleBarComponent } from './components/title-bar/title-bar.component';
 import { ButtonComponent } from './components/button/button.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SkillsComponent } from './components/skills/skills.component';
     LandingPageComponent,
     AboutMeComponent,
     SkillsComponent,
-    ProjectComponent
+    ProjectComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

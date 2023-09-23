@@ -1,12 +1,12 @@
 <section class="skills">
-    <app-title-bar [title]="'Vaardigheden'"></app-title-bar>
-    <p class="description">introduction</p>
-    <summary class="summary">tekst</summary>
+    <app-title-bar [title]="skillsData['title']"></app-title-bar>
+    <p class="description">{{skillsData['introduction']}}</p>
+    <summary class="summary">{{skillsData[activeSummary]}}</summary>
     <div class="container">
-        <img id="img-html" class="img" src="./../../../assets/img/html.png" alt="">
-        <img id="img-scss" class="img" src="./../../../assets/img/scss.png" alt="">
-        <img id="img-js" class="img" src="./../../../assets/img/js.png" alt="">
-        <img id="img-angular" class="img" src="./../../../assets/img/angular.png" alt="">
-        <img id="img-react" class="img" src="./../../../assets/img/react.png" alt="">
+        <img (mouseover)="setActiveSummary('html-text')" id="img-html" class="img" src="./../../../assets/img/html.png" alt="">
+        <img (mouseover)="setActiveSummary('scss-text')" id="img-scss" class="img" src="./../../../assets/img/scss.png" alt="">
+        <img (mouseover)="setActiveSummary('js-text')" id="img-js" class="img" src="./../../../assets/img/js.png" alt="">
+        <img (mouseover)="setActiveSummary('angular-text')" id="img-angular" class="img" src="./../../../assets/img/angular.png" alt="">
+        <img (mouseover)="setActiveSummary('react-text')" id="img-react" class="img" src="./../../../assets/img/react.png" alt="">
     </div>
 </section>

@@ -1,0 +1,26 @@
+<footer id="contact" class="contact">
+    <app-title-bar [title]="contactData['title']"></app-title-bar>
+    <ul class="contact-info-container">
+        <li class="contact-item tel">{{ contactData['tel'] }}</li>
+        <span class="divider"></span>
+        <li class="contact-item email">
+            <button (click)="copyEmail(contactData['email'])" class="copy-email">
+                <i class="fa-regular fa-copy copy-icon"></i>
+            </button>
+            <span>{{ contactData['email'] }}</span>
+        </li>
+        <span class="divider"></span>
+        <li class="contact-item linked-in"> <a class="contact-link" href="">{{ contactData['linked-in'] }}</a></li>
+    </ul>
+    <div class="contact-form-container">
+        <img class="img" [src]="contactData['img']" [alt]="contactData['alt']">
+        <form action="" class="form">
+            <h2 class="cta-title">{{contactData['cta-title']}}</h2>
+            <input class="input" type="fname" [placeholder]="contactData['form']['first-name']">
+            <input class="input" type="lname" [placeholder]="contactData['form']['last-name']">
+            <textarea class="textarea" name="" id="" cols="30" rows="10"
+                [placeholder]="contactData['form']['message']"></textarea>
+            <input class="submit" type="submit" placeholder="Achternaam">
+        </form>
+    </div>
+</footer>

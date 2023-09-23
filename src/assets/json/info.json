@@ -28,6 +28,15 @@
             "btn-link": ""
         }
     },
+    "skills":{
+        "title":"Vaardigheden",
+        "introduction":"introduction",
+        "html-text":"html",
+        "scss-text":"scss",
+        "js-text":"js",
+        "angular-text":"angular",
+        "react-text":"test"
+    },
     "projects": {
         "title": "Projecten",
         "ctaProject": "Bekijk Project",
@@ -186,5 +195,19 @@
                 ]
             }
         ]
+    },
+    "contact": {
+        "title": "Contact",
+        "email": "milou.business.com",
+        "tel": "061234456789",
+        "linked-in": "linkedin.com",
+        "cta-title": "Contacteer mij",
+        "form":{
+            "first-name":"Vooraam",
+            "last-name": "Achternaam",
+            "message":"Voer hier uw bericht"
+        },
+        "img": "https://placehold.co/20x20",
+        "alt": ""
     }
 }

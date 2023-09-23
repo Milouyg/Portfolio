@@ -7,9 +7,14 @@ import data from "../../../assets/json/info.json";
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent{
+    activeSummary:string = "";
+    skillsData:Record<string, string> = data["skills"]; // We specify the key and the value as strings in skillsData
     constructor(){
-        // this.data = ;
 
+    }
+
+    setActiveSummary(text:string){
+        this.activeSummary = text;
     }
 
 }

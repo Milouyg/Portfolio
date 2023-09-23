@@ -340,7 +340,7 @@
                     overflow-x: scroll;
 
                     .project-names {
-                        min-width: 14rem;
+                        min-width: 12rem;
                         margin-bottom: 0rem;
                     }
                 }
@@ -398,7 +398,11 @@
         .project-container {
             .project-list-wrapper {
                 .project-menu {
-                    .project-names {}
+                    width: 80%;
+                    .project-names {
+                        min-width: 10rem;
+                        font-size: 1.5rem;
+                    }
                 }
             }
 
