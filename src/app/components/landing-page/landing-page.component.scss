@@ -3,80 +3,62 @@
 .landing-page {
     width: 100%;
     height: 90vh;
-    background: red;
     display: flex;
     position: relative;
 
     .container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 100%;
+        gap: 1rem;
 
+        .intro {
+            color: variables.$colorHeader;
+            font-size: 3.9rem;
+            width: 24ch;
 
-        .left {
-            display: flex;
-            flex-direction: column;
-            background: blue;
-            height: 30rem;
-            width: 50%;
-            gap: 1rem;
-
-            .intro {
-                font-size: 3.9rem;
-                width: 80%;
-
-                .word {
-                    color: orange;
-
-                }
-            }
-
-            .small-intro {
-                font-size: 2rem;
-                width: 80%;
+            .word {
+                color: orange;
             }
         }
 
-        .line{
-            position: absolute;
-            width: 50%;
-            border-bottom: .4rem solid variables.$green;
-            transform: rotate(140deg);
-        }
-
-        .right {
-            display: flex;
-            background: yellow;
-            height: 30rem;
-            width: 50%;
+        .small-intro {
+            color: variables.$colorText;
+            font-size: 2rem;
+            width: 46ch;
         }
     }
 }
 
 @media screen and (max-width: 90.625rem) {
+
     // 1450px
-    .landing-page{
-        .container{
-            .left{
-                .intro{
+    .landing-page {
+        .container {
+            .left {
+                .intro {
                     width: 95%;
                 }
             }
+
+            .right {}
         }
     }
 }
 
 @media screen and (max-width: 78.125rem) {
+
     // 1250px
-    .landing-page{
-        .container{
-            .left{
-                .intro{
+    .landing-page {
+        .container {
+            .left {
+                .intro {
                     font-size: 3rem;
                 }
-                .small-intro{
+
+                .small-intro {
                     font-size: 1.6rem;
                 }
             }
@@ -85,11 +67,12 @@
 }
 
 @media screen and (max-width: 78.125rem) {
+
     // 1200px
-    .landing-page{
-        .container{
-            .left{
-                .intro{
+    .landing-page {
+        .container {
+            .left {
+                .intro {
                     font-size: 3rem;
                 }
             }
@@ -98,50 +81,46 @@
 }
 
 @media screen and (max-width: 62.5rem) {
+
     // 1000px
-    .landing-page{
-        .container{
-            flex-wrap: wrap;
-            background: orange;
+    .landing-page {
+        height: 55vh;
+        .container {
+            height: 40rem;
+            .left {
+                width: 100%;
 
-            .left{
-                // width: 40.5rem;
-                .intro{
-
-                }
+                .intro {}
             }
 
-            .right{
-                // width: 40.5rem;
-            }
+            .right {}
         }
     }
 }
 
 @media screen and (max-width: 50rem) {
+
     // 800px
-    .landing-page{
+    .landing-page {
         height: fit-content;
         padding-bottom: 1rem;
-        .container{
-            flex-wrap: wrap;
-            background: orange;
 
-            .left{
+        .container {
+            flex-wrap: wrap;
+
+            .left {
                 height: 39.5rem;
                 width: 64rem;
                 justify-content: center;
-                // text-align: center;
-                .intro{
 
-                }
+                .intro {}
             }
 
-            .line{
+            .line {
                 display: none;
             }
 
-            .right{
+            .right {
                 height: 39.5rem;
                 width: 64rem;
                 justify-content: center;
@@ -151,31 +130,34 @@
 }
 
 @media screen and (max-width: 40.625rem) {
+
     // 650px
-    .landing-page{
-        .container{
-            .left{
-                width: 100%;
-                .intro{
+    .landing-page {
+        .container {
+            .intro {
+                font-size: 3rem;
+                .word {
                 }
+            }
+            .small-intro {
+                font-size: 1.5rem;
             }
         }
     }
 }
 
 @media screen and (max-width: 31.25rem) {
+
     // 500px
-    .landing-page{
-        .container{
-            .left{
-                width: 100%;
-                .intro{
+    .landing-page {
+        .container {
+                .intro {
                     font-size: 2.5rem;
                 }
-                .small-intro{
-                    font-size: 1.5rem;
+
+                .small-intro {
+                    width: 40ch;
                 }
-            }
         }
     }
 }

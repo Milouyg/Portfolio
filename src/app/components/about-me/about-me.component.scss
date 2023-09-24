@@ -2,8 +2,7 @@
 
 .about-me {
     width: 100%;
-    padding: 1rem 2rem;
-    background: green;
+    padding: variables.$paddingSections;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -15,7 +14,7 @@
         flex-direction: column;
         width: 100%;
         height: 100%;
-        background: blue;
+
 
         .quote-wrapper-top {
             width: 100%;
@@ -34,18 +33,19 @@
         .quote {
             width: 30rem;
             display: inline;
-            background: white;
+            background: transparent;
             text-align: center;
-            border: .3rem solid black;
             border-radius: 2rem;
             padding: 1rem;
 
             .text {
+                color: variables.$colorText;
                 display: inline;
                 margin: 0rem .5rem;
             }
 
             .punctuation {
+                color: variables.$colorText;
                 font-size: 1.5rem;
                 vertical-align: top;
             }
@@ -56,7 +56,6 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            background: purple;
 
             .description {
                 padding: 1rem 2rem;
@@ -71,13 +70,13 @@
                 }
 
                 .description-text {
+                    color: variables.$colorText;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     width: 50%;
                 }
             }
-
         }
     }
 }
@@ -95,9 +94,8 @@
                     flex-wrap: wrap;
                     display: flex;
                     justify-content: center;
+                    gap: 2rem ;
                     padding: unset;
-
-                    .img {}
 
                     .description-text {
                         width: 80%;
@@ -106,22 +104,4 @@
             }
         }
     }
-}
-
-
-@media screen and (max-width: 34.375rem) {
-
-    // 550px
-
-}
-
-@media screen and (max-width: 31.25rem) {
-
-    // 500px
-
-}
-
-@media screen and (max-width: 28.125rem) {
-
-    // 400px
 }

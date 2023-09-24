@@ -5,13 +5,12 @@
         <span class="divider"></span>
         <li class="contact-item email">
             <button (click)="copyEmail(contactData['email'], $event)" class="copy-email">
-                <i class="fa-regular fa-copy"></i>
-                <!-- <i class="fa-solid fa-check"></i> -->
+                <i class="fa-regular fa-copy copy-icon"></i>
             </button>
             <span>{{ contactData['email'] }}</span>
         </li>
         <span class="divider"></span>
-        <li class="contact-item linked-in"> <a class="contact-link" href="">{{ contactData['linked-in'] }}</a></li>
+        <li class="contact-item linked-in"> <a class="contact-link" target="_blank" href="https://www.linkedin.com/in/milou-geervliet-b40029264/">{{ contactData['linked-in'] }}</a></li>
     </ul>
     <div class="contact-form-container">
         <img class="img" [src]="contactData['img']" [alt]="contactData['alt']">

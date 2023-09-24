@@ -1,13 +1,16 @@
+@use "./../../../variables.scss";
+
 .button{
     width: 12rem;
     padding: .75rem;
     background: none;
-    border: .3rem solid black;
+    border: .3rem solid variables.$colorBorder;
     border-radius: 1rem;
+
     .link{
         font-size: 1.6rem;
         text-decoration: none;
-        color: white;
+        color: variables.$colorText;
     }
 
     &:hover{

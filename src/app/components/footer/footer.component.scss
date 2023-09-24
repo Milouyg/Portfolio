@@ -2,8 +2,7 @@
 
 .contact{
     width: 100%;
-    padding: 1rem 2rem;
-    background: rgb(15, 254, 71);
+    padding: variables.$paddingSections;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -17,6 +16,7 @@
         height: 4rem;
 
         .contact-item {
+            color: variables.$colorText;
             list-style: none;
             padding: .5rem;
 
@@ -33,22 +33,19 @@
                 border: none;
 
                 .copy-icon{
+                    color: variables.$colorText;
                     font-size: 2rem;
-                }
-
-                .check-icon{
-                    display: none;
                 }
             }
 
             .contact-link{
-                color: black;
+                color: variables.$colorText;
                 text-decoration: none;
             }
         }
 
         .divider {
-            border-right: 1px solid black;
+            border-right: 1px solid variables.$colorBorder;
             transform: rotate(30deg);
             height: 100%;
         }
@@ -57,7 +54,6 @@
     .contact-form-container{
         width: 100%;
         height: 100%;
-        background: blue;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -70,12 +66,14 @@
         .form{
             width: 70rem;
             padding: 2rem;
-            background: orange;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
             gap: 2rem;
+            background: variables.$colorText;
+            border: .3rem solid variables.$colorBorder;
+            border-radius: 2rem;
 
             .input,
             .textarea,

@@ -1,4 +1,4 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { Component } from '@angular/core';
 import data from "../../../assets/json/info.json";
 
 @Component({
@@ -16,5 +16,6 @@ export class FooterComponent  {
         const copyIcon = event.target as HTMLElement; // Here we say what datatype it is
         copyIcon!.className = "";
         copyIcon!.classList.add("fa-solid", "fa-check");
+        copyIcon!.style.color = "#f9edec";
     }
 }

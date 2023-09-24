@@ -11,15 +11,15 @@
         "first-sentence": "Ik ben Milou een",
         "word": "Front-End",
         "last-sentence": "Web Developer",
-        "small-intro": "Een Front-End Developer die zich bezig houdt met het schrijven van nette en efficiënte code"
+        "small-intro": "Een Front-End Developer die zich bezighoudt met het schrijven van nette en efficiënte code"
     },
     "about-me": {
         "title": "Wie ben ik?",
-        "btn-link": "",
+        "btn-link": "./assets/pdf/cv.pdf",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
         "quote1": "Succes is what happens after you've survived all your mistakes",
         "quote2": "If the plan doesn't work change the plan but never the goal",
-        "btn-text": "Download"
+        "btn-text": "Download CV"
     },
     "skills":{
         "title":"Vaardigheden",
@@ -32,6 +32,7 @@
     },
     "projects": {
         "title": "Projecten",
+        "description": "introduction",
         "ctaProject": "Bekijk Project",
         "ctaGithub": "Bekijk Github",
         "project-info": [
@@ -165,7 +166,7 @@
     },
     "contact": {
         "title": "Contact",
-        "email": "milou.business.com",
+        "email": "Milouyg.business.com",
         "tel": "061234456789",
         "linked-in": "linkedin.com",
         "cta-title": "Contacteer mij",

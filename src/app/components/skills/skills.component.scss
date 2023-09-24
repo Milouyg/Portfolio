@@ -2,12 +2,19 @@
 
 .skills{
     width: 100%;
-    padding: 1rem 2rem;
-    background: yellow;
+    padding: variables.$paddingSections;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 1rem;
+
+    .description{
+        color: variables.$colorText;
+    }
+
+    .summary{
+        color: variables.$colorText;
+    }
 
     .container{
         display: flex;
@@ -17,7 +24,6 @@
         gap: 4rem;
         width: 100%;
         height: 100%;
-        background: purple;
 
         .img{
             padding: .5rem;
