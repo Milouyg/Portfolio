@@ -15,18 +15,11 @@
     },
     "about-me": {
         "title": "Wie ben ik?",
-        "personality": {
-            "title": "persoonlijkheid",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-            "quote1": "Succes is what happens after you've survived all your mistakes",
-            "quote2": "If the plan doesn't work change the plan but never the goal"
-        },
-        "work-attitude": {
-            "title": "werk",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-            "btn-text": "Download",
-            "btn-link": ""
-        }
+        "btn-link": "",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+        "quote1": "Succes is what happens after you've survived all your mistakes",
+        "quote2": "If the plan doesn't work change the plan but never the goal",
+        "btn-text": "Download"
     },
     "skills":{
         "title":"Vaardigheden",
@@ -144,32 +137,6 @@
             },
             {
                 "title": "React",
-                "startDate": "01-01-1992",
-                "endDate": "02-22-2023",
-                "programmingLanguages": [
-                    "html",
-                    "css",
-                    "javascript",
-                    "react"
-                ],
-                "description": "Lorum Ipsum",
-                "projectLink": "",
-                "githubLink": "",
-                "images": [
-                    {
-                        "src": "some url",
-                        "alt": "some alt text",
-                        "class": "big-img"
-                    },
-                    {
-                        "src": "some url",
-                        "alt": "some alt text",
-                        "class": "small-img"
-                    }
-                ]
-            },
-            {
-                "title": "Test",
                 "startDate": "01-01-1992",
                 "endDate": "02-22-2023",
                 "programmingLanguages": [

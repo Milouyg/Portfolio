@@ -4,8 +4,9 @@
         <li class="contact-item tel">{{ contactData['tel'] }}</li>
         <span class="divider"></span>
         <li class="contact-item email">
-            <button (click)="copyEmail(contactData['email'])" class="copy-email">
-                <i class="fa-regular fa-copy copy-icon"></i>
+            <button (click)="copyEmail(contactData['email'], $event)" class="copy-email">
+                <i class="fa-regular fa-copy"></i>
+                <!-- <i class="fa-solid fa-check"></i> -->
             </button>
             <span>{{ contactData['email'] }}</span>
         </li>

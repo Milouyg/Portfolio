@@ -2,6 +2,7 @@
 
 .contact{
     width: 100%;
+    padding: 1rem 2rem;
     background: rgb(15, 254, 71);
     display: flex;
     align-items: center;
@@ -34,6 +35,10 @@
                 .copy-icon{
                     font-size: 2rem;
                 }
+
+                .check-icon{
+                    display: none;
+                }
             }
 
             .contact-link{
@@ -56,6 +61,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        gap: 3rem;
 
         .img{
             width: 40rem;
@@ -128,6 +134,7 @@
         }
 
         .contact-form-container{
+            justify-content: center;
             .img{
                 display: none;
             }

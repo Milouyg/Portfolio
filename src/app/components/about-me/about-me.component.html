@@ -1,28 +1,27 @@
 <section id="about-me" class="about-me">
     <app-title-bar [title]="data['title']"></app-title-bar>
-    <div class="container">
-        <div class="content">
-            <h2 class="sub-title">
-                {{data["personality"]["title"]}}
-            </h2>
-            <div class="content-wrapper personality">
-                <summary class="description">
-                    <p class="quote top"> <i class="fa-solid fa-quote-left punctuation"></i> {{data["personality"]["quote1"]}} <i class="fa-solid fa-quote-right punctuation"></i></p>
-                    {{data["personality"]["description"]}}
-                    <p class="quote bottom"><i class="fa-solid fa-quote-left punctuation"></i>{{data["personality"]["quote2"]}}<i class="fa-solid fa-quote-right punctuation"></i></p>
-                </summary>
+    <div class="content">
+        <div class="quote-wrapper-top">
+            <div class="quote">
+                <i class="fa-solid fa-quote-left punctuation"></i>
+                <p class="text">{{data["quote1"]}}</p>
+                <i class="fa-solid fa-quote-right punctuation"></i>
             </div>
         </div>
-        <div class="content">
-            <h2 class="sub-title">
-                {{data["work-attitude"]["title"]}}
-            </h2>
-            <div class="content-wrapper work">
-                <summary class="description">
-                    {{data["work-attitude"]["description"]}}
-                    <app-button [link]="data['work-attitude']['btn-link']" [text]="data['work-attitude']['btn-text']"></app-button>
-                </summary>
+        <summary class="description-wrapper">
+            <div class="description">
+                <img class="img" alt="" src="https://placehold.co/100x100">
+                <p class="description-text">{{data["description"]}}</p>
+            </div>
+            <app-button [link]="data['btn-link']" [text]="data['btn-text']"></app-button>
+        </summary>
+        <div class="quote-wrapper-bottom">
+            <div class="quote">
+                <i class="fa-solid fa-quote-left punctuation"></i>
+                <p class="text">{{data["quote2"]}}</p>
+                <i class="fa-solid fa-quote-right punctuation"></i>
             </div>
         </div>
+
     </div>
 </section>
