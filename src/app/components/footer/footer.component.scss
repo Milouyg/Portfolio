@@ -75,14 +75,23 @@
             border: .3rem solid variables.$colorBorder;
             border-radius: 2rem;
 
+            .cta-title{
+                color: variables.$colorHeader;
+            }
+
             .input,
             .textarea,
-            .submit{
+            .btn-submit{
                 font-size: variables.$contactFont;
                 border-radius: .5rem;
-                border: .25rem solid black;
+                border: .25rem solid variables.$colorBorder;
                 width: 70%;
                 padding: .5rem;
+                background: whitesmoke;
+
+                &:hover{
+                    transform: scale(1.5rem);
+                }
             }
 
             .textarea{

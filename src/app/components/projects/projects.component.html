@@ -15,7 +15,7 @@
             <article class="project-details">
                 <div class="project-imgs">
                     <ng-container *ngFor="let image of activeProject['images']">
-                        <img [src]="image['src']" [alt]="image['alt']" [class]="image['class']">
+                        <img class="img" [src]="image['src']" [alt]="image['alt']">
                     </ng-container>
                 </div>
                 <div class="project-info">
@@ -29,7 +29,7 @@
                         </div>
                         <i class="date">{{ activeProject['startDate'] }} - {{ activeProject['endDate'] }}</i>
                     </div>
-                    <div class="description">{{ activeProject['description'] }}</div>
+                    <div class="project-description">{{ activeProject['description'] }}</div>
                     <div class="button-wrapper">
                         <app-button [link]="activeProject['githubLink']" [text]="projectData['ctaProject']"></app-button>
                         <app-button [link]="activeProject['githubLink']" [text]="projectData['ctaGithub']"></app-button>

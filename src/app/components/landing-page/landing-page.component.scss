@@ -20,7 +20,10 @@
             width: 24ch;
 
             .word {
-                color: orange;
+                color: #D95D30;
+                background: -webkit-linear-gradient(#D95D30, #F2B33D);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
             }
         }
 
@@ -85,8 +88,10 @@
     // 1000px
     .landing-page {
         height: 55vh;
+
         .container {
             height: 40rem;
+
             .left {
                 width: 100%;
 
@@ -136,9 +141,10 @@
         .container {
             .intro {
                 font-size: 3rem;
-                .word {
-                }
+
+                .word {}
             }
+
             .small-intro {
                 font-size: 1.5rem;
             }
@@ -151,13 +157,13 @@
     // 500px
     .landing-page {
         .container {
-                .intro {
-                    font-size: 2.5rem;
-                }
+            .intro {
+                font-size: 2.5rem;
+            }
 
-                .small-intro {
-                    width: 40ch;
-                }
+            .small-intro {
+                width: 40ch;
+            }
         }
     }
 }

@@ -96,6 +96,7 @@
         height: fit-content;
         .container{
             flex-wrap: wrap;
+            justify-content: center;
             .img{
                 animation-name: unset;
             }

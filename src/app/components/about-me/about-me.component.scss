@@ -1,11 +1,13 @@
 @use "../../../variables.scss";
 
 .about-me {
+    background: variables.$backgroundAlternative;
     width: 100%;
     padding: variables.$paddingSections;
     display: flex;
     align-items: center;
     flex-direction: column;
+    box-shadow: variables.$box-shadow;
 
     .content {
         display: flex;
@@ -21,6 +23,7 @@
             display: flex;
             flex-direction: row;
             justify-content: flex-start;
+            padding-left: 12rem;
         }
 
         .quote-wrapper-bottom {
@@ -28,6 +31,7 @@
             display: flex;
             flex-direction: row;
             justify-content: flex-end;
+            padding-right: 12rem;
         }
 
         .quote {
@@ -67,6 +71,7 @@
                 .img {
                     width: 20rem;
                     height: 20rem;
+                    border-radius: 2rem;
                 }
 
                 .description-text {
@@ -84,22 +89,81 @@
 @media screen and (max-width: 50rem) {
 
     // 800px
+
     .about-me {
-        .content {
-            padding: 1rem 0rem;
+        padding: 1rem 0rem;
             gap: 1rem;
+        .content {
+            .quote-wrapper-top {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-left: unset;
+            }
+
+            .quote-wrapper-bottom {}
+
+            .quote {
+                .text {
+                    font-size: 1.5rem;
+                        &.second{
+                            display: none;
+                        }
+                }
+
+                .punctuation {
+                    font-size: 1.2rem;
+
+                    &.second{
+                        display: none;
+                    }
+                }
+            }
+
             .description-wrapper {
                 gap: 2rem;
                 .description {
                     flex-wrap: wrap;
                     display: flex;
                     justify-content: center;
-                    gap: 2rem ;
+                    gap: 2rem;
                     padding: unset;
+                    .img {}
 
                     .description-text {
                         width: 80%;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 37.5rem) {
+
+    //600
+    .about-me {
+        .content {
+            .quote-wrapper-top {}
+
+            .quote-wrapper-bottom {}
+
+            .quote {
+                .text {
+                    font-size: 1.5rem;
+
+                }
+
+                .punctuation {
+                    font-size: 1.2rem;
+                }
+            }
+
+            .description-wrapper {
+                .description {
+                    .img {}
+
+                    .description-text {}
                 }
             }
         }
