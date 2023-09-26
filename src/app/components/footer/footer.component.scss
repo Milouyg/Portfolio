@@ -27,20 +27,16 @@
                 gap: .5rem;
             }
 
-            .copy-email{
-                cursor: pointer;
-                background: none;
-                border: none;
-
-                .copy-icon{
-                    color: variables.$colorText;
-                    font-size: 2rem;
-                }
+            .link-to-email{
+                color: variables.$colorText;
+                text-decoration: none;
+                border-bottom: .2rem solid variables.$colorText;
             }
 
             .contact-link{
                 color: variables.$colorText;
                 text-decoration: none;
+                border-bottom: .2rem solid variables.$colorText;
             }
         }
 

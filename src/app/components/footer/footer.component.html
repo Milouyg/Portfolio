@@ -4,23 +4,14 @@
         <li class="contact-item tel">{{ contactData['tel'] }}</li>
         <span class="divider"></span>
         <li class="contact-item email">
-            <button (click)="copyEmail(contactData['email'], $event)" class="copy-email">
-                <i class="fa-regular fa-copy copy-icon"></i>
-            </button>
-            <span>{{ contactData['email'] }}</span>
+            <a class="link-to-email" [href]="contactData['link-to-mail']"> {{ contactData['email'] }} </a>
         </li>
         <span class="divider"></span>
-        <li class="contact-item linked-in"> <a class="contact-link" target="_blank" href="https://www.linkedin.com/in/milou-geervliet-b40029264/">{{ contactData['linked-in'] }}</a></li>
+        <li class="contact-item linked-in"> 
+            <a class="contact-link" target="_blank" href="https://www.linkedin.com/in/milou-geervliet-b40029264/">{{ contactData['linked-in'] }}</a>
+        </li>
     </ul>
     <div class="contact-form-container">
         <img class="img" [src]="contactData['img']" [alt]="contactData['alt']">
-        <form action="" class="form">
-            <h2 class="cta-title">{{contactData['cta-title']}}</h2>
-            <input class="input" type="fname" [placeholder]="contactData['form']['first-name']">
-            <input class="input" type="lname" [placeholder]="contactData['form']['last-name']">
-            <textarea class="textarea" name="" id="" cols="30" rows="10"
-                [placeholder]="contactData['form']['message']"></textarea>
-            <button class="btn-submit">{{contactData['form']['submit-btn']}}</button>
-        </form>
     </div>
 </footer>

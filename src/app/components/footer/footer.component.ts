@@ -11,11 +11,4 @@ export class FooterComponent  {
     copyText = data["contact"]["email"];
     constructor(){ }
 
-    copyEmail(email:string, event:Event){
-        navigator.clipboard.writeText(email);
-        const copyIcon = event.target as HTMLElement; // Here we say what datatype it is
-        copyIcon!.className = "";
-        copyIcon!.classList.add("fa-solid", "fa-check");
-        copyIcon!.style.color = "#f9edec";
-    }
 }
