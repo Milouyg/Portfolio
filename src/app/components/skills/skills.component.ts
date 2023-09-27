@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 import data from "../../../assets/json/info.json";
 
 @Component({
@@ -6,11 +6,27 @@ import data from "../../../assets/json/info.json";
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss']
 })
-export class SkillsComponent{
+export class SkillsComponent implements AfterViewInit{
     activeSummary:string = "";
     skillsData:Record<string, string> = data["skills"]; // We specify the key and the value as strings in skillsData
-    constructor(){
 
+    @ViewChild('section')section?:ElementRef; // A reference to an element
+
+    ngAfterViewInit(): void {
+        const observer = new IntersectionObserver((entries) => { // IntersectionObserver checks for when 2 element cross
+            entries.forEach((entry) => {
+                if(entry.isIntersecting){
+                    entry.target.classList.add("show");
+                }else{
+                    entry.target.classList.remove("show");
+                }
+            });
+        });
+
+        if(this.section){
+            const element = this.section.nativeElement as Element;
+            observer.observe(element); // Fetch the element from the ElementRef
+        }
     }
 
     setActiveSummary(text:string){

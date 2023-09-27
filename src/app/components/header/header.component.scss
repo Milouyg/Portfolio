@@ -7,6 +7,7 @@
     background: map-get( variables.$header, "background");
     position: fixed;
     z-index: 1;
+    animation: show 2s ease-in-out;
 
     .menu{
         width: 100%;
@@ -34,6 +35,15 @@
 
     .mobile-menu-wrapper{
         display: none;
+    }
+}
+
+@keyframes show {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
 

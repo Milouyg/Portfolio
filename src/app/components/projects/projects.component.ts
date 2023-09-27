@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import data from "../../../assets/json/info.json";
 import { Project } from 'src/app/interfaces/Project';
 
@@ -13,5 +13,24 @@ export class ProjectComponent {
 
     setActiveProject(project: Project) {
         this.activeProject = project;
+    }
+
+    @ViewChild('section')section?:ElementRef; // A reference to an element
+
+    ngAfterViewInit(): void {
+        const observer = new IntersectionObserver((entries) => { // IntersectionObserver checks for when 2 element cross
+            entries.forEach((entry) => {
+                if(entry.isIntersecting){
+                    entry.target.classList.add("show");
+                }else{
+                    entry.target.classList.remove("show");
+                }
+            });
+        });
+
+        if(this.section){
+            const element = this.section.nativeElement as Element;
+            observer.observe(element); // Fetch the element from the ElementRef
+        }
     }
 }

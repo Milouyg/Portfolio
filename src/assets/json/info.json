@@ -136,11 +136,11 @@
     },
     "contact": {
         "title": "Contact",
+        "cta-title": "Contacteer mij",
         "email": "Milouyg.business@gmail.com",
         "tel": "061234456789",
         "linked-in": "linkedin.com",
         "link-to-mail":"mailto:milouyg.business@gmail.com",
-        "cta-title": "Contacteer mij",
         "img": "https://placehold.co/20x20",
         "alt": ""
     }

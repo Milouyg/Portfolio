@@ -2,11 +2,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: show 1s ease-in-out;
 
     .wrapper{
         display: flex;
         flex-direction: column;
         width: 80%;
+    }
+}
+
+@keyframes show{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
 

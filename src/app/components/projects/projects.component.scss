@@ -11,6 +11,25 @@
     flex-direction: column;
     box-shadow: variables.$box-shadow;
 
+    &.hidden{
+        opacity: 0;
+        filter: blur(.3rem);
+        transform: translateY(10%);
+        transition: all 1s;
+    }
+
+    &.show{
+        filter: blur(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    @media(prefers-reduced-motion){
+        &.hidden{
+            transition: none;
+        }
+    }
+
     .description {
         color: variables.$colorText;
     }
