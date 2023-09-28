@@ -1,23 +1,25 @@
 <footer id="contact" #section class="contact hidden">
     <app-title-bar [title]="contactData['title']"></app-title-bar>
-    <div class="container">
-        <div class="contact-form-container">
-            <img class="img" [src]="contactData['img']" [alt]="contactData['alt']">
-        </div>
+    <article class="container">
+        <img class="img" [src]="contactData['img']" [alt]="contactData['alt']">
         <ul class="contact-info-container">
             <li class="contact-item subtitle">
                 <h2 class="subtitle">
                     {{contactData['cta-title']}}
                 </h2>
             </li>
-            <li class="contact-item tel">{{ contactData['tel'] }}</li>
-            <span class="divider"></span>
+            <li class="contact-item tel">
+                <img class="icon" src="./assets/gif/phone.gif" alt="">
+                {{ contactData['tel'] }}
+            </li>
             <li class="contact-item email">
+                <img class="icon" src="./assets/gif/message.gif" alt="">
                 <a class="link-to-email" [href]="contactData['link-to-mail']"> {{ contactData['email'] }} </a>
             </li>
             <li class="contact-item linked-in">
-                <a class="contact-link" target="_blank" href="https://www.linkedin.com/in/milou-geervliet-b40029264/">{{ contactData['linked-in'] }}</a>
+                <img class="icon" src="./assets/gif/github.gif" alt="">
+                <a class="contact-link" target="_blank" href="https://www.linkedin.com/in/milou-geervliet-b40029264/">{{contactData['linked-in'] }}</a>
             </li>
         </ul>
-    </div>
+    </article>
 </footer>

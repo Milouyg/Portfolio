@@ -18,11 +18,10 @@
         gap: 1rem;
 
         .intro {
-            -webkit-text-stroke: .16rem variables.$colorHeader;
-            color: transparent;
+            color: variables.$colorHeader;
             font-size: 3.9rem;
             width: 24ch;
-            z-index: 4;
+            font-weight: 300;
 
             .word {
                 color: variables.$colorHeader;
