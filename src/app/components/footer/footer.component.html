@@ -8,17 +8,21 @@
                     {{contactData['cta-title']}}
                 </h2>
             </li>
-            <li class="contact-item tel">
-                <img class="icon" src="./assets/gif/phone.gif" alt="">
-                {{ contactData['tel'] }}
-            </li>
             <li class="contact-item email">
-                <img class="icon" src="./assets/gif/message.gif" alt="">
-                <a class="link-to-email" [href]="contactData['link-to-mail']"> {{ contactData['email'] }} </a>
+                <img class="icon" [src]="contactData['email-info']['src']" [alt]="contactData['mobile-info']['alt']">
+                <a class="link-to-email" [href]="contactData['email-info']['href']"> {{ contactData['email-info']['email'] }} </a>
             </li>
-            <li class="contact-item linked-in">
-                <img class="icon" src="./assets/gif/github.gif" alt="">
-                <a class="contact-link" target="_blank" href="https://www.linkedin.com/in/milou-geervliet-b40029264/">{{contactData['linked-in'] }}</a>
+            <li class="contact-item tel">
+                <img class="icon" [src]="contactData['mobile-info']['src']" [alt]="contactData['mobile-info']['alt']">
+                <span class="tel">{{contactData['mobile-info']['tel']}}</span>
+            </li>
+            <li class="contact-item github">
+                <img class="icon" [src]="contactData['github-info']['src']" [alt]="contactData['github-info']['alt']">
+                <a class="contact-link" target="_blank" [href]="contactData['github-info']['href']">{{contactData['github-info']['title']}}</a>
+            </li>
+            <li class="contact-item linkedin">
+                <img class="icon" [src]="contactData['linkedin-info']['src']" [alt]="contactData['linkedin-info']['alt']">
+                <a class="contact-link" target="_blank" [href]="contactData['linkedin-info']['href']">{{contactData['linkedin-info']['title'] }}</a>
             </li>
         </ul>
     </article>

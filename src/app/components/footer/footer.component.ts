@@ -8,7 +8,6 @@ import data from "../../../assets/json/info.json";
 })
 export class FooterComponent implements AfterViewInit{
     contactData = data["contact"];
-    copyText = data["contact"]["email"];
     constructor(){ }
 
     @ViewChild('section')section?:ElementRef; // A reference to an element

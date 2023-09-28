@@ -21,15 +21,15 @@
         "quote2": "If the plan doesn't work change the plan but never the goal",
         "btn-text": "Download CV"
     },
-    "skills":{
-        "title":"Vaardigheden",
-        "introduction":"introduction",
-        "introduction-mobile":"test",
-        "html-text":"html",
-        "scss-text":"scss",
-        "js-text":"js",
-        "angular-text":"angular",
-        "react-text":"test"
+    "skills": {
+        "title": "Vaardigheden",
+        "introduction": "introduction",
+        "introduction-mobile": "test",
+        "html-text": "html",
+        "scss-text": "scss",
+        "js-text": "js",
+        "angular-text": "angular",
+        "react-text": "test"
     },
     "projects": {
         "title": "Projecten",
@@ -138,11 +138,32 @@
     "contact": {
         "title": "Contact",
         "cta-title": "Contacteer mij",
-        "email": "Milouyg.business@gmail.com",
-        "tel": "061234456789",
-        "linked-in": "linkedin.com",
-        "link-to-mail":"mailto:milouyg.business@gmail.com",
         "img": "https://placehold.co/20x20",
-        "alt": ""
+        "alt": "",
+        "email-info": {
+            "title": "Email",
+            "email": "Milouyg.business@gmail.com",
+            "href": "mailto:milouyg.business@gmail.com",
+            "src": "./assets/gif/mail.gif",
+            "alt": "gif"
+        },
+        "mobile-info": {
+            "title": "Mobile",
+            "tel": "061234456789",
+            "src": "./assets/gif/phone.gif",
+            "alt": "gif"
+        },
+        "github-info": {
+            "title": "Github",
+            "href": "https://github.com/Milouyg?tab=repositories",
+            "src": "./assets/gif/github.gif",
+            "alt": "gif"
+        },
+        "linkedin-info": {
+            "title": "Linkedin",
+            "href": "https://www.linkedin.com/in/milou-geervliet-b40029264/",
+            "src": "./assets/gif/linkedin.gif",
+            "alt": "gif"
+        }
     }
 }
