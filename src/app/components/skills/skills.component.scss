@@ -31,6 +31,11 @@
         color: variables.$colorText;
     }
 
+    .description-mobile{
+        color: variables.$colorText;
+        display: none;
+    }
+
     .summary{
         color: variables.$colorText;
     }
@@ -113,11 +118,32 @@
 @media screen and (max-width: 50rem) { // 800px
     .skills{
         height: fit-content;
+        .description{
+            display: none;
+        }
+    
+        .description-mobile{
+            display: block;
+        }
+    
+        .summary{
+        }
+    
         .container{
             flex-wrap: wrap;
             justify-content: center;
+    
             .img{
                 animation-name: unset;
+            }
+    
+            #img-html,
+            #img-js,
+            #img-react{
+            }
+    
+            #img-scss,
+            #img-angular{
             }
         }
     }

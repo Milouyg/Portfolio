@@ -1,6 +1,7 @@
 <section id="skills" #section class="skills hidden">
     <app-title-bar [title]="skillsData['title']"></app-title-bar>
     <p class="description">{{skillsData['introduction']}}</p>
+    <p class="description-mobile">{{skillsData['introduction-mobile']}}</p>
     <summary class="summary">{{skillsData[activeSummary]}}</summary>
     <div class="container">
         <img (mouseover)="setActiveSummary('html-text')" id="img-html" class="img" src="./../../../assets/img/html.png" alt="">

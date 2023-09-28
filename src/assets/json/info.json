@@ -24,6 +24,7 @@
     "skills":{
         "title":"Vaardigheden",
         "introduction":"introduction",
+        "introduction-mobile":"test",
         "html-text":"html",
         "scss-text":"scss",
         "js-text":"js",
