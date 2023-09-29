@@ -6,7 +6,7 @@
             <ul class="project-menu">
                 <ng-container *ngFor="let project of projectData['project-info']">
                     <li class="project-names" (click)="setActiveProject(project)">
-                        <p>{{ project['title'] }}</p>
+                        <p class="project-name">{{ project['title'] }}</p>
                     </li>
                 </ng-container>
             </ul>

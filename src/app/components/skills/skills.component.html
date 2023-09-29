@@ -4,12 +4,10 @@
     <p class="description-mobile">{{skillsData['introduction-mobile']}}</p>
     <summary class="summary">{{skillsData[activeSummary]}}</summary>
     <div class="container">
-        <img (mouseover)="setActiveSummary('html-text')" id="img-html" class="img" src="./../../../assets/img/html.png" alt="">
-        <img (mouseover)="setActiveSummary('scss-text')" id="img-scss" class="img" src="./../../../assets/img/scss.png" alt="">
-        <img (mouseover)="setActiveSummary('js-text')" id="img-js" class="img" src="./../../../assets/img/js.png" alt="">
-        <img (mouseover)="setActiveSummary('angular-text')" id="img-angular" class="img" src="./../../../assets/img/angular.png" alt="">
-        <img (mouseover)="setActiveSummary('react-text')" id="img-react" class="img" src="./../../../assets/img/react.png" alt="">
+        <img (mouseover)="setActiveSummary('html-text')" id="img-html" class="img" src="./../../../assets/img/html.png" [alt]="skillsData['alt']">
+        <img (mouseover)="setActiveSummary('scss-text')" id="img-scss" class="img" src="./../../../assets/img/scss.png" [alt]="skillsData['alt']">
+        <img (mouseover)="setActiveSummary('js-text')" id="img-js" class="img" src="./../../../assets/img/js.png" [alt]="skillsData['alt']">
+        <img (mouseover)="setActiveSummary('angular-text')" id="img-angular" class="img" src="./../../../assets/img/angular.png" [alt]="skillsData['alt']">
+        <img (mouseover)="setActiveSummary('react-text')" id="img-react" class="img" src="./../../../assets/img/react.png" [alt]="skillsData['alt']">
     </div>
 </section>
-
-<!-- TODO: Change introduction for mobile -->

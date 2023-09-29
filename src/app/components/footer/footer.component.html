@@ -1,5 +1,6 @@
 <footer id="contact" #section class="contact hidden">
     <app-title-bar [title]="contactData['title']"></app-title-bar>
+    <p class="description">{{contactData['description']}}</p>
     <article class="container">
         <img class="img" [src]="contactData['img']" [alt]="contactData['alt']">
         <ul class="contact-info-container">
@@ -13,7 +14,7 @@
                 <a class="link-to-email" [href]="contactData['email-info']['href']"> {{ contactData['email-info']['email'] }} </a>
             </li>
             <li class="contact-item tel">
-                <img class="icon" [src]="contactData['mobile-info']['src']" [alt]="contactData['mobile-info']['alt']">
+                <img class="icon phone" [src]="contactData['mobile-info']['src']" [alt]="contactData['mobile-info']['alt']">
                 <span class="tel">{{contactData['mobile-info']['tel']}}</span>
             </li>
             <li class="contact-item github">

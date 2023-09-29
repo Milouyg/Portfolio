@@ -6,6 +6,7 @@
     background: none;
     border: .3rem solid variables.$colorBorder;
     border-radius: 1rem;
+    transition: .2s all ease-in-out;
 
     .link{
         font-size: 1.6rem;
@@ -16,6 +17,5 @@
     &:hover{
         cursor: pointer;
         transform: scale(1.05);
-        
     }
 }

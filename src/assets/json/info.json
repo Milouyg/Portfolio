@@ -23,13 +23,14 @@
     },
     "skills": {
         "title": "Vaardigheden",
-        "introduction": "introduction",
+        "introduction": "Hieronder zie je de vaardigheden die ik beheer. Hover over één van de bewegende plaatjes om meer info te verkrijgen",
         "introduction-mobile": "test",
-        "html-text": "html",
-        "scss-text": "scss",
-        "js-text": "js",
-        "angular-text": "angular",
-        "react-text": "test"
+        "html-text": "Ik heb 2 jaar ervaring in HTML 5. Ik probeer mijn HTML code zo semantisch te schrijven als kan. Ook heb ik zo nu en dan gebruik gemaakt van de BEM methode.",
+        "scss-text": "Ik gebruik nu ongeveer 1.5 jaar Scss en ik kan niet meer zonder. Wanneer ik Scss gebruik, maak ik vooral gebruik van variables en nesten.",
+        "js-text": "Ik gebruik nu ongeveer 2 jaar Javascript en ik vind het heel fijn werken. Ik wil me hier vooral meer in specialiseren.",
+        "angular-text": "Ik ben nog niet zo bekwaamd in Angular, maar wat ik er tot nu toe van weet en heb geleerd. Lijkt het me wel een interessante taal om me erin verder te ontwikkelen.",
+        "react-text": "Ik heb nog heel weinig met React gewerkt, maar ik ben wel geïnteresseerd om me hierin meer te verdiepen",
+        "alt":""
     },
     "projects": {
         "title": "Projecten",
@@ -39,8 +40,8 @@
         "project-info": [
             {
                 "title": "Udemy",
-                "startDate": "01-01-1992",
-                "endDate": "01-02-1993",
+                "startDate": "04-10-2022",
+                "endDate": "19-01-2022",
                 "programmingLanguages": [
                     "html",
                     "css",
@@ -58,7 +59,7 @@
             },
             {
                 "title": "Yubtub",
-                "startDate": "01-01-1992",
+                "startDate": "01-01-2022",
                 "endDate": "02-22-2023",
                 "programmingLanguages": [
                     "html",
@@ -77,7 +78,7 @@
             },
             {
                 "title": "Collection of Happiness",
-                "startDate": "01-01-1992",
+                "startDate": "01-01-2022",
                 "endDate": "02-22-2023",
                 "programmingLanguages": [
                     "html",
@@ -96,7 +97,7 @@
             },
             {
                 "title": "Input-Output",
-                "startDate": "01-01-1992",
+                "startDate": "01-01-2022",
                 "endDate": "02-22-2023",
                 "programmingLanguages": [
                     "html",
@@ -115,7 +116,7 @@
             },
             {
                 "title": "React",
-                "startDate": "01-01-1992",
+                "startDate": "01-01-2023",
                 "endDate": "02-22-2023",
                 "programmingLanguages": [
                     "html",
@@ -137,6 +138,7 @@
     },
     "contact": {
         "title": "Contact",
+        "description":"test",
         "cta-title": "Contacteer mij",
         "img": "https://placehold.co/20x20",
         "alt": "",

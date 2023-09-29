@@ -14,8 +14,8 @@
     &.hidden{
         opacity: 0;
         filter: blur(.3rem);
-        transform: translateY(10%);
-        transition: all 1s;
+        transform: translateX(10%);
+        transition: all 1.5s;
     }
 
     &.show{
@@ -70,21 +70,25 @@
 
                 .project-names {
                     color: variables.$colorHeader;
-                    background: whitesmoke;
+                    background: variables.$colorHeader;
                     text-align: center;
                     width: 80%;
                     margin-bottom: 3rem;
                     height: 6rem;
                     font-size: 2rem;
                     border-radius: 2rem;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+                    @include variables.flexCenter;
                     border: .3rem solid variables.$colorHeader;
+                    transition: all .5s ease;
 
                     &:hover {
                         cursor: pointer;
+                        background: #1D1A39;
                     }
+
+                        .project-name{
+                            color: white;
+                        }
                 }
             }
         }

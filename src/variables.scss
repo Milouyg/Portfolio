@@ -15,8 +15,21 @@ $paddingSections: 5rem 0rem;
 
 $header:(
     "color": #fff,
-    "background": rgba(0, 0, 0, .05)
+    "background": rgba(0, 0, 0, .3)
 );
+
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+@mixin flexColumn{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column
+};
 
 $contactFont: 1.6rem;
 
