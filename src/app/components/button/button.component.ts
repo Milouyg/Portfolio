@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./button.component.scss']
 })
 export class ButtonComponent {
+    @Input()disabled:boolean = false;
     @Input()text!:string;
     @Input()link!:string;
     @Input()target:string = "_blank";

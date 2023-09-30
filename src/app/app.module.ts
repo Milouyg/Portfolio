@@ -10,12 +10,10 @@ import { TitleBarComponent } from './components/title-bar/title-bar.component';
 import { ButtonComponent } from './components/button/button.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { StarsComponent } from './components/stars/stars.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StarsComponent,
     HeaderComponent,
     TitleBarComponent,
     ButtonComponent,

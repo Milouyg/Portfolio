@@ -8,6 +8,17 @@
     border-radius: 1rem;
     transition: .2s all ease-in-out;
 
+    &.disabled{
+        border: .3rem dashed variables.$colorBorder;
+        opacity: .5;
+
+        &:hover, 
+        .link:hover{
+            cursor: default;
+            transform: unset;
+        }
+    }
+
     .link{
         font-size: 1.6rem;
         text-decoration: none;

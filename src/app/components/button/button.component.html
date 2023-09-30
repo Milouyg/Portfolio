@@ -1,3 +1,4 @@
-<button class="button">
+<button class="button" [ngClass]="disabled ? 'disabled' : ''" >
     <a class="link" [target]="target" [href]="link">{{text}}</a>
+    <!-- short form 'if' statement -->
 </button>

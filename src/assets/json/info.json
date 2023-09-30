@@ -8,33 +8,33 @@
     },
     "landing-page": {
         "header": "Over mij",
-        "first-sentence": "Ik ben Milou een",
+        "first-sentence": "Ik ben Milou, een",
         "word": "Front-End",
         "last-sentence": "Web Developer",
-        "small-intro": "Een Front-End Developer die zich bezighoudt met het schrijven van nette en efficiënte code"
+        "small-intro": "Een Front-End Developer die zich bezig houd met het schrijven van nette en efficiënte code."
     },
     "about-me": {
         "title": "Wie ben ik?",
         "btn-link": "./assets/pdf/cv.pdf",
-        "description": "Hey daar! Ik ben Milou Geervliet en ik ben een Front-end Developer in opleiding. Ik heb een diepe toewijding aan ontwikkeling en ik ben ik niet bang om uit mijn comfortzone te stappen. Mijn werk is pas voldoende, wanneer het een excelentie is. Buiten werk om, ben ik ben een heel erg sociaal persoon. Ik vind het leuk om nieuwe contacten te maken. Ook ben ik heel erg van de quotes zoals je kunt zien.",
+        "description": "Hey daar! Ik ben Milou Geervliet en ik ben een Front-end Developer in opleiding. Ik heb een passie voor ontwikkeling en ik ben ik niet bang om uit mijn comfortzone te stappen. Mijn werk is pas voldoende wanneer het perfect is. Buiten werk om ben ik ben een erg sociaal persoon. Ik vind het leuk om nieuwe contacten te maken. Ook ben ik heel erg van de quotes zoals je kunt zien.",
         "quote1": "Succes is what happens after you've survived all your mistakes",
         "quote2": "If the plan doesn't work change the plan but never the goal",
         "btn-text": "Download CV"
     },
     "skills": {
         "title": "Vaardigheden",
-        "introduction": "Hieronder zie je de vaardigheden die ik beheer. Hover over één van de bewegende plaatjes om meer info te verkrijgen",
-        "introduction-mobile": "test",
+        "introduction": "Hieronder zie je de vaardigheden die ik beheers. Hover over één van de bewegende plaatjes om meer info te verkrijgen.",
+        "introduction-mobile": "Hieronder zie je de vaardigheden die ik beheers. Tap op één van de bewegende plaatjes om meer info te verkrijgen.",
         "html-text": "Ik heb 2 jaar ervaring in HTML 5. Ik probeer mijn HTML code zo semantisch te schrijven als kan. Ook heb ik zo nu en dan gebruik gemaakt van de BEM methode.",
-        "scss-text": "Ik gebruik nu ongeveer 1.5 jaar Scss en ik kan niet meer zonder. Wanneer ik Scss gebruik, maak ik vooral gebruik van variables en nesten.",
-        "js-text": "Ik gebruik nu ongeveer 2 jaar Javascript en ik vind het heel fijn werken. Ik wil me hier vooral meer in specialiseren.",
-        "angular-text": "Ik ben nog niet zo bekwaamd in Angular, maar wat ik er tot nu toe van weet en heb geleerd. Lijkt het me wel een interessante taal om me erin verder te ontwikkelen.",
-        "react-text": "Ik heb nog heel weinig met React gewerkt, maar ik ben wel geïnteresseerd om me hierin meer te verdiepen",
-        "alt":""
+        "scss-text": "Ik gebruik nu ongeveer 1.5 jaar SCSS en ik kan niet meer zonder. Wanneer ik SCSS gebruik, maak ik vooral gebruik van variables, mixins en nesten.",
+        "js-text": "Ik gebruik nu ongeveer 2 jaar Javascript en ik vind het heel fijn werken. Ik wil me hier vooral meer in specialiseren. Tegenwoordig werk ik veel met javascript frameworks zoals angular en react maar het begon allemaal met standaard javascript.",
+        "angular-text": "Ik ben nog niet zo bekwaamd in Angular, maar door de kennis die ik tot zo ver heb opgedaan heb ik veel geleerd. Het is voor mij zeker een taal waarin ik me verder wil verdiepen en mijn kennis verbreden.",
+        "react-text": "Ik heb nog heel weinig met React gewerkt, maar ik ben wel geïnteresseerd om me hierin meer te verdiepen.",
+        "alt": ""
     },
     "projects": {
         "title": "Projecten",
-        "description": "introduction",
+        "description": "Hier zie je alle projecten die ik voor school of in mijn vrije tijd gemaakt heb. Het grootste deel van deze projecten is gefocust op het gebruik van javascript en alle aspecten hiervan. Ook zijn er een paar projecten waarin ik me meer heb gespecialiseerd in frameworks zoals Angular en React. Ik heb een groot fan van structuur binnen mijn projecten en dit is daarom ook terug te zien wanneer je op de 'Bekijk Github' knop klikt. In mijn Github repository kan je al mijn code zien. Daarnaast heb ik waar mogelijk de projecten online staan. Deze kan je bekijken door op de knop 'Bekijk Project' te klikken.",
         "ctaProject": "Bekijk Project",
         "ctaGithub": "Bekijk Github",
         "project-info": [
@@ -43,36 +43,36 @@
                 "startDate": "04-10-2022",
                 "endDate": "19-01-2022",
                 "programmingLanguages": [
-                    "html",
-                    "css",
-                    "javascript"
+                    "HTML",
+                    "CSS",
+                    "Javascript"
                 ],
-                "description": "Lorum Ipsum",
+                "description": "Voor de eindopdracht van Front-end moest ik de websit Udemy namaken. Udemy is een online studie platform. In plaats van hun eigen content te gebruiken, heb ik mijn eigen content gebruikt dat gefocust was op games. In de index.html zie je dat ik alles zo symantisch mogelijk heb gemaakt en alles de BEM methodiek volgt. Ook heb ik een beetje javascript en SCSS binnen de verschillende componenten gebruikt.",
                 "projectLink": "https://milouyg.github.io/Udemy/",
-                "githubLink": "",
+                "githubLink": "https://github.com/Milouyg/Udemy",
                 "images": [
                     {
-                        "src": "https://placehold.co/28x25",
-                        "alt": "some alt text"
+                        "src": "./assets/imgs/projects/udemy.png",
+                        "alt": "Je ziet een webserver die games aanbieden"
                     }
                 ]
             },
             {
                 "title": "Yubtub",
-                "startDate": "01-01-2022",
-                "endDate": "02-22-2023",
+                "startDate": "10-05-2023",
+                "endDate": "19-06-2023",
                 "programmingLanguages": [
-                    "html",
-                    "css",
-                    "javascript"
+                    "HTML",
+                    "SCSS",
+                    "Javascript"
                 ],
-                "description": "Lorum Ipsum",
+                "description": "Voor de Yubtub eindopdracht heb ik een kloon van Youtube nagemaakt (maar dan beter 😉). De opdracht bevat 1 hoofdvideo en 5 andere videos die in de zijbalk staan. Wanneer de hoofdvideo klaar is met afspelen, wordt de volgende video van de zijbalk afgespeeld. Daarnaast kan je ook video's als favoriet instellen door op de ster te klikken. Ook is het mogelijk om handmatig van video te wisselen. De laatste functionaliteit in dit project is dat je commentaar kan toevoegen onder elke video.",
                 "projectLink": "",
-                "githubLink": "",
+                "githubLink": "https://github.com/Milouyg/Agenda-Encrypter-Yubtub/tree/main/yubtub",
                 "images": [
                     {
-                        "src": "some url",
-                        "alt": "some alt text"
+                        "src": "./assets/imgs/projects/yubtub.png",
+                        "alt": "Afbeelding van een kitten en daarnast meerdere kleinere afbeeldingen van dieren"
                     }
                 ]
             },
@@ -81,30 +81,29 @@
                 "startDate": "01-01-2022",
                 "endDate": "02-22-2023",
                 "programmingLanguages": [
-                    "html",
-                    "css",
-                    "javascript"
+                    "HTML",
+                    "SCSS",
+                    "Javascript"
                 ],
-                "description": "Lorum Ipsumffffffffffffffffffffffffffffffff fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                "description": "Om het onderwerp 'Deep-dive Front-end' af te sluiten, kreeg ik als eindopdracht om een gebruiksvriendelijke webpagina te maken die allemaal populaire podcasten verzamelen. Ik heb een header, een main en een footer. De main bevat een linker- en een rechter sectie. De linker sectie laat 4 random afleveringen zien. De rechter sectie gaat meer op de details in van de 4 random gekozen afleveringen. Alles is gerenderd via Javascript en het is responsive.",
                 "projectLink": "https://milouyg.github.io/Collection-of-Happiness/",
-                "githubLink": "",
+                "githubLink": "https://github.com/Milouyg/Collection-of-Happiness",
                 "images": [
                     {
-                        "src": "some url",
-                        "alt": "some alt text"
+                        "src": "./assets/imgs/projects/coh.png",
+                        "alt": "Een meid die naar muziek luistert"
                     }
                 ]
             },
             {
                 "title": "Input-Output",
-                "startDate": "01-01-2022",
-                "endDate": "02-22-2023",
+                "startDate": "21-11-2022",
+                "endDate": "10-02-2023",
                 "programmingLanguages": [
-                    "html",
-                    "css",
-                    "javascript"
+                    "Arduino",
+                    "Javascript"
                 ],
-                "description": "Lorum Ipsum",
+                "description": "Dit was een examen deelonderwerp, waarbij we als groep een interactieve ruimte gingen maken voor het musem 'Up Side Down'. Aan dit project werkte er 4 Software Developers, 2 Ruimtelijk Vormgevers en 2 Media Vormgevers. Wij als Software Developers gingen aan de slag met Arduino en hebben uiteindelijk 3 interactieve lianen gemaakt en een lichtgevend pad. De lianen kon je aanraken en dan gaven ze licht. Het lichtgevend pad was onderverdeeld in 4 delen licht met elk deel een ander kleur licht. Na elke 10 seconde lichtte een ander deel van het pad op.",
                 "projectLink": "",
                 "githubLink": "",
                 "images": [
@@ -116,15 +115,15 @@
             },
             {
                 "title": "React",
-                "startDate": "01-01-2023",
-                "endDate": "02-22-2023",
+                "startDate": "11-09-2023",
+                "endDate": "25-09-2023",
                 "programmingLanguages": [
-                    "html",
-                    "css",
-                    "javascript",
-                    "react"
+                    "HTML",
+                    "SCSS",
+                    "Javascript",
+                    "React"
                 ],
-                "description": "Lorum Ipsum",
+                "description": "Dit is mijn allereerste React opdracht die ik heb gemaakt. Hierin moest ik een website maken met 4 verschillende artikelen. De onderwerpen die aanwezig moesten zijn waren: Webpack, Babel, NPM en JSX. Voor het schrijven van de inhoud mocht je Chatgpt gebruiken. Bij elke artikel moest er een dierenplaatje aanwezig zijn.",
                 "projectLink": "",
                 "githubLink": "",
                 "images": [
@@ -133,39 +132,58 @@
                         "alt": "some alt text"
                     }
                 ]
+            },
+            {
+                "title": "Coaching",
+                "startDate": "13-03-2022",
+                "endDate": "28-05-2023",
+                "programmingLanguages": [
+                    "HTML",
+                    "SCSS",
+                    "Javascript"
+                ],
+                "description": "Voor de beroepsopdracht van Deep dive frontend dienen wij een website op te leveren voor Doesburg coaching. Wij hebben ervoor gekozen om alle 4 onderdelen te realiseren en wij streven ernaar de opdracht zodanig tijdig te voltooien dat wij uiteindelijk ook werkende back-end elementen weten op te leveren.",
+                "projectLink": "",
+                "githubLink": "",
+                "images": [
+                    {
+                        "src": "./assets/imgs/projects/coaching.png",
+                        "alt": "Afbeelding van 3 kaarten waar de gebruiker zijn/haar gedachtes en gevoelens kan opschrijven "
+                    }
+                ]
             }
         ]
     },
     "contact": {
-        "title": "Contact",
-        "description":"test",
-        "cta-title": "Contacteer mij",
-        "img": "https://placehold.co/20x20",
-        "alt": "",
+        "title": "Contacteer mij",
+        "description": "Heb je vragen of wil je me bereiken voor iets anders? Ik sta altijd open voor een leuk gesprek en nieuwe uitdagingen dus klik op één van mijn socials en dan bericht ik je zo snel mogelijk terug 😄",
+        "cta-title": "Contactgegevens",
+        "img": "./assets/imgs/envelope.png",
+        "alt": "Contact afbeelding",
         "email-info": {
             "title": "Email",
             "email": "Milouyg.business@gmail.com",
             "href": "mailto:milouyg.business@gmail.com",
             "src": "./assets/gif/mail.gif",
-            "alt": "gif"
+            "alt": "Email gif"
         },
         "mobile-info": {
             "title": "Mobile",
             "tel": "061234456789",
             "src": "./assets/gif/phone.gif",
-            "alt": "gif"
+            "alt": "Mobiel gif"
         },
         "github-info": {
             "title": "Github",
             "href": "https://github.com/Milouyg?tab=repositories",
             "src": "./assets/gif/github.gif",
-            "alt": "gif"
+            "alt": "Github gif"
         },
         "linkedin-info": {
             "title": "Linkedin",
             "href": "https://www.linkedin.com/in/milou-geervliet-b40029264/",
             "src": "./assets/gif/linkedin.gif",
-            "alt": "gif"
+            "alt": "Linkedin gif"
         }
     }
 }

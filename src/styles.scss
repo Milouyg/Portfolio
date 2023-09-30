@@ -21,7 +21,7 @@ body {
     background: variables.$background;
 
     .stars {
-        z-index: 0;
+        z-index: -999;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -38,17 +38,17 @@ body {
 
             &.star1 {
                 animation-delay: -0s;
-                background: url("./assets/img/star1.png");
+                background: url("./assets/imgs/star1.png");
             }
 
             &.star2 {
                 animation-delay: -1s;
-                background: url("./assets/img/star2.png");
+                background: url("./assets/imgs/star2.png");
             }
 
             &.star3 {
                 animation-delay: -2s;
-                background: url("./assets/img/star3.png");
+                background: url("./assets/imgs/star3.png");
             }
         }
 
