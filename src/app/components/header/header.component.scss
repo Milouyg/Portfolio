@@ -4,7 +4,8 @@
     display: flex;
     width: 100%;
     height: 5rem;
-    background: map-get( variables.$header, "background");
+    background: variables.$backgroundAlternative;
+    box-shadow: variables.$box-shadow;
     position: fixed;
     z-index: 999;
     animation: show 2s ease-in-out;
@@ -36,7 +37,9 @@
     }
 
     .mobile-menu-wrapper{
-        display: none;
+        // display: none;
+
+        
     }
 }
 
@@ -69,7 +72,7 @@
             display: flex;
             width: 100%;
             flex-direction: column;
-            background: map-get(variables.$header, "background" );
+            background: variables.$backgroundAlternative;
 
             .mobile-menu{
                 margin-top: .1rem;
@@ -79,7 +82,7 @@
                 justify-content: center;
                 flex-direction: column;
                 gap: .5rem;
-                background: map-get(variables.$header, "background" );
+                background: variables.$backgroundAlternative;
 
 
                 &.hidden{

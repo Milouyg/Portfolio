@@ -16,7 +16,7 @@
     "about-me": {
         "title": "Wie ben ik?",
         "btn-link": "./assets/pdf/cv.pdf",
-        "description": "Hey daar! Ik ben Milou Geervliet en ik ben een Front-end Developer in opleiding. Ik heb een passie voor ontwikkeling en ik ben ik niet bang om uit mijn comfortzone te stappen. Mijn werk is pas voldoende wanneer het perfect is. Buiten werk om ben ik ben een erg sociaal persoon. Ik vind het leuk om nieuwe contacten te maken. Ook ben ik heel erg van de quotes zoals je kunt zien.",
+        "description": "Hey daar! Ik ben Milou Geervliet en ik ben een Front-end Developer in opleiding. Ik heb een passie voor ontwikkeling en ik ben ik niet bang om uit mijn comfortzone te stappen. Mijn werk is pas voldoende wanneer het perfect is. Ik wil mij graag specialiceren in de programmeertalen Angular of React. Buiten werk om ben ik ben een erg sociaal persoon. Ik vind het leuk om nieuwe contacten te maken. Ook ben ik heel erg van de quotes zoals je kunt zien.",
         "quote1": "Succes is what happens after you've survived all your mistakes",
         "quote2": "If the plan doesn't work change the plan but never the goal",
         "btn-text": "Download CV"
@@ -105,7 +105,7 @@
                 ],
                 "description": "Dit was een examen deelonderwerp, waarbij we als groep een interactieve ruimte gingen maken voor het musem 'Up Side Down'. Aan dit project werkte er 4 Software Developers, 2 Ruimtelijk Vormgevers en 2 Media Vormgevers. Wij als Software Developers gingen aan de slag met Arduino en hebben uiteindelijk 3 interactieve lianen gemaakt en een lichtgevend pad. De lianen kon je aanraken en dan gaven ze licht. Het lichtgevend pad was onderverdeeld in 4 delen licht met elk deel een ander kleur licht. Na elke 10 seconde lichtte een ander deel van het pad op.",
                 "projectLink": "",
-                "githubLink": "",
+                "githubLink": "https://github.com/Jacobwj04/BO-RadicaleKusntspeeltuin",
                 "images": [
                     {
                         "src": "some url",
