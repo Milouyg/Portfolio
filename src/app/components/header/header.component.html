@@ -1,4 +1,7 @@
 <header class="header">
+    <label class="hamburger-menu" >
+        <input type="checkbox" (click)="openMenu()">
+    </label>
     <ul class="menu">
         <li class="listItem">
             <a href="#home" class="link">{{data["landing-page-title"]}}</a>
@@ -16,27 +19,46 @@
             <a href="#contact" class="link contact">{{data["contact-title"]}}</a>
         </li>
     </ul>
-
-    <aside class="mobile-menu-wrapper">
-        <label class="hamburger-menu" >
-            <input type="checkbox" (click)="openMenu()">
-        </label>
-        <ul id="mobile-menu" class="mobile-menu hidden">
-            <li class="mobile-item">
-                <a href="#home" class="mobile-link">{{data["landing-page-title"]}}</a>
-            </li>
-            <li class="mobile-item">
-                <a href="#about-me" class="mobile-link">{{data["about-me-title"]}}</a>
-            </li>
-            <li class="mobile-item">
-                <a href="#skills" class="mobile-link">{{data["skills-title"]}}</a>
-            </li>
-            <li class="mobile-item">
-                <a href="#projects" class="mobile-link">{{data["projects-title"]}}</a>
-            </li>
-            <li class="mobile-item">
-                <a href="#contact" class="mobile-link">{{data["contact-title"]}}</a>
-            </li>
-        </ul>
-    </aside>
 </header>
+
+
+<!-- <ul class="menu">
+    <li class="listItem">
+        <a href="#home" class="link">{{data["landing-page-title"]}}</a>
+    </li>
+    <li class="listItem">
+        <a href="#about-me" class="link">{{data["about-me-title"]}}</a>
+    </li>
+    <li class="listItem">
+        <a href="#skills" class="link">{{data["skills-title"]}}</a>
+    </li>
+    <li class="listItem">
+        <a href="#projects" class="link">{{data["projects-title"]}}</a>
+    </li>
+    <li class="listItem">
+        <a href="#contact" class="link contact">{{data["contact-title"]}}</a>
+    </li>
+</ul>
+
+<aside class="mobile-menu-wrapper">
+    <label class="hamburger-menu" >
+        <input type="checkbox" (click)="openMenu()">
+    </label>
+    <ul id="mobile-menu" class="mobile-menu hidden">
+        <li class="mobile-item">
+            <a href="#home" class="mobile-link">{{data["landing-page-title"]}}</a>
+        </li>
+        <li class="mobile-item">
+            <a href="#about-me" class="mobile-link">{{data["about-me-title"]}}</a>
+        </li>
+        <li class="mobile-item">
+            <a href="#skills" class="mobile-link">{{data["skills-title"]}}</a>
+        </li>
+        <li class="mobile-item">
+            <a href="#projects" class="mobile-link">{{data["projects-title"]}}</a>
+        </li>
+        <li class="mobile-item">
+            <a href="#contact" class="mobile-link">{{data["contact-title"]}}</a>
+        </li>
+    </ul>
+</aside> -->
