@@ -134,16 +134,53 @@
     }
 }
 
-@media screen and (max-width:31.25rem) {
+@media screen and (max-width:40.625rem) {
 
     //500px
     .contact {
 
         .container {
-
+            gap: 2rem;
 
             .img{
                 display: none;
+            }
+
+            .contact-info-container {
+
+                .contact-item {
+
+                    &.subtitle{
+
+                    }
+
+                    &.email {
+
+                    }
+
+                    .icon{
+                    }
+
+                    .link-to-email {
+                    }
+
+                    .contact-link {
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:31.25rem) {
+
+    //500px
+    .contact {
+        width: 100%;
+
+        .container {
+
+            .img{
             }
 
             .contact-info-container {
@@ -151,7 +188,6 @@
                 .contact-item {
                     font-size: 1.6rem;
                     &.subtitle{
-                        display: none;
                     }
 
                     &.email {

@@ -1,6 +1,6 @@
 @use "../../../variables.scss";
 
-.header{
+.header {
     display: flex;
     width: 100%;
     height: 5rem;
@@ -10,25 +10,25 @@
     z-index: 999;
     animation: show 2s ease-in-out;
 
-    .menu{
+    .menu {
         width: 100%;
         height: 5rem;
         @include variables.flexCenter;
         gap: 2rem;
 
-        .listItem{
+        .listItem {
             list-style: none;
 
-            .link{
+            .link {
                 font-size: 2rem;
                 text-decoration: none;
                 color: variables.$colorText;
 
-                &.contact{
+                &.contact {
                     text-decoration: underline;
                 }
 
-                &:hover{
+                &:hover {
                     cursor: pointer;
                     color: variables.$colorHeader;
                 }
@@ -36,46 +36,103 @@
         }
     }
 
-    .mobile-menu-wrapper{
-        // display: none;
 
-        
+    .mobile-menu-wrapper {
+        display: none;
     }
 }
 
 @keyframes show {
-    0%{
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
 
-@media screen and (max-width: 40.625rem ){ // 650px
+@media screen and (max-width: 40.625rem) {
+    // 650px
 
-    .header{
+    .header {
         width: 100%;
 
-        .menu{
+        .menu {
             display: none;
         }
 
-        .button{
+        .button {
             display: block;
             height: 2rem;
             width: 2rem;
             margin: 1.5rem;
         }
 
-        .mobile-menu-wrapper{
+        .mobile-menu-wrapper {
+            padding: 1rem;
             display: flex;
+            position: absolute;
             width: 100%;
             flex-direction: column;
             background: variables.$backgroundAlternative;
 
-            .mobile-menu{
-                margin-top: .1rem;
+            .hamburger-menu {
+                display: flex;
+                flex-direction: column;
+                gap: .6rem;
+                z-index: 2;
+                position: absolute;
+                top: 1.25rem;
+                left: 1.25rem;
+                cursor: pointer;
+            }
+
+            .hamburger-menu:has(input:focus-visible)::before,
+            .hamburger-menu:has(input:focus-visible)::after,
+            .hamburger-menu input:focus-visible {
+                box-shadow: 0 0 0 1px white;
+            }
+
+            .hamburger-menu::before,
+            .hamburger-menu::after,
+            .hamburger-menu input {
+                content: "";
+                width: variables.$bar-width;
+                height: variables.$bar-height;
+                background-color: white;
+                border-radius: 2rem;
+                transform-origin: left center;
+                transition: opacity variables.$animation-timing, width variables.$animation-timing,
+                    rotate variables.$animation-timing, translate variables.$animation-timing,
+                    background-color variables.$animation-timing;
+            }
+
+            .hamburger-menu input {
+                appearance: none;
+                outline: none;
+                pointer-events: none;
+            }
+
+            .hamburger-menu:has(input:checked)::before {
+                rotate: 45deg;
+                width: variables.$x-width;
+                translate: 0 calc(variables.$bar-height / -2);
+            }
+
+            .hamburger-menu:has(input:checked)::after {
+                rotate: -45deg;
+                width: variables.$x-width;
+                translate: 0 calc(variables.$bar-height / 2);
+            }
+
+            .hamburger-menu input:checked {
+                opacity: 0;
+                width: 0;
+            }
+
+
+            .mobile-menu {
                 width: 100%;
                 display: flex;
                 align-items: center;
@@ -85,17 +142,17 @@
                 background: variables.$backgroundAlternative;
 
 
-                &.hidden{
+                &.hidden {
                     display: none;
                 }
 
-                .mobile-item{
+                .mobile-item {
                     list-style: none;
 
-                    .mobile-link{
+                    .mobile-link {
                         text-decoration: none;
                         font-size: 2rem;
-                        color: map-get( variables.$header, "color");
+                        color: map-get(variables.$header, "color");
                     }
                 }
             }

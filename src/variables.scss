@@ -8,10 +8,7 @@ $buttonBackground: #f9edec;
 $colorBorder: #E8BCB9;
 $linear-gradient: linear-gradient(#D95D30, #F2B33D);
 $box-shadow: 0 0 1rem 1rem rgba(0, 0, 0, .1);
-
 $paddingSections: 5rem 0rem;
-
-//TODO: Look at adobe color
 
 $header:(
     "color": #fff,
@@ -24,12 +21,21 @@ $header:(
     align-items: center;
 };
 
-@mixin flexColumn{  
+@mixin flexColumn{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction:column
 };
+
+// hamburger-menu
+$bar-width: 3rem;
+$bar-height: .4rem;
+$hamburger-gap: .6rem;
+$hamburger-margin: .8rem;
+$animation-timing: 200ms ease-in-out;
+$hamburger-height: calc($bar-height * 3 + $hamburger-gap * 2);
+$x-width: calc($hamburger-height * 1.41421356237);
 
 $contactFont: 1.6rem;
 
