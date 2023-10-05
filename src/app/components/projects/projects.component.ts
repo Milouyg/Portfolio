@@ -15,7 +15,7 @@ export class ProjectComponent {
         this.activeProject = project;
     }
 
-    @ViewChild('section')section?:ElementRef; // A reference to an element
+    @ViewChild('content')content?:ElementRef; // A reference to an element
 
     ngAfterViewInit(): void {
         const observer = new IntersectionObserver((entries) => { // IntersectionObserver checks for when 2 element cross
@@ -28,8 +28,8 @@ export class ProjectComponent {
             });
         });
 
-        if(this.section){
-            const element = this.section.nativeElement as Element;
+        if(this.content){
+            const element = this.content.nativeElement as Element;
             observer.observe(element); // Fetch the element from the ElementRef
         }
     }

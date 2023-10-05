@@ -1,7 +1,7 @@
-<section id="projects" #section class="projects hidden">
-    <app-title-bar [title]="projectData['title']"></app-title-bar>
-    <p class="description">{{projectData['description']}}</p>
-    <div class="project-container">
+<section id="projects" class="projects">
+    <div class="project-container hidden" #content>
+        <app-title-bar [title]="projectData['title']"></app-title-bar>
+        <p class="description">{{projectData['description']}}</p>
         <div class="project-list-wrapper">
             <ul class="project-menu">
                 <ng-container *ngFor="let project of projectData['project-info']">
@@ -32,8 +32,8 @@
                     </div>
                     <div class="project-description">{{ activeProject['description'] }}</div>
                     <div class="button-wrapper">
-                        <app-button [disabled]="activeProject['projectLink'] === ''" [link]="activeProject['projectLink']"
-                            [text]="projectData['ctaProject']"></app-button>
+                        <app-button [disabled]="activeProject['projectLink'] === ''"
+                            [link]="activeProject['projectLink']" [text]="projectData['ctaProject']"></app-button>
                         <app-button [link]="activeProject['githubLink']" [text]="projectData['ctaGithub']"></app-button>
                     </div>
                 </div>

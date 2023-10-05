@@ -9,39 +9,40 @@
     justify-content: center;
     flex-direction: column;
     box-shadow: variables.$box-shadow;
-
-    &.hidden{
-        opacity: 0;
-        filter: blur(.3rem);
-        transform: translateX(10%);
-        transition: all 1.5s;
-    }
-
-    &.show{
-        filter: blur(0);
-        transform: translateY(0);
-        opacity: 1;
-    }
-
-    @media(prefers-reduced-motion){
-        &.hidden{
-            transition: none;
-        }
-    }
-
-    .description {
-        padding: 1rem 2rem;
-        color: variables.$colorText;
-    }
+    position: relative;
 
     .project-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: row;
         padding: 0rem 13rem;
         width: 100%;
         height: 100%;
         gap: 2rem;
+
+        &.hidden{
+            opacity: 0;
+            filter: blur(.3rem);
+            transform: translateX(10%);
+            transition: all 1.5s;
+        }
+
+        &.show{
+            filter: blur(0);
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+        @media(prefers-reduced-motion){
+            &.hidden{
+                transition: none;
+            }
+        }
+
+        .description {
+            padding: 1rem 2rem;
+            color: variables.$colorText;
+        }
 
         .project-list-wrapper {
             display: flex;
