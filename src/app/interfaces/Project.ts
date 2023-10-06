@@ -8,5 +8,5 @@ export interface Project {
     description: string;
     projectLink: string;
     githubLink: string;
-    images: Image[];
+    image: Image;
 }

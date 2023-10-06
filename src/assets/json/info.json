@@ -50,12 +50,10 @@
                 "description": "Voor de eindopdracht van Front-end moest ik de websit Udemy namaken. Udemy is een online studie platform. In plaats van hun eigen content te gebruiken, heb ik mijn eigen content gebruikt dat gefocust was op games. In de index.html zie je dat ik alles zo symantisch mogelijk heb gemaakt en alles de BEM methodiek volgt. Ook heb ik een beetje javascript en SCSS binnen de verschillende componenten gebruikt.",
                 "projectLink": "https://milouyg.github.io/Udemy/",
                 "githubLink": "https://github.com/Milouyg/Udemy",
-                "images": [
-                    {
-                        "src": "./assets/imgs/projects/udemy.png",
-                        "alt": "Je ziet een webserver die games aanbieden"
-                    }
-                ]
+                "image": {
+                    "src": "./assets/imgs/projects/udemy.png",
+                    "alt": "Je ziet een webserver die games aanbieden"
+                }
             },
             {
                 "title": "Yubtub",
@@ -69,12 +67,10 @@
                 "description": "Voor de Yubtub eindopdracht heb ik een kloon van Youtube nagemaakt (maar dan beter 😉). De opdracht bevat 1 hoofdvideo en 5 andere videos die in de zijbalk staan. Wanneer de hoofdvideo klaar is met afspelen, wordt de volgende video van de zijbalk afgespeeld. Daarnaast kan je ook video's als favoriet instellen door op de ster te klikken. Ook is het mogelijk om handmatig van video te wisselen. De laatste functionaliteit in dit project is dat je commentaar kan toevoegen onder elke video.",
                 "projectLink": "",
                 "githubLink": "https://github.com/Milouyg/Agenda-Encrypter-Yubtub/tree/main/yubtub",
-                "images": [
-                    {
-                        "src": "./assets/imgs/projects/yubtub.png",
-                        "alt": "Afbeelding van een kitten en daarnast meerdere kleinere afbeeldingen van dieren"
-                    }
-                ]
+                "image": {
+                    "src": "./assets/imgs/projects/yubtub.png",
+                    "alt": "Afbeelding van een kitten en daarnast meerdere kleinere afbeeldingen van dieren"
+                }
             },
             {
                 "title": "CoH",
@@ -88,12 +84,10 @@
                 "description": "Om het onderwerp 'Deep-dive Front-end' af te sluiten, kreeg ik als eindopdracht om een gebruiksvriendelijke webpagina te maken die allemaal populaire podcasten verzamelen. Ik heb een header, een main en een footer. De main bevat een linker- en een rechter sectie. De linker sectie laat 4 random afleveringen zien. De rechter sectie gaat meer op de details in van de 4 random gekozen afleveringen. Alles is gerenderd via Javascript en het is responsive.",
                 "projectLink": "https://milouyg.github.io/Collection-of-Happiness/",
                 "githubLink": "https://github.com/Milouyg/Collection-of-Happiness",
-                "images": [
-                    {
-                        "src": "./assets/imgs/projects/coh.png",
-                        "alt": "Een meid die naar muziek luistert"
-                    }
-                ]
+                "image": {
+                    "src": "./assets/imgs/projects/coh.png",
+                    "alt": "Een meid die naar muziek luistert"
+                }
             },
             {
                 "title": "Input-Output",
@@ -106,12 +100,10 @@
                 "description": "Dit was een examen deelonderwerp, waarbij we als groep een interactieve ruimte gingen maken voor het musem 'Up Side Down'. Aan dit project werkte er 4 Software Developers, 2 Ruimtelijk Vormgevers en 2 Media Vormgevers. Wij als Software Developers gingen aan de slag met Arduino en hebben uiteindelijk 3 interactieve lianen gemaakt en een lichtgevend pad. De lianen kon je aanraken en dan gaven ze licht. Het lichtgevend pad was onderverdeeld in 4 delen licht met elk deel een ander kleur licht. Na elke 10 seconde lichtte een ander deel van het pad op.",
                 "projectLink": "",
                 "githubLink": "https://github.com/Jacobwj04/BO-RadicaleKusntspeeltuin",
-                "images": [
-                    {
-                        "src": "some url",
-                        "alt": "some alt text"
-                    }
-                ]
+                "image": {
+                    "src": "some url",
+                    "alt": "some alt text"
+                }
             },
             {
                 "title": "React",
@@ -126,12 +118,10 @@
                 "description": "Dit is mijn allereerste React opdracht die ik heb gemaakt. Hierin moest ik een website maken met 4 verschillende artikelen. De onderwerpen die aanwezig moesten zijn waren: Webpack, Babel, NPM en JSX. Voor het schrijven van de inhoud mocht je Chatgpt gebruiken. Bij elke artikel moest er een dierenplaatje aanwezig zijn.",
                 "projectLink": "",
                 "githubLink": "",
-                "images": [
-                    {
-                        "src": "some url",
-                        "alt": "some alt text"
-                    }
-                ]
+                "image": {
+                    "src": "some url",
+                    "alt": "some alt text"
+                }
             },
             {
                 "title": "Coaching",
@@ -145,12 +135,10 @@
                 "description": "Voor de beroepsopdracht van Deep dive frontend dienen wij een website op te leveren voor Doesburg coaching. Wij hebben ervoor gekozen om alle 4 onderdelen te realiseren en wij streven ernaar de opdracht zodanig tijdig te voltooien dat wij uiteindelijk ook werkende back-end elementen weten op te leveren.",
                 "projectLink": "",
                 "githubLink": "",
-                "images": [
-                    {
-                        "src": "./assets/imgs/projects/coaching.png",
-                        "alt": "Afbeelding van 3 kaarten waar de gebruiker zijn/haar gedachtes en gevoelens kan opschrijven "
-                    }
-                ]
+                "image": {
+                    "src": "./assets/imgs/projects/coaching.png",
+                    "alt": "Afbeelding van 3 kaarten waar de gebruiker zijn/haar gedachtes en gevoelens kan opschrijven "
+                }
             }
         ]
     },

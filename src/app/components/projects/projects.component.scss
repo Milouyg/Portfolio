@@ -114,7 +114,7 @@
                 border: .3rem solid variables.$colorBorder;
                 display: flex;
 
-                .project-imgs {
+                .project-images {
                     padding: 0rem 2rem;
                     position: relative;
                     display: flex;
@@ -206,7 +206,7 @@
 
                 .project-details {
 
-                    .project-imgs {
+                    .project-images {
 
                         .big-img {}
                     }
@@ -250,7 +250,7 @@
                     flex-wrap: wrap;
                     height: fit-content;
 
-                    .project-imgs {
+                    .project-images {
                         padding: 1.5rem;
                         flex-direction: unset;
                         align-items: center;
@@ -308,7 +308,7 @@
                     height: fit-content;
                     width: 94%;
 
-                    .project-imgs {
+                    .project-images {
                         padding: 1.5rem;
                         flex-direction: unset;
 
@@ -375,7 +375,7 @@
                     width: 94%;
                     padding: 1rem 0rem;
 
-                    .project-imgs {
+                    .project-images {
                         padding: 1.5rem;
                         flex-direction: unset;
 
@@ -429,7 +429,7 @@
                     height: fit-content;
                     width: 94%;
 
-                    .project-imgs {
+                    .project-images {
                         padding: 1.5rem;
                         flex-direction: unset;
 
@@ -477,7 +477,7 @@
 
             .project-detail-wrapper {
                 .project-details {
-                    .project-imgs {
+                    .project-images {
                         .img {
                         }
                     }
@@ -520,7 +520,7 @@
 
             .project-detail-wrapper {
                 .project-details {
-                    .project-imgs {
+                    .project-images {
                         .img {
                         }
                     }
