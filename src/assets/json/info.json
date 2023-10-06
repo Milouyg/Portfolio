@@ -25,12 +25,38 @@
         "title": "Vaardigheden",
         "introduction": "Hieronder zie je de vaardigheden die ik beheers. Hover over één van de bewegende plaatjes om meer info te verkrijgen.",
         "introduction-mobile": "Hieronder zie je de vaardigheden die ik beheers. Tap op één van de bewegende plaatjes om meer info te verkrijgen.",
-        "html-text": "Ik heb 2 jaar ervaring in HTML 5. Ik probeer mijn HTML code zo semantisch te schrijven als kan. Ook heb ik zo nu en dan gebruik gemaakt van de BEM methode.",
-        "scss-text": "Ik gebruik nu ongeveer 1.5 jaar SCSS en ik kan niet meer zonder. Wanneer ik SCSS gebruik, maak ik vooral gebruik van variables, mixins en nesten.",
-        "js-text": "Ik gebruik nu ongeveer 2 jaar Javascript en ik vind het heel fijn werken. Ik wil me hier vooral meer in specialiseren. Tegenwoordig werk ik veel met javascript frameworks zoals angular en react maar het begon allemaal met standaard javascript.",
-        "angular-text": "Ik ben nog niet zo bekwaamd in Angular, maar door de kennis die ik tot zo ver heb opgedaan heb ik veel geleerd. Het is voor mij zeker een taal waarin ik me verder wil verdiepen en mijn kennis verbreden.",
-        "react-text": "Ik heb nog heel weinig met React gewerkt, maar ik ben wel geïnteresseerd om me hierin meer te verdiepen.",
-        "alt": ""
+        "skills-images":[
+            {
+                "id":"img-html",
+                "language-text":"Ik heb 2 jaar ervaring in HTML 5. Ik probeer mijn HTML code zo semantisch te schrijven als kan. Ook heb ik zo nu en dan gebruik gemaakt van de BEM methode.",
+                "src":"./../../../assets/imgs/skills/html.png",
+                "alt": "image of HTML."
+            },
+            {
+                "id":"img-scss",
+                "language-text": "Ik gebruik nu ongeveer 1.5 jaar SCSS en ik kan niet meer zonder. Wanneer ik SCSS gebruik, maak ik vooral gebruik van variables, mixins en nesten.",
+                "src":"./../../../assets/imgs/skills/scss.png",
+                "alt": "image of Scss."
+            },
+            {
+                "id":"img-js",
+                "language-text":"Ik gebruik nu ongeveer 2 jaar Javascript en ik vind het heel fijn werken. Ik wil me hier vooral meer in specialiseren. Tegenwoordig werk ik veel met javascript frameworks zoals angular en react maar het begon allemaal met standaard javascript.",
+                "src":"./../../../assets/imgs/skills/js.png",
+                "alt": "image of Js."
+            },
+            {
+                "id":"img-angular",
+                "language-text": "Ik ben nog niet zo bekwaamd in Angular, maar door de kennis die ik tot zo ver heb opgedaan heb ik veel geleerd. Het is voor mij zeker een taal waarin ik me verder wil verdiepen en mijn kennis verbreden.",
+                "src":"./../../../assets/imgs/skills/angular.png",
+                "alt": "image of Angular."
+            },
+            {
+                "id":"img-react",
+                "language-text": "Ik heb nog heel weinig met React gewerkt, maar ik ben wel geïnteresseerd om me hierin meer te verdiepen.",
+                "src":"./../../../assets/imgs/skills/react.png",
+                "alt": "image of React."
+            }
+        ]
     },
     "projects": {
         "title": "Projecten",

@@ -8,7 +8,7 @@ import data from "../../../assets/json/info.json";
 })
 export class SkillsComponent implements AfterViewInit{
     activeSummary:string = "";
-    skillsData:Record<string, string> = data["skills"]; // We specify the key and the value as strings in skillsData
+    skillsData = data["skills"];
 
     @ViewChild('section')section?:ElementRef; // A reference to an element
 

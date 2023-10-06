@@ -2,12 +2,10 @@
     <app-title-bar [title]="skillsData['title']"></app-title-bar>
     <p class="description">{{skillsData['introduction']}}</p>
     <p class="description-mobile">{{skillsData['introduction-mobile']}}</p>
-    <summary class="summary">{{skillsData[activeSummary]}}</summary>
+    <summary class="summary">{{activeSummary}}</summary>
     <div class="container">
-        <img (mouseover)="setActiveSummary('html-text')" id="img-html" class="img" src="./../../../assets/imgs/skills/html.png" [alt]="skillsData['alt']">
-        <img (mouseover)="setActiveSummary('scss-text')" id="img-scss" class="img" src="./../../../assets/imgs/skills/scss.png" [alt]="skillsData['alt']">
-        <img (mouseover)="setActiveSummary('js-text')" id="img-js" class="img" src="./../../../assets/imgs/skills/js.png" [alt]="skillsData['alt']">
-        <img (mouseover)="setActiveSummary('angular-text')" id="img-angular" class="img" src="./../../../assets/imgs/skills/angular.png" [alt]="skillsData['alt']">
-        <img (mouseover)="setActiveSummary('react-text')" id="img-react" class="img" src="./../../../assets/imgs/skills/react.png" [alt]="skillsData['alt']">
+        <ng-container *ngFor="let image of skillsData['skills-images']">
+            <img (mouseover)="setActiveSummary(image['language-text'])" [id]="image['id']" class="img" [src]="image['src']" [alt]="image['alt']">
+        </ng-container>
     </div>
 </section>
