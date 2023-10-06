@@ -29,31 +29,31 @@
             {
                 "id":"img-html",
                 "language-text":"Ik heb 2 jaar ervaring in HTML 5. Ik probeer mijn HTML code zo semantisch te schrijven als kan. Ook heb ik zo nu en dan gebruik gemaakt van de BEM methode.",
-                "src":"./../../../assets/imgs/skills/html.png",
+                "src":"./../../../assets/imgs/skills/html.webp",
                 "alt": "image of HTML."
             },
             {
                 "id":"img-scss",
                 "language-text": "Ik gebruik nu ongeveer 1.5 jaar SCSS en ik kan niet meer zonder. Wanneer ik SCSS gebruik, maak ik vooral gebruik van variables, mixins en nesten.",
-                "src":"./../../../assets/imgs/skills/scss.png",
+                "src":"./../../../assets/imgs/skills/scss.webp",
                 "alt": "image of Scss."
             },
             {
                 "id":"img-js",
                 "language-text":"Ik gebruik nu ongeveer 2 jaar Javascript en ik vind het heel fijn werken. Ik wil me hier vooral meer in specialiseren. Tegenwoordig werk ik veel met javascript frameworks zoals angular en react maar het begon allemaal met standaard javascript.",
-                "src":"./../../../assets/imgs/skills/js.png",
+                "src":"./../../../assets/imgs/skills/js.webp",
                 "alt": "image of Js."
             },
             {
                 "id":"img-angular",
                 "language-text": "Ik ben nog niet zo bekwaamd in Angular, maar door de kennis die ik tot zo ver heb opgedaan heb ik veel geleerd. Het is voor mij zeker een taal waarin ik me verder wil verdiepen en mijn kennis verbreden.",
-                "src":"./../../../assets/imgs/skills/angular.png",
+                "src":"./../../../assets/imgs/skills/angular.webp",
                 "alt": "image of Angular."
             },
             {
                 "id":"img-react",
                 "language-text": "Ik heb nog heel weinig met React gewerkt, maar ik ben wel geïnteresseerd om me hierin meer te verdiepen.",
-                "src":"./../../../assets/imgs/skills/react.png",
+                "src":"./../../../assets/imgs/skills/react.webp",
                 "alt": "image of React."
             }
         ]
@@ -77,7 +77,7 @@
                 "projectLink": "https://milouyg.github.io/Udemy/",
                 "githubLink": "https://github.com/Milouyg/Udemy",
                 "image": {
-                    "src": "./assets/imgs/projects/udemy.png",
+                    "src": "./assets/imgs/projects/udemy.webp",
                     "alt": "Je ziet een webserver die games aanbieden"
                 }
             },
@@ -94,7 +94,7 @@
                 "projectLink": "",
                 "githubLink": "https://github.com/Milouyg/Agenda-Encrypter-Yubtub/tree/main/yubtub",
                 "image": {
-                    "src": "./assets/imgs/projects/yubtub.png",
+                    "src": "./assets/imgs/projects/yubtub.webp",
                     "alt": "Afbeelding van een kitten en daarnast meerdere kleinere afbeeldingen van dieren"
                 }
             },
@@ -111,7 +111,7 @@
                 "projectLink": "https://milouyg.github.io/Collection-of-Happiness/",
                 "githubLink": "https://github.com/Milouyg/Collection-of-Happiness",
                 "image": {
-                    "src": "./assets/imgs/projects/coh.png",
+                    "src": "./assets/imgs/projects/coh.webp",
                     "alt": "Een meid die naar muziek luistert"
                 }
             },
@@ -127,7 +127,7 @@
                 "projectLink": "",
                 "githubLink": "https://github.com/Jacobwj04/BO-RadicaleKusntspeeltuin",
                 "image": {
-                    "src": "some url",
+                    "src": "./assets/imgs/projects/input-output.webp",
                     "alt": "some alt text"
                 }
             },
@@ -162,7 +162,7 @@
                 "projectLink": "",
                 "githubLink": "",
                 "image": {
-                    "src": "./assets/imgs/projects/coaching.png",
+                    "src": "./assets/imgs/projects/coaching.webp",
                     "alt": "Afbeelding van 3 kaarten waar de gebruiker zijn/haar gedachtes en gevoelens kan opschrijven "
                 }
             }
