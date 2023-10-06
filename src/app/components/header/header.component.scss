@@ -1,17 +1,17 @@
 @use "../../../variables.scss";
 
 .header {
-    width: 100%;
-    display: flex;
-    position: fixed;
+    min-width: 100vw;
     z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
 
     .hamburger-menu {
         display: none;
     }
 
     .menu{
-        width: 100%;
         padding: 2rem 2rem;
         display: flex;
         align-items: center;
@@ -21,7 +21,7 @@
 
         .list-item{
             list-style: none;
-            
+
             .link{
                 font-size: 2rem;
                 text-decoration: none;
@@ -41,9 +41,9 @@
         .menu{
             gap: 4rem;
             .list-item{
-    
+
                 .link{
-    
+
                 }
             }
         }
@@ -52,11 +52,8 @@
 
 @media screen and (max-width: 40.625rem) { // 650
     .header {
-        height: fit-content;
-    
+        
         .hamburger-menu {
-            width: 100%;
-            height: 5rem;
             display: flex;
             flex-direction: column;
             gap: .6rem;
@@ -66,13 +63,13 @@
             left: 1.25rem;
             cursor: pointer;
         }
-    
+
         .hamburger-menu:has(input:focus-visible)::before,
         .hamburger-menu:has(input:focus-visible)::after,
         .hamburger-menu input:focus-visible {
             box-shadow: 0 0 0 1px white;
         }
-    
+
         .hamburger-menu::before,
         .hamburger-menu::after,
         .hamburger-menu input {
@@ -86,30 +83,30 @@
                 rotate variables.$animation-timing, translate variables.$animation-timing,
                 background-color variables.$animation-timing;
         }
-    
+
         .hamburger-menu input {
             appearance: none;
             outline: none;
             pointer-events: none;
         }
-    
+
         .hamburger-menu:has(input:checked)::before {
             rotate: 45deg;
             width: variables.$x-width;
             translate: 0 calc(variables.$bar-height / -2);
         }
-    
+
         .hamburger-menu:has(input:checked)::after {
             rotate: -45deg;
             width: variables.$x-width;
             translate: 0 calc(variables.$bar-height / 2);
         }
-    
+
         .hamburger-menu input:checked {
             opacity: 0;
             width: 0;
         }
-    
+
         .menu{
             display: none;
 
@@ -125,170 +122,10 @@
             .list-item{
 
                 .link{
-    
+
                 }
             }
         }
     }
 }
 
-
-// .header {
-//     display: flex;
-//     width: 100%;
-
-//     background: variables.$backgroundAlternative;
-//     box-shadow: variables.$box-shadow;
-//     position: fixed;
-//     z-index: 999;
-//     animation: show 2s ease-in-out;
-
-//     .menu {
-//         width: 100%;
-//         height: 5rem;
-//         @include variables.flexCenter;
-//         gap: 2rem;
-
-//         .listItem {
-//             list-style: none;
-
-//             .link {
-//                 font-size: 2rem;
-//                 text-decoration: none;
-//                 color: variables.$colorText;
-
-//                 &.contact {
-//                     text-decoration: underline;
-//                 }
-
-//                 &:hover {
-//                     cursor: pointer;
-//                     color: variables.$colorHeader;
-//                 }
-//             }
-//         }
-//     }
-
-
-//     .mobile-menu-wrapper {
-//         display: none;
-//     }
-// }
-
-// @keyframes show {
-//     0% {
-//         opacity: 0;
-//     }
-
-//     100% {
-//         opacity: 1;
-//     }
-// }
-
-// @media screen and (max-width: 40.625rem) {
-//     // 650px
-
-//     .header {
-//         width: 100%;
-
-//         .menu {
-//             display: none;
-//         }
-
-//         .button {
-//             display: block;
-//             height: 2rem;
-//             width: 2rem;
-//             margin: 1.5rem;
-//         }
-
-//         .mobile-menu-wrapper {
-//             padding: 1rem;
-//             display: flex;
-//             position: absolute;
-//             width: 100%;
-//             flex-direction: column;
-//             background: variables.$backgroundAlternative;
-
-//             .hamburger-menu {
-//                 display: flex;
-//                 flex-direction: column;
-//                 gap: .6rem;
-//                 z-index: 2;
-//                 position: absolute;
-//                 top: 1.25rem;
-//                 left: 1.25rem;
-//                 cursor: pointer;
-//             }
-
-//             .hamburger-menu:has(input:focus-visible)::before,
-//             .hamburger-menu:has(input:focus-visible)::after,
-//             .hamburger-menu input:focus-visible {
-//                 box-shadow: 0 0 0 1px white;
-//             }
-
-//             .hamburger-menu::before,
-//             .hamburger-menu::after,
-//             .hamburger-menu input {
-//                 content: "";
-//                 width: variables.$bar-width;
-//                 height: variables.$bar-height;
-//                 background-color: white;
-//                 border-radius: 2rem;
-//                 transform-origin: left center;
-//                 transition: opacity variables.$animation-timing, width variables.$animation-timing,
-//                     rotate variables.$animation-timing, translate variables.$animation-timing,
-//                     background-color variables.$animation-timing;
-//             }
-
-//             .hamburger-menu input {
-//                 appearance: none;
-//                 outline: none;
-//                 pointer-events: none;
-//             }
-
-//             .hamburger-menu:has(input:checked)::before {
-//                 rotate: 45deg;
-//                 width: variables.$x-width;
-//                 translate: 0 calc(variables.$bar-height / -2);
-//             }
-
-//             .hamburger-menu:has(input:checked)::after {
-//                 rotate: -45deg;
-//                 width: variables.$x-width;
-//                 translate: 0 calc(variables.$bar-height / 2);
-//             }
-
-//             .hamburger-menu input:checked {
-//                 opacity: 0;
-//                 width: 0;
-//             }
-
-
-//             .mobile-menu {
-//                 width: 100%;
-//                 display: flex;
-//                 align-items: center;
-//                 justify-content: center;
-//                 flex-direction: column;
-//                 gap: .5rem;
-//                 background: variables.$backgroundAlternative;
-
-
-//                 &.hidden {
-//                     display: none;
-//                 }
-
-//                 .mobile-item {
-//                     list-style: none;
-
-//                     .mobile-link {
-//                         text-decoration: none;
-//                         font-size: 2rem;
-//                         color: map-get(variables.$header, "color");
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }

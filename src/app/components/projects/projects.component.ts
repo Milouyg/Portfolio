@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 import data from "../../../assets/json/info.json";
 import { Project } from 'src/app/interfaces/Project';
 
@@ -7,7 +7,7 @@ import { Project } from 'src/app/interfaces/Project';
     templateUrl: './projects.component.html',
     styleUrls: ['./projects.component.scss']
 })
-export class ProjectComponent {
+export class ProjectComponent implements AfterViewInit {
     projectData = data["projects"];
     activeProject:Project = this.projectData["project-info"][0];
 

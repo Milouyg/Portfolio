@@ -1,9 +1,10 @@
 .main-wrapper {
+    width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     animation: show 1s ease-in-out;
-    /*overflow-x: hidden;*/
 
     .wrapper {
         display: flex;

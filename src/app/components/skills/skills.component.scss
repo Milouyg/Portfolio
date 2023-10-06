@@ -18,7 +18,6 @@
     &.show{
         filter: blur(0);
         transform: translateY(0);
-        transform: translateX(0);
         opacity: 1;
     }
 
@@ -122,27 +121,27 @@
         .description{
             display: none;
         }
-    
+
         .description-mobile{
             display: block;
         }
-    
+
         .summary{
         }
-    
+
         .container{
             flex-wrap: wrap;
             justify-content: center;
-    
+
             .img{
                 animation-name: unset;
             }
-    
+
             #img-html,
             #img-js,
             #img-react{
             }
-    
+
             #img-scss,
             #img-angular{
             }
