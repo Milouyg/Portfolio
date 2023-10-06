@@ -16,7 +16,8 @@ html {
 }
 
 body {
-    width: 100%;
+    width: 100vw;
+    overflow-x: hidden;
     position: relative;
     font-size: 1.6rem;
     background: variables.$background;
