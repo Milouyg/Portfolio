@@ -19,8 +19,8 @@ export class HeaderComponent implements AfterViewInit  {
 
     }
 
-    openMenu(){
-        const menuItem = document.getElementById("mobile-menu");
-        menuItem?.classList.toggle("hidden");
+    openMenu() {
+        const menu = document.getElementById("menu");
+        menu?.classList.toggle("show");
     }
 }

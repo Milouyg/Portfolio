@@ -1,40 +1,45 @@
-.main-wrapper{
+.main-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     animation: show 1s ease-in-out;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 
-    .wrapper{
+    .wrapper {
         display: flex;
         flex-direction: column;
         width: 80%;
     }
 }
 
-@keyframes show{
-    0%{
+@keyframes show {
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
 
 
-@media screen and (max-width: 78.125rem) { //1250
-    .main-wrapper{
+@media screen and (max-width: 78.125rem) {
 
-        .wrapper{
+    //1250
+    .main-wrapper {
+
+        .wrapper {
             width: 90%;
         }
     }
 }
 
-@media screen and (max-width: 50rem) { //800
-    .main-wrapper{
+@media screen and (max-width: 50rem) {
 
-        .wrapper{
+    //800
+    .main-wrapper {
+
+        .wrapper {
             width: 95%;
         }
     }

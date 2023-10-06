@@ -1,9 +1,135 @@
 @use "../../../variables.scss";
 
-.header{
+.header {
     width: 100%;
     display: flex;
     position: fixed;
+    z-index: 999;
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    .menu{
+        width: 100%;
+        padding: 2rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: variables.$backgroundAlternative;
+        gap: 8rem;
+
+        .list-item{
+            list-style: none;
+            
+            .link{
+                font-size: 2rem;
+                text-decoration: none;
+                color: variables.$colorText;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 50rem) { // 800
+    .header {
+
+        .menu{
+            gap: 4rem;
+            .list-item{
+    
+                .link{
+    
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 40.625rem) { // 650
+    .header {
+        height: fit-content;
+    
+        .hamburger-menu {
+            width: 100%;
+            height: 5rem;
+            display: flex;
+            flex-direction: column;
+            gap: .6rem;
+            z-index: 2;
+            position: absolute;
+            top: 1.25rem;
+            left: 1.25rem;
+            cursor: pointer;
+        }
+    
+        .hamburger-menu:has(input:focus-visible)::before,
+        .hamburger-menu:has(input:focus-visible)::after,
+        .hamburger-menu input:focus-visible {
+            box-shadow: 0 0 0 1px white;
+        }
+    
+        .hamburger-menu::before,
+        .hamburger-menu::after,
+        .hamburger-menu input {
+            content: "";
+            width: variables.$bar-width;
+            height: variables.$bar-height;
+            background-color: white;
+            border-radius: 2rem;
+            transform-origin: left center;
+            transition: opacity variables.$animation-timing, width variables.$animation-timing,
+                rotate variables.$animation-timing, translate variables.$animation-timing,
+                background-color variables.$animation-timing;
+        }
+    
+        .hamburger-menu input {
+            appearance: none;
+            outline: none;
+            pointer-events: none;
+        }
+    
+        .hamburger-menu:has(input:checked)::before {
+            rotate: 45deg;
+            width: variables.$x-width;
+            translate: 0 calc(variables.$bar-height / -2);
+        }
+    
+        .hamburger-menu:has(input:checked)::after {
+            rotate: -45deg;
+            width: variables.$x-width;
+            translate: 0 calc(variables.$bar-height / 2);
+        }
+    
+        .hamburger-menu input:checked {
+            opacity: 0;
+            width: 0;
+        }
+    
+        .menu{
+            display: none;
+
+            &.show{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding: 2rem;
+                gap: 2rem;
+            }
+
+            .list-item{
+
+                .link{
+    
+                }
+            }
+        }
+    }
 }
 
 
