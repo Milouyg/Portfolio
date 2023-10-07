@@ -17,6 +17,7 @@
         align-items: center;
         justify-content: center;
         background: variables.$backgroundAlternative;
+        box-shadow: 0 0 1rem .5rem rgba(0,0,0, .3);
         gap: 8rem;
 
         .list-item{
@@ -29,6 +30,24 @@
 
                 &:hover{
                     cursor: pointer;
+                    color: variables.$colorHeader;
+                }
+
+                &.contact{
+                    text-decoration: underline;
+                    text-underline-offset: .5rem;
+                }
+            }
+
+            .switch-language{
+                color: variables.$colorText;
+
+                &.english{
+
+                }
+
+                &.dutch{
+
                 }
             }
         }
@@ -52,7 +71,7 @@
 
 @media screen and (max-width: 40.625rem) { // 650
     .header {
-        
+
         .hamburger-menu {
             display: flex;
             flex-direction: column;

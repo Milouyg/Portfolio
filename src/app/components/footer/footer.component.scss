@@ -27,6 +27,7 @@
         text-align: center;
         width: 100%;
         color: variables.$colorText;
+        text-align: center;
     }
 
     .container {
@@ -101,34 +102,10 @@
 
         .container {
 
-
-            .img{
-
-            }
-
             .contact-info-container {
                 flex-direction: column;
                 height: unset;
                 gap: .5rem;
-                .contact-item {
-
-                    &.subtitle{
-
-                    }
-
-                    &.email {
-
-                    }
-
-                    .icon{
-                    }
-
-                    .link-to-email {
-                    }
-
-                    .contact-link {
-                    }
-                }
             }
         }
     }
@@ -145,29 +122,6 @@
             .img{
                 display: none;
             }
-
-            .contact-info-container {
-
-                .contact-item {
-
-                    &.subtitle{
-
-                    }
-
-                    &.email {
-
-                    }
-
-                    .icon{
-                    }
-
-                    .link-to-email {
-                    }
-
-                    .contact-link {
-                    }
-                }
-            }
         }
     }
 }
@@ -179,30 +133,29 @@
 
         .container {
 
-            .img{
-            }
-
             .contact-info-container {
                 gap: unset;
+
                 .contact-item {
-                    font-size: 1.6rem;
+
                     &.subtitle{
-                    }
-
-                    &.email {
-
-                    }
-
-                    .icon{
-                    }
-
-                    .link-to-email {
-                    }
-
-                    .contact-link {
+                        margin: 0 auto;
+                        font-size: 1.4rem;
                     }
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width:21.875rem) {
+
+    //350px
+    .contact {
+
+        .description{
+            width: 90%;
+            margin: 0 auto;
         }
     }
 }

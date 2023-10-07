@@ -12,7 +12,7 @@
         border: .3rem dashed variables.$colorBorder;
         opacity: .5;
 
-        &:hover, 
+        &:hover,
         .link:hover{
             cursor: default;
             transform: unset;
@@ -28,5 +28,11 @@
     &:hover{
         cursor: pointer;
         transform: scale(1.05);
+    }
+}
+
+@media screen AND (max-width: 21.875rem){
+    .button{
+        width: 10rem;
     }
 }

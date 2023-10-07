@@ -16,13 +16,13 @@
             &.hidden{
             opacity: 0;
             filter: blur(.3rem);
-            transform: translateY(10%);
+            transform: translateX(10%);
             transition: all 1.5s;
         }
 
         &.show{
             filter: blur(0);
-            transform: translateY(0);
+            transform: translateX(0);
             opacity: 1;
         }
 
@@ -34,13 +34,13 @@
 
         .description{
             padding: 0rem 2rem;
+            text-align: center;
         }
 
     .project-container {
         display: flex;
         justify-content: center;
         flex-direction: row;
-        padding: 0rem 13rem;
         width: 100%;
         height: 100%;
         gap: 2rem;
@@ -81,7 +81,7 @@
                     background: variables.$colorHeader;
                     text-align: center;
                     width: 80%;
-                    margin-bottom: 3rem;
+                    margin-bottom: 2rem;
                     height: 6rem;
                     font-size: 2rem;
                     border-radius: 2rem;
@@ -186,45 +186,13 @@
 
     //1500px
     .projects {
-
-        .description {}
-
         .project-container {
 
             .project-list-wrapper {
 
                 .project-menu {
-
-
                     .project-names {
                         font-size: 1.6rem;
-                    }
-                }
-            }
-
-            .project-detail-wrapper {
-
-                .project-details {
-
-                    .project-images {
-
-                        .big-img {}
-                    }
-
-                    .project-info {
-
-                        .project-header-wrapper {
-
-                            .title {}
-
-                            .programming-language-wrapper {}
-
-                            .date {}
-                        }
-
-                        .project-description {}
-
-                        .button-wrapper {}
                     }
                 }
             }
@@ -239,12 +207,6 @@
         gap: 2rem;
 
         .project-container {
-            .project-list-wrapper {
-                .project-menu {
-                    .project-names {}
-                }
-            }
-
             .project-detail-wrapper {
                 .project-details {
                     flex-wrap: wrap;
@@ -261,16 +223,6 @@
                     }
 
                     .project-info {
-                        .project-header-wrapper {
-                            .title {}
-
-                            .programming-language-wrapper {}
-
-                            .date {}
-                        }
-
-                        .project-description {}
-
                         .button-wrapper {
                             justify-content: center;
                             gap: 5rem;
@@ -289,7 +241,6 @@
         gap: 2rem;
 
         .project-container {
-            padding: 0rem 12rem;
             gap: unset;
 
             .project-list-wrapper {
@@ -383,22 +334,6 @@
                             width: 25rem;
                         }
                     }
-
-                    .project-info {
-                        .project-header-wrapper {
-                            .title {}
-
-                            .programming-language-wrapper {}
-
-                            .date {}
-                        }
-
-                        .project-description {}
-
-                        .button-wrapper {
-
-                        }
-                    }
                 }
             }
         }
@@ -407,21 +342,7 @@
 
 @media screen and (max-width: 40.625rem){ // 650px
     .projects {
-
-
         .project-container {
-            padding: 0rem 4.5rem;
-            .project-list-wrapper {
-
-                .project-menu {
-
-
-                    .project-names {
-
-                    }
-                }
-            }
-
             .project-detail-wrapper {
                 justify-content: center;
                 .project-details {
@@ -437,22 +358,6 @@
                             width: 25rem;
                         }
                     }
-
-                    .project-info {
-                        .project-header-wrapper {
-                            .title {}
-
-                            .programming-language-wrapper {}
-
-                            .date {}
-                        }
-
-                        .project-description {}
-
-                        .button-wrapper {
-
-                        }
-                    }
                 }
             }
         }
@@ -461,34 +366,14 @@
 
 @media screen and (max-width: 31.25rem){ // 500px
     .projects {
-
-
         .project-container {
-            .project-list-wrapper {
-
-                .project-menu {
-
-
-                    .project-names {
-
-                    }
-                }
-            }
-
             .project-detail-wrapper {
                 .project-details {
-                    .project-images {
-                        .img {
-                        }
-                    }
-
                     .project-info {
                         .project-header-wrapper {
-                            .title {}
-
-                            .programming-language-wrapper {}
-
-                            .date {}
+                            .title {
+                                font-size: 2rem;
+                            }
                         }
 
                         .project-description {}
@@ -503,37 +388,14 @@
     }
 }
 
-@media screen and (max-width: 28.125rem){ // 450px
+@media screen and (max-width: 28.125rem){ // 350px
     .projects {
 
         .project-container {
-            padding: 0rem 2.5rem;
-            .project-list-wrapper {
-
-                .project-menu {
-
-                    .project-names {
-
-                    }
-                }
-            }
 
             .project-detail-wrapper {
                 .project-details {
-                    .project-images {
-                        .img {
-                        }
-                    }
-
                     .project-info {
-                        .project-header-wrapper {
-                            .title {}
-
-                            .programming-language-wrapper {}
-
-                            .date {}
-                        }
-
                         .project-description {}
 
                         .button-wrapper {

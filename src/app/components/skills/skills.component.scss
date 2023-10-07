@@ -29,6 +29,7 @@
 
     .description{
         color: variables.$colorText;
+        text-align: center;
     }
 
     .description-mobile{
@@ -38,6 +39,7 @@
 
     .summary{
         color: variables.$colorText;
+        text-align: center;
     }
 
     .container{
@@ -104,7 +106,6 @@
 }
 
 @media screen and (max-width: 65.625rem) { // 1050px
-    // TODO: imges not really responsive yet
     .skills{
         .container{
             gap: 2rem;
@@ -124,9 +125,7 @@
 
         .description-mobile{
             display: block;
-        }
-
-        .summary{
+            text-align: center;
         }
 
         .container{
@@ -136,16 +135,20 @@
             .img{
                 animation-name: unset;
             }
-
-            #img-html,
-            #img-js,
-            #img-react{
-            }
-
-            #img-scss,
-            #img-angular{
-            }
         }
     }
 }
 
+@media screen and (max-width:21.875rem) {
+
+    //350px
+    .skills{
+
+        .container{
+
+            .img{
+                width: 11rem;
+            }
+        }
+    }
+}
