@@ -39,17 +39,13 @@
                 }
             }
 
-            .switch-language{
-                color: variables.$colorText;
+            // .switch-language{
+            //     color: variables.$colorText;
 
-                &.english{
-
-                }
-
-                &.dutch{
-
-                }
-            }
+            //     &.show{
+            //         display: flex;
+            //     }
+            // }
         }
     }
 }

@@ -19,8 +19,11 @@ export class HeaderComponent implements AfterViewInit  {
 
     }
 
-    toggleMenu() {
-        const menu = document.getElementById("menu");
+    toggleMenu(menu:HTMLElement) {
         menu?.classList.toggle("show");
+    }
+
+    toggleLanguage(english:HTMLElement){
+        english?.classList
     }
 }

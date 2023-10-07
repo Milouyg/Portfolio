@@ -90,7 +90,7 @@
                     "SCSS",
                     "Javascript"
                 ],
-                "description": "Voor de Yubtub eindopdracht heb ik een kloon van Youtube nagemaakt (maar dan beter 😉). De opdracht bevat 1 hoofdvideo en 5 andere videos die in de zijbalk staan. Wanneer de hoofdvideo klaar is met afspelen, wordt de volgende video van de zijbalk afgespeeld. Daarnaast kan je ook video's als favoriet instellen door op de ster te klikken. Ook is het mogelijk om handmatig van video te wisselen. De laatste functionaliteit in dit project is dat je commentaar kan toevoegen onder elke video.",
+                "description": "Voor de Yubtub eindopdracht heb ik een kloon van Youtube nagemaakt (maar dan beter 😉). De opdracht bevat 1 hoofdvideo en 5 andere videos die in de zijbalk staan. Wanneer de hoofdvideo klaar is met afspelen, wordt de volgende video van de zijbalk afgespeeld. Daarnaast kan je ook video's als favoriet instellen door op de ster te klikken. Ook is het mogelijk om handmatig van video te wisselen. De laatste functionaliteit in dit project is dat je commentaar over elke video kan toevoegen.",
                 "projectLink": "",
                 "githubLink": "https://github.com/Milouyg/Agenda-Encrypter-Yubtub/tree/main/yubtub",
                 "image": {
@@ -107,7 +107,7 @@
                     "SCSS",
                     "Javascript"
                 ],
-                "description": "Om het onderwerp 'Deep-dive Front-end' af te sluiten, kreeg ik als eindopdracht om een gebruiksvriendelijke webpagina te maken die allemaal populaire podcasten verzamelen. Ik heb een header, een main en een footer. De main bevat een linker- en een rechter sectie. De linker sectie laat 4 random afleveringen zien. De rechter sectie gaat meer op de details in van de 4 random gekozen afleveringen. Alles is gerenderd via Javascript en het is responsive.",
+                "description": "Om het onderwerp 'Deep-dive Front-end' af te sluiten, kreeg ik als eindopdracht om een gebruiksvriendelijke webpagina te maken die allemaal populaire podcasten verzamelen. Ik heb een header, een main en een footer. De main bevat een linker- en een rechter sectie. De linker sectie laat 4 random afleveringen zien. De rechter sectie gaat meer op de details in van de 4 random gekozen afleveringen. Alles is responsive en via Javascript gerenderd.",
                 "projectLink": "https://milouyg.github.io/Collection-of-Happiness/",
                 "githubLink": "https://github.com/Milouyg/Collection-of-Happiness",
                 "image": {
@@ -123,7 +123,7 @@
                     "Arduino",
                     "Javascript"
                 ],
-                "description": "Dit was een examen deelonderwerp, waarbij we als groep een interactieve ruimte gingen maken voor het musem 'Up Side Down'. Aan dit project werkte er 4 Software Developers, 2 Ruimtelijk Vormgevers en 2 Media Vormgevers. Wij als Software Developers gingen aan de slag met Arduino en hebben uiteindelijk 3 interactieve lianen gemaakt en een lichtgevend pad. De lianen kon je aanraken en dan gaven ze licht. Het lichtgevend pad was onderverdeeld in 4 delen licht met elk deel een ander kleur licht. Na elke 10 seconde lichtte een ander deel van het pad op.",
+                "description": "DDit was een examen deelonderwerp, waarbij we als groep een interactieve ruimte voor het museum 'Up Side Down' moesten maken. Aan dit project werkte er 4 Software Developers, 2 Ruimtelijk Vormgevers en 2 Media Vormgevers. Wij als Software Developers gingen aan de slag met Arduino en hebben uiteindelijk 3 interactieve lianen gemaakt en een lichtgevend pad. De lianen kon je aanraken en dan gaven ze licht. Het lichtgevende pad was onderverdeeld in 4 delen licht met elk deel een ander kleur licht. Na elke 10 seconde lichtte een ander deel van het pad op.",
                 "projectLink": "",
                 "githubLink": "https://github.com/Jacobwj04/BO-RadicaleKusntspeeltuin",
                 "image": {
@@ -141,7 +141,7 @@
                     "Javascript",
                     "React"
                 ],
-                "description": "Dit is mijn allereerste React opdracht die ik heb gemaakt. Hierin moest ik een website maken met 4 verschillende artikelen. De onderwerpen die aanwezig moesten zijn waren: Webpack, Babel, NPM en JSX. Voor het schrijven van de inhoud mocht je Chatgpt gebruiken. Bij elke artikel moest er een dierenplaatje aanwezig zijn.",
+                "description": "Dit is mijn allereerste React opdracht die ik heb gemaakt. Hierin moest ik een website maken met 4 verschillende artikelen. De onderwerpen die aanwezig moesten zijn waren: Webpack, Babel, NPM en JSX. Voor het schrijven van de inhoud mocht je Chatgpt gebruiken. Bij elk artikel moest er een dierenplaatje aanwezig zijn.",
                 "projectLink": "",
                 "githubLink": "",
                 "image": {
@@ -158,7 +158,7 @@
                     "SCSS",
                     "Javascript"
                 ],
-                "description": "Voor de beroepsopdracht van Deep dive frontend dienen wij een website op te leveren voor Doesburg coaching. Wij hebben ervoor gekozen om alle 4 onderdelen te realiseren en wij streven ernaar de opdracht zodanig tijdig te voltooien dat wij uiteindelijk ook werkende back-end elementen weten op te leveren.",
+                "description": "Voor de beroepsopdracht van Deep dive frontend dienen wij een website voor Doesburg coaching op te leveren. Wij hebben ervoor gekozen om alle 4 onderdelen te realiseren en wij streven ernaar de opdracht zodanig tijdig te voltooien dat wij uiteindelijk ook werkende back-end elementen weten op te leveren.",
                 "projectLink": "",
                 "githubLink": "",
                 "image": {
@@ -170,7 +170,7 @@
     },
     "contact": {
         "title": "Contacteer mij",
-        "description": "Heb je vragen of wil je me bereiken voor iets anders? Ik sta altijd open voor een leuk gesprek en nieuwe uitdagingen dus klik op één van mijn socials en dan bericht ik je zo snel mogelijk terug 😄",
+        "description": "Heb je vragen of wil je me bereiken voor iets anders? Ik sta altijd open voor een leuk gesprek en nieuwe uitdagingen, dus klik op één van mijn socials en dan bericht ik je zo snel mogelijk terug 😄",
         "cta-title": "Contactgegevens",
         "img": "./assets/imgs/envelope.webp",
         "alt": "Contact afbeelding",

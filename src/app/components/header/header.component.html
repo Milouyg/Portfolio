@@ -1,27 +1,27 @@
 <header class="header">
     <label class="hamburger-menu" >
-        <input type="checkbox" (click)="toggleMenu()">
+        <input type="checkbox" (click)="toggleMenu(menu)">
     </label>
-    <ul id="menu" class="menu">
+    <ul #menu class="menu">
         <li class="list-item">
-            <a href="#home" (click)="toggleMenu()" class="link">{{data["landing-page-title"]}}</a>
+            <a href="#home" (click)="toggleMenu(menu)" class="link">{{data["landing-page-title"]}}</a>
         </li>
         <li class="list-item">
-            <a href="#about-me" (click)="toggleMenu()" class="link">{{data["about-me-title"]}}</a>
+            <a href="#about-me" (click)="toggleMenu(menu)" class="link">{{data["about-me-title"]}}</a>
         </li>
         <li class="list-item">
-            <a href="#skills" (click)="toggleMenu()" class="link">{{data["skills-title"]}}</a>
+            <a href="#skills" (click)="toggleMenu(menu)" class="link">{{data["skills-title"]}}</a>
         </li>
         <li class="list-item">
-            <a href="#projects" (click)="toggleMenu()" class="link">{{data["projects-title"]}}</a>
+            <a href="#projects" (click)="toggleMenu(menu)" class="link">{{data["projects-title"]}}</a>
         </li>
         <li class="list-item">
-            <a href="#contact" (click)="toggleMenu()" class="link contact">{{data["contact-title"]}}</a>
+            <a href="#contact" (click)="toggleMenu(menu)" class="link contact">{{data["contact-title"]}}</a>
         </li>
-        <li class="list-item">
-            <span class="switch-language english">EN</span>
-            <span class="switch-language dutch">NL</span>
-        </li>
+        <!-- <li class="list-item">
+            <span #english class="switch-language" (click)="toggleLanguage(english)">EN</span>
+            <span #dutch class="switch-language" (click)="toggleLanguage(dutch)">NL</span>
+        </li> -->
     </ul>
 </header>
 
