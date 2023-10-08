@@ -132,24 +132,6 @@
                 }
             },
             {
-                "title": "Pokedex",
-                "startDate": "11-09-2023",
-                "endDate": "25-09-2023",
-                "programmingLanguages": [
-                    "HTML",
-                    "SCSS",
-                    "Javascript",
-                    "React"
-                ],
-                "description": "Dit is mijn allereerste React opdracht die ik heb gemaakt. Hierin moest ik een website maken met 4 verschillende artikelen. De onderwerpen die aanwezig moesten zijn waren: Webpack, Babel, NPM en JSX. Voor het schrijven van de inhoud mocht je Chatgpt gebruiken. Bij elk artikel moest er een dierenplaatje aanwezig zijn.",
-                "projectLink": "",
-                "githubLink": "",
-                "image": {
-                    "src": "some url",
-                    "alt": "An image of a Pokedex"
-                }
-            },
-            {
                 "title": "Coaching",
                 "startDate": "13-03-2022",
                 "endDate": "28-05-2023",

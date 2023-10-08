@@ -6,8 +6,7 @@ import data from "./../../../assets/json/info.json";
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements AfterViewInit  {
-    title = 'portfolio';
+export class HeaderComponent {
     data;
 
     constructor(){
@@ -15,15 +14,8 @@ export class HeaderComponent implements AfterViewInit  {
 
     }
 
-    ngAfterViewInit(): void {
-
-    }
 
     toggleMenu(menu:HTMLElement) {
         menu?.classList.toggle("show");
-    }
-
-    toggleLanguage(english:HTMLElement){
-        english?.classList
     }
 }

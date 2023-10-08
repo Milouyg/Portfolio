@@ -3,7 +3,7 @@
 .projects {
     background: variables.$backgroundAlternative;
     width: 100%;
-    padding: variables.$paddingSections;
+    padding: 5rem 13rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,6 +238,7 @@
 
     //1050px
     .projects {
+        padding: 5rem 2rem;
         gap: 2rem;
 
         .project-container {
