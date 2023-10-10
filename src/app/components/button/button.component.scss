@@ -31,8 +31,14 @@
     }
 }
 
-@media screen AND (max-width: 21.875rem){
+@media screen AND (max-width: 23.75rem){ // 380px
     .button{
         width: 10rem;
+    }
+}
+
+@media screen AND (max-width: 21.25rem){ // 340px
+    .button{
+        width: 9rem;
     }
 }

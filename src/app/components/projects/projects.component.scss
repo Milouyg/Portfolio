@@ -367,7 +367,19 @@
 
 @media screen and (max-width: 31.25rem){ // 500px
     .projects {
+        .description{
+            padding: unset;
+        }
         .project-container {
+            .project-list-wrapper{
+                width: 100%;
+                .project-menu{
+                    width: 96%;
+                    .project-names{
+                        min-width: 11rem;
+                    }
+                }
+            }
             .project-detail-wrapper {
                 .project-details {
                     .project-info {
@@ -378,6 +390,32 @@
                         }
 
                         .project-description {}
+
+                        .button-wrapper {
+                            gap: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 23.75rem){ // 380px
+    .projects {
+
+        .project-container {
+
+            .project-detail-wrapper {
+                .project-details {
+
+                    .project-images{
+                        .img{
+                            width: 22rem;
+                            height: 22rem;
+                        }
+                    }
+                    .project-info {
 
                         .button-wrapper {
                             gap: 2rem;
