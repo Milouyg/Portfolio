@@ -19,41 +19,45 @@
         "description": "Hey daar! Ik ben Milou Geervliet en ik ben een Front-end Developer in opleiding. Ik heb een passie voor ontwikkeling en ik ben ik niet bang om uit mijn comfortzone te stappen. Mijn werk is pas voldoende wanneer het perfect is. Ik wil mij graag specialiceren in de programmeertalen Angular of React. Buiten werk om ben ik ben een erg sociaal persoon. Ik vind het leuk om nieuwe contacten te maken. Ook ben ik heel erg van de quotes zoals je kunt zien.",
         "quote1": "Succes is what happens after you've survived all your mistakes",
         "quote2": "If the plan doesn't work change the plan but never the goal",
-        "btn-text": "Download CV"
+        "btn-text": "Download CV",
+        "image": {
+            "src": "./assets/imgs/profile.webp",
+            "alt": "Image of myself"
+        }
     },
     "skills": {
         "title": "Vaardigheden",
         "introduction": "Hieronder staan de vaardigheden die ik beheers weergegeven. Hover over één van de bewegende elementen om meer info te verkrijgen",
         "introduction-mobile": "Hieronder zie je de vaardigheden die ik beheers. Tap op één van de bewegende plaatjes om meer informatie te verkrijgen.",
-        "skills-images":[
+        "skills-images": [
             {
-                "id":"img-html",
-                "language-text":"Ik heb 2 jaar ervaring in HTML 5. Ik probeer mijn HTML code zo semantisch te schrijven als kan. Ook heb ik zo nu en dan gebruik gemaakt van de BEM methode.",
-                "src":"./assets/imgs/skills/html.webp",
+                "id": "img-html",
+                "language-text": "Ik heb 2 jaar ervaring in HTML 5. Ik probeer mijn HTML code zo semantisch te schrijven als kan. Ook heb ik zo nu en dan gebruik gemaakt van de BEM methode.",
+                "src": "./assets/imgs/skills/html.webp",
                 "alt": "image of HTML."
             },
             {
-                "id":"img-scss",
+                "id": "img-scss",
                 "language-text": "Momenteel maak ik 1,5 jaar gebruik van SCSS en dit is sindsdien onmisbaar voor mij geworden. Tijdens het werken met SCSS maak ik vooral gebruik van variabelen, mixins en nesting.",
-                "src":"./assets/imgs/skills/scss.webp",
+                "src": "./assets/imgs/skills/scss.webp",
                 "alt": "image of Scss."
             },
             {
-                "id":"img-js",
-                "language-text":"Ik gebruik nu ongeveer 2 jaar Javascript en ik vind het heel fijn werken. Ik wil me hier vooral meer in specialiseren. Vooral in de frameworks Angular en React.",
-                "src":"./assets/imgs/skills/js.webp",
+                "id": "img-js",
+                "language-text": "Ik gebruik nu ongeveer 2 jaar Javascript en ik vind het heel fijn werken. Ik wil me hier vooral meer in specialiseren. Vooral in de frameworks Angular en React.",
+                "src": "./assets/imgs/skills/js.webp",
                 "alt": "image of Js."
             },
             {
-                "id":"img-angular",
+                "id": "img-angular",
                 "language-text": "Ik ben nog niet zo bekwaamd in Angular, maar door de kennis die ik tot zo ver heb opgedaan heb ik veel geleerd. Het is voor mij zeker een taal waarin ik me verder wil verdiepen en mijn kennis verbreden.",
-                "src":"./assets/imgs/skills/angular.webp",
+                "src": "./assets/imgs/skills/angular.webp",
                 "alt": "image of Angular."
             },
             {
-                "id":"img-react",
+                "id": "img-react",
                 "language-text": "Ik heb nog heel weinig met React gewerkt, maar ik ben wel geïnteresseerd om me hierin meer te verdiepen.",
-                "src":"./assets/imgs/skills/react.webp",
+                "src": "./assets/imgs/skills/react.webp",
                 "alt": "image of React."
             }
         ]
@@ -64,23 +68,6 @@
         "ctaProject": "Bekijk Project",
         "ctaGithub": "Bekijk Github",
         "project-info": [
-            {
-                "title": "Udemy",
-                "startDate": "04-10-2022",
-                "endDate": "19-01-2022",
-                "programmingLanguages": [
-                    "HTML",
-                    "CSS",
-                    "Javascript"
-                ],
-                "description": "Voor de eindopdracht van Front-end moest ik de websit Udemy namaken. Udemy is een online studie platform. In plaats van hun eigen content te gebruiken, heb ik mijn eigen content gebruikt dat gefocust was op games. In de index.html zie je dat ik alles zo symantisch mogelijk heb gemaakt en alles de BEM methodiek volgt. Ook heb ik gedeeltelijk Javascript en SCSS binnen de verschillende componenten gebruikt.",
-                "projectLink": "https://milouyg.github.io/Udemy/",
-                "githubLink": "https://github.com/Milouyg/Udemy",
-                "image": {
-                    "src": "./assets/imgs/projects/udemy.webp",
-                    "alt": "Je ziet een webserver die games aanbieden"
-                }
-            },
             {
                 "title": "Yubtub",
                 "startDate": "10-05-2023",
@@ -99,9 +86,26 @@
                 }
             },
             {
+                "title": "Coaching",
+                "startDate": "13-03-2023",
+                "endDate": "28-05-2023",
+                "programmingLanguages": [
+                    "HTML",
+                    "SCSS",
+                    "Javascript"
+                ],
+                "description": "Voor de beroepsopdracht van Deep dive frontend dienen wij een website voor Doesburg coaching op te leveren. Wij hebben ervoor gekozen om alle 4 onderdelen te realiseren en wij streven ernaar de opdracht zodanig tijdig te voltooien dat wij uiteindelijk ook werkende back-end elementen weten op te leveren.",
+                "projectLink": "",
+                "githubLink": "https://github.com/Milouyg/Coaching",
+                "image": {
+                    "src": "./assets/imgs/projects/coaching.webp",
+                    "alt": "Afbeelding van 3 kaarten waar de gebruiker zijn/haar gedachtes en gevoelens kan opschrijven "
+                }
+            },
+            {
                 "title": "CoH",
-                "startDate": "01-01-2022",
-                "endDate": "02-22-2023",
+                "startDate": "01-01-2023",
+                "endDate": "02-02-2023",
                 "programmingLanguages": [
                     "HTML",
                     "SCSS",
@@ -132,20 +136,20 @@
                 }
             },
             {
-                "title": "Coaching",
-                "startDate": "13-03-2022",
-                "endDate": "28-05-2023",
+                "title": "Udemy",
+                "startDate": "04-10-2022",
+                "endDate": "19-01-2022",
                 "programmingLanguages": [
                     "HTML",
-                    "SCSS",
+                    "CSS",
                     "Javascript"
                 ],
-                "description": "Voor de beroepsopdracht van Deep dive frontend dienen wij een website voor Doesburg coaching op te leveren. Wij hebben ervoor gekozen om alle 4 onderdelen te realiseren en wij streven ernaar de opdracht zodanig tijdig te voltooien dat wij uiteindelijk ook werkende back-end elementen weten op te leveren.",
-                "projectLink": "",
-                "githubLink": "",
+                "description": "Voor de eindopdracht van Front-end moest ik de websit Udemy namaken. Udemy is een online studie platform. In plaats van hun eigen content te gebruiken, heb ik mijn eigen content gebruikt dat gefocust was op games. In de index.html zie je dat ik alles zo symantisch mogelijk heb gemaakt en alles de BEM methodiek volgt. Ook heb ik gedeeltelijk Javascript en SCSS binnen de verschillende componenten gebruikt.",
+                "projectLink": "https://milouyg.github.io/Udemy/",
+                "githubLink": "https://github.com/Milouyg/Udemy",
                 "image": {
-                    "src": "./assets/imgs/projects/coaching.webp",
-                    "alt": "Afbeelding van 3 kaarten waar de gebruiker zijn/haar gedachtes en gevoelens kan opschrijven "
+                    "src": "./assets/imgs/projects/udemy.webp",
+                    "alt": "Je ziet een webserver die games aanbieden"
                 }
             }
         ]

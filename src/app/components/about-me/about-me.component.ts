@@ -7,7 +7,7 @@ import data from "../../../assets/json/info.json";
   styleUrls: ['./about-me.component.scss']
 })
 export class AboutMeComponent implements AfterViewInit {
-    data = data['about-me']; // We fetch the data here
+    aboutMeData = data['about-me']; // We fetch the data here
 
     @ViewChild('content')content?:ElementRef; // A reference to an element
 

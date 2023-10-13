@@ -1,24 +1,24 @@
 <section id="about-me" class="about-me">
-    <app-title-bar [title]="data['title']"></app-title-bar>
+    <app-title-bar [title]="aboutMeData['title']"></app-title-bar>
     <div class="content hidden" #content>
         <div class="quote-wrapper-top">
             <div class="quote">
                 <i class="fa-solid fa-quote-left punctuation"></i>
-                <p class="text">{{data["quote1"]}}</p>
+                <p class="text">{{aboutMeData["quote1"]}}</p>
                 <i class="fa-solid fa-quote-right punctuation"></i>
             </div>
         </div>
         <summary class="description-wrapper">
             <div class="description">
-                <img class="img" alt="" src="./../../../assets/imgs/profile.webp">
-                <p class="description-text">{{data["description"]}}</p>
+                <img class="img" [alt]="aboutMeData['image']['alt']" [src]="aboutMeData['image']['src']">
+                <p class="description-text">{{aboutMeData["description"]}}</p>
             </div>
-            <app-button [link]="data['btn-link']" [text]="data['btn-text']"></app-button>
+            <app-button [link]="aboutMeData['btn-link']" [text]="aboutMeData['btn-text']"></app-button>
         </summary>
         <div class="quote-wrapper-bottom">
             <div class="quote">
                 <i class="fa-solid fa-quote-left punctuation second"></i>
-                <p class="text second">{{data["quote2"]}}</p>
+                <p class="text second">{{aboutMeData["quote2"]}}</p>
                 <i class="fa-solid fa-quote-right punctuation second"></i>
             </div>
         </div>

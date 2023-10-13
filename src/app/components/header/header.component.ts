@@ -7,10 +7,10 @@ import data from "./../../../assets/json/info.json";
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-    data;
+    headerData;
 
     constructor(){
-        this.data = data.nav; // We fetch the data here
+        this.headerData = data.nav; // We fetch the data here
 
     }
 
