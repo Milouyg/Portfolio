@@ -45,6 +45,7 @@ And I did eventually. I would say the portfolio truly suits me, because it has a
 calm feeling and not too much details, but still represent who I am.
 Despite my first idea did not work out, I have learned so much from it.
 I am really happy with the end result.
+If you like to see my portfolio live [click here](https://portfolio-milou.web.app/).
 
 ## Images
 Blob portfolio
