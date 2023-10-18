@@ -11,7 +11,7 @@ export class AboutMeComponent implements AfterViewInit {
 
     @ViewChild('content')content?:ElementRef; // A reference to an element
 
-    ngAfterViewInit(): void {
+    ngAfterViewInit(){
         const observer = new IntersectionObserver((entries) => { // IntersectionObserver checks for when 2 element cross
             entries.forEach((entry) => {
                 if(entry.isIntersecting){
@@ -23,7 +23,7 @@ export class AboutMeComponent implements AfterViewInit {
         });
 
         if(this.content){
-            const element = this.content.nativeElement as Element;
+            const element = this.content.nativeElement as Element; // Fetch the Html element from the reference
             observer.observe(element); // Fetch the element from the ElementRef
         }
     }

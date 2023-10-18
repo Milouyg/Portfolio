@@ -1,4 +1,4 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { Component } from '@angular/core';
 import data from "./../../../assets/json/info.json";
 
 @Component({
@@ -11,9 +11,7 @@ export class HeaderComponent {
 
     constructor(){
         this.headerData = data.nav; // We fetch the data here
-
     }
-
 
     toggleMenu(menu:HTMLElement) {
         menu?.classList.toggle("show");

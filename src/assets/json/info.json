@@ -16,7 +16,7 @@
     "about-me": {
         "title": "Wie ben ik?",
         "btn-link": "./assets/pdf/cv.pdf",
-        "description": "Hey daar! Ik ben Milou Geervliet en ik ben een Front-end Developer in opleiding. Ik heb een passie voor ontwikkeling en ik ben ik niet bang om uit mijn comfortzone te stappen. Mijn werk is pas voldoende wanneer het perfect is. Ik wil mij graag specialiceren in de programmeertalen Angular of React. Buiten werk om ben ik ben een erg sociaal persoon. Ik vind het leuk om nieuwe contacten te maken. Ook ben ik heel erg van de quotes zoals je kunt zien.",
+        "description": "Hey daar! Ik ben Milou Geervliet en ik ben een Front-end Developer in opleiding. Ik heb een passie voor ontwikkeling en ik ben niet bang om uit mijn comfortzone te stappen. Mijn werk is pas voldoende wanneer het perfect is. Ik wil mij graag specialiceren in de programmeertalen Angular of React. Buiten werk om ben ik ben een erg sociaal persoon. Ik vind het leuk om nieuwe contacten te maken. Ook ben ik heel erg van de quotes zoals je kunt zien.",
         "quote1": "Succes is what happens after you've survived all your mistakes",
         "quote2": "If the plan doesn't work change the plan but never the goal",
         "btn-text": "Download CV",
@@ -94,7 +94,7 @@
                     "SCSS",
                     "Javascript"
                 ],
-                "description": "Voor de beroepsopdracht van Deep dive frontend dienen wij een website voor Doesburg coaching op te leveren. Wij hebben ervoor gekozen om alle 4 onderdelen te realiseren en wij streven ernaar de opdracht zodanig tijdig te voltooien dat wij uiteindelijk ook werkende back-end elementen weten op te leveren.",
+                "description": "Voor de beroepsopdracht van Deep dive frontend diende Jacob, Luc, Nabil en ik een website voor Doesburg coaching op te leveren. Wij hebben ervoor gekozen om alle 4 onderdelen te realiseren en wij streven ernaar de opdracht zodanig tijdig te voltooien dat wij uiteindelijk ook werkende back-end elementen weten op te leveren.",
                 "projectLink": "",
                 "githubLink": "https://github.com/Milouyg/Coaching",
                 "image": {
@@ -127,7 +127,7 @@
                     "Arduino",
                     "Javascript"
                 ],
-                "description": "DDit was een examen deelonderwerp, waarbij we als groep een interactieve ruimte voor het museum 'Up Side Down' moesten maken. Aan dit project werkte er 4 Software Developers, 2 Ruimtelijk Vormgevers en 2 Media Vormgevers. Wij als Software Developers gingen aan de slag met Arduino en hebben uiteindelijk 3 interactieve lianen gemaakt en een lichtgevend pad. De lianen kon je aanraken en dan gaven ze licht. Het lichtgevende pad was onderverdeeld in 4 delen licht met elk deel een ander kleur licht. Na elke 10 seconde lichtte een ander deel van het pad op.",
+                "description": "Dit was een examen deelonderwerp, waarbij we als groep een interactieve ruimte voor het museum 'Up Side Down' moesten maken. Aan dit project werkte er 4 Software Developers, 2 Ruimtelijk Vormgevers en 2 Media Vormgevers. Wij als Software Developers gingen aan de slag met Arduino en hebben uiteindelijk 3 interactieve lianen gemaakt en een lichtgevend pad. De lianen kon je aanraken en dan gaven ze licht. Het lichtgevende pad was onderverdeeld in 4 delen licht met elk deel een ander kleur licht. Na elke 10 seconde lichtte een ander deel van het pad op.",
                 "projectLink": "",
                 "githubLink": "https://github.com/Jacobwj04/BO-RadicaleKusntspeeltuin",
                 "image": {
@@ -144,7 +144,7 @@
                     "CSS",
                     "Javascript"
                 ],
-                "description": "Voor de eindopdracht van Front-end moest ik de websit Udemy namaken. Udemy is een online studie platform. In plaats van hun eigen content te gebruiken, heb ik mijn eigen content gebruikt dat gefocust was op games. In de index.html zie je dat ik alles zo symantisch mogelijk heb gemaakt en alles de BEM methodiek volgt. Ook heb ik gedeeltelijk Javascript en SCSS binnen de verschillende componenten gebruikt.",
+                "description": "Voor de eindopdracht van Front-end moest ik de website Udemy namaken. Udemy is een online studie platform. In plaats van hun eigen content te gebruiken, heb ik mijn eigen content gebruikt dat gefocust was op games. In de index.html zie je dat ik alles zo symantisch mogelijk heb gemaakt en alles de BEM methodiek volgt. Ook heb ik gedeeltelijk Javascript en SCSS binnen de verschillende componenten gebruikt.",
                 "projectLink": "https://milouyg.github.io/Udemy/",
                 "githubLink": "https://github.com/Milouyg/Udemy",
                 "image": {
