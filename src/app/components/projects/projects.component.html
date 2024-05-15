@@ -30,7 +30,7 @@
                     <div class="project-description">{{ activeProject['description'] }}</div>
                     <div class="button-wrapper">
                         <app-button [disabled]="activeProject['projectLink'] === ''" [link]="activeProject['projectLink']" [text]="projectData['ctaProject']"></app-button>
-                        <app-button [link]="activeProject['githubLink']" [text]="projectData['ctaGithub']"></app-button>
+                        <app-button [disabled]="activeProject['githubLink'] === ''" [link]="activeProject['githubLink']" [text]="projectData['ctaGithub']"></app-button>
                     </div>
                 </div>
             </article>

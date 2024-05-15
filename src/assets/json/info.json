@@ -32,25 +32,25 @@
         "skills-images": [
             {
                 "id": "img-html",
-                "language-text": "Ik heb 2 jaar ervaring in HTML 5. Ik probeer mijn HTML code zo semantisch te schrijven als kan. Ook heb ik zo nu en dan gebruik gemaakt van de BEM methode.",
+                "language-text": "Ik heb 3 jaar ervaring in HTML 5. Ik probeer mijn HTML code zo semantisch te schrijven als kan. Ook heb ik zo nu en dan gebruik gemaakt van de BEM methode.",
                 "src": "./assets/imgs/skills/html.webp",
                 "alt": "image of HTML."
             },
             {
                 "id": "img-scss",
-                "language-text": "Momenteel maak ik 1,5 jaar gebruik van SCSS en dit is sindsdien onmisbaar voor mij geworden. Tijdens het werken met SCSS maak ik vooral gebruik van variabelen, mixins en nesting.",
+                "language-text": "Momenteel maak ik 2,5 jaar gebruik van SCSS en dit is sindsdien onmisbaar voor mij geworden. Tijdens het werken met SCSS maak ik vooral gebruik van variabelen, mixins en nesting.",
                 "src": "./assets/imgs/skills/scss.webp",
                 "alt": "image of Scss."
             },
             {
                 "id": "img-js",
-                "language-text": "Ik gebruik nu ongeveer 2 jaar Javascript en ik vind het heel fijn werken. Ik wil me hier vooral meer in specialiseren. Vooral in de frameworks Angular en React.",
+                "language-text": "Ik gebruik nu ongeveer 3 jaar Javascript en ik vind het heel fijn werken. Ik wil me hier vooral meer in specialiseren. Vooral in de frameworks Angular en React.",
                 "src": "./assets/imgs/skills/js.webp",
                 "alt": "image of Js."
             },
             {
                 "id": "img-angular",
-                "language-text": "Ik ben nog niet zo bekwaamd in Angular, maar door de kennis die ik tot zo ver heb opgedaan heb ik veel geleerd. Het is voor mij zeker een taal waarin ik me verder wil verdiepen en mijn kennis verbreden.",
+                "language-text": "Ik ken de basis van Angular en het is voor mij zeker een taal waarin ik me verder wil verdiepen en mijn kennis wil verbreden.",
                 "src": "./assets/imgs/skills/angular.webp",
                 "alt": "image of Angular."
             },
@@ -58,6 +58,12 @@
                 "id": "img-react",
                 "language-text": "Ik heb nog heel weinig met React gewerkt, maar ik ben wel geïnteresseerd om me hierin meer te verdiepen.",
                 "src": "./assets/imgs/skills/react.webp",
+                "alt": "image of React."
+            },
+            {
+                "id": "img-tailwind",
+                "language-text": "Ik heb niet veel met Tailwind gewerkt, maar ik ken de basis ervan. Persoonlijk ben ik meer van het zelf stylen, maar ik sta open om het meer te gebruiken.",
+                "src": "./assets/imgs/skills/tailwind.png",
                 "alt": "image of React."
             }
         ]
@@ -68,6 +74,23 @@
         "ctaProject": "Bekijk Project",
         "ctaGithub": "Bekijk Github",
         "project-info": [
+            {
+                "title": "Rapportages",
+                "startDate": "22-04-2024",
+                "endDate": "13-05-2024",
+                "programmingLanguages": [
+                    "HTML",
+                    "Tailwind",
+                    "Angular"
+                ],
+                "description": "Solutionsfactory is mijn eerste meeloopstage waar ik veel waardevolle ervaring heb opgedaan. Het bedrijf werk tmet verschillende technologieën zoals Scrum, Azure DevOps, Angular, Elastic, Mat Material en Tailwind. Één van de projecten waaraan ik heb meegewerkt, was het ontwikkelen van een rapportagewebsite. De opdracht bestond uit het creëren van een interface waarmee gebruikers een begin- en einddatum kunnen invoeren, een organisatiefilter kunnen toepassen, en grafieken en tabellen kunnen weergeven d.m.v. een switch knop",
+                "projectLink": "",
+                "githubLink": "",
+                "image": {
+                    "src": "./assets/imgs/projects/report.png",
+                    "alt": "Afbeelding van een kitten en daarnast meerdere kleinere afbeeldingen van dieren"
+                }
+            },
             {
                 "title": "Yubtub",
                 "startDate": "10-05-2023",
@@ -166,12 +189,6 @@
             "href": "mailto:milouyg.business@gmail.com",
             "src": "./assets/gif/mail.gif",
             "alt": "Email gif"
-        },
-        "mobile-info": {
-            "title": "Mobile",
-            "tel": "061234456789",
-            "src": "./assets/gif/phone.gif",
-            "alt": "Mobiel gif"
         },
         "github-info": {
             "title": "Github",
