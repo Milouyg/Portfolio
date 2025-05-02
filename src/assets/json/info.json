@@ -16,7 +16,7 @@
     "about-me": {
         "title": "Wie ben ik?",
         "btn-link": "./assets/pdf/cv.pdf",
-        "description": "Hey daar! Ik ben Milou Geervliet en ik ben een Front-end Developer in opleiding. Ik heb een passie voor ontwikkeling en ik ben niet bang om uit mijn comfortzone te stappen. Mijn werk is pas voldoende wanneer het perfect is. Ik wil mij graag specialiceren in de programmeertalen Angular of React. Buiten werk om ben ik ben een erg sociaal persoon. Ik vind het leuk om nieuwe contacten te maken. Ook ben ik heel erg van de quotes zoals je kunt zien.",
+        "description": "Hey daar! Ik ben Milou Geervliet en ik ben een Front-end Developer in opleiding. Ik heb een passie voor ontwikkeling en ik ben niet bang om uit mijn comfortzone te stappen. Mijn werk is pas voldoende wanneer het perfect is. Ik wil mij graag verder specialiceren in de programmeertaal Javascript of een andere framework zoals Angular. Buiten mijn opleiding ben ik een erg sociaal persoon. Ik vind het leuk om nieuwe contacten te leggen, nieuwe talen te leren en me zo nu en dan bezig te houden met tekenen.",
         "quote1": "Succes is what happens after you've survived all your mistakes",
         "quote2": "If the plan doesn't work change the plan but never the goal",
         "btn-text": "Download CV",
@@ -64,7 +64,13 @@
                 "id": "img-tailwind",
                 "language-text": "Ik heb niet veel met Tailwind gewerkt, maar ik ken de basis ervan. Persoonlijk ben ik meer van het zelf stylen, maar ik sta open om het meer te gebruiken.",
                 "src": "./assets/imgs/skills/tailwind.png",
-                "alt": "image of React."
+                "alt": "image of Tailwind."
+            },
+            {
+                "id": "img-photoshop",
+                "language-text": "Ik heb een half jaartje met Photoshop gewerkt voor mijn stage bij Gumgum. Hiermee weet ik wel de basis van hoe Photoshop werkt.",
+                "src": "./assets/imgs/skills/Photoshop.webp",
+                "alt": "image of Photoshop."
             }
         ]
     },
